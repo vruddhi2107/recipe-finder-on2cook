@@ -1,0 +1,148 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Recipe Visualizer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+<header>
+ <nav class="navbar">
+  <div class="nav-left">
+    <img src="fork-knife.png" alt="Fork and Knife Icon" />
+    <div class="nav-text">
+      <h3>Recipe Finder</h3>
+      <p>Discover your next favorite meal!</p>
+    </div>
+  </div>
+  <div class="nav-right">
+    <img src="on2cook logo_White 1.png" alt="Company Logo" class="logo" />
+  </div>
+</nav>
+
+  <div class="upload-container">
+    <input type="file" id="fileInput" accept=".xlsx,.xls" />
+  </div>
+</header>
+<div class="main-content">
+  <aside class="filters">
+    <div class="filter-group">
+      <label for="dietType">Diet Type</label>
+      <select id="dietType"></select>
+    </div>
+    <div class="filter-group">
+      <label for="cookingMode">Cooking Mode</label>
+      <select id="cookingMode"></select>
+    </div>
+    <div class="filter-group">
+      <label for="cuisine">Cuisine</label>
+      <select id="cuisine"></select>
+    </div>
+    <div class="filter-group">
+      <label for="category">Category</label>
+      <select id="category"></select>
+    </div>
+    <div class="filter-group">
+      <label for="cookingTime">Max Cooking Time</label>
+      <input type="range" id="cookingTime" min="0" max="20" value="20" />
+      <span id="cookingTimeLabel">20 min</span>
+    </div>
+    <div class="filter-group">
+      <label for="accessory">Accessory</label>
+      <select id="accessory"></select>
+    </div>
+    <button id="clearBtn">Clear</button>
+  </aside>
+  <section id="recipesGrid"></section>
+</div>
+<script src="script.js"></script>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Recipe Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="navbar">
+  <div class="container">
+    <div class="nav-left">
+      <img src="fork-knife.png" alt="Fork and Knife Icon" />
+      <div class="nav-text">
+        <h3>Recipe Finder</h3>
+        <p>Discover your next favorite meal!</p>
+      </div>
+    </div>
+    <div class="nav-right">
+      <img src="on2cook logo_White 1.png" alt="Company Logo" class="logo" />
+    </div>
+  </div>
+</header>
+<div class="main-content">
+  <aside class="filters">
+    <div class="filter-group">
+      <label for="searchBar">Search Recipes</label>
+      <input type="text" id="searchBar" placeholder="Search by recipe name..." />
+    </div>
+
+    <div class="filter-group">
+      <label for="dietType">Diet Type</label>
+      <select id="dietType">
+        <option value="All">All</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="cookingMode">Cooking Mode</label>
+      <select id="cookingMode">
+        <option value="All">All</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="cuisine">Cuisine</label>
+      <select id="cuisine">
+        <option value="All">All</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="category">Category</label>
+      <select id="category">
+        <option value="All">All</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="cookingTime">Max Cooking Time (min)</label>
+      <input type="range" id="cookingTime" min="0" max="20" value="20" />
+      <span id="cookingTimeLabel">20</span>
+    </div>
+    <div class="filter-group">
+      <label for="accessory">Accessory</label>
+      <select id="accessory">
+        <option value="All">All</option>
+      </select>
+    </div>
+    <button id="clearBtn">Clear Filters</button>
+  </aside>
+
+  <section id="recipesGrid"></section>
+</div>
+
+<!-- Popup modal -->
+<div id="popupModal" style="display:none; position: fixed; top:0; left:0; width:100vw; height:100vh; background: rgba(0, 0, 0, 0.7); justify-content: center; align-items: center;">
+  <div style="position: relative; background: #fff; padding: 20px; border-radius: 12px; max-width: 90vw; max-height: 90vh; overflow: auto;">
+    <button id="popupCloseBtn" style="position: absolute; top: 10px; right: 10px; font-size: 20px; cursor: pointer;">&times;</button>
+    <img id="popupImage" src="" alt="Recipe Image" style="max-width: 100%; max-height: 80vh; border-radius: 10px;" />
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
