@@ -317,5 +317,8 @@
 #popupCloseBtn:hover {
   color: #d33f3f;
 }
-
+ /* Don't Know What to Cook Bar Styles */
+.dont-know-bar:hover{
+  background-color: #f45c00;
+}
 

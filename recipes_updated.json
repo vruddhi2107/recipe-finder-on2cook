@@ -7,7 +7,8 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 20,
     "Image": "images/Quinoa-Boiled.png",
-    "PopupImage": "popup_images/QUINOA BOILED.png"
+    "PopupImage": "popup_images/QUINOA BOILED.png",
+    "Ingredients":["Quinoa Crushed", "Water (Manual)", "Water (Auto)"]
   },
   {
     "Recipe Name": "TOMATO GRAVY",
@@ -17,7 +18,8 @@
     "Category": "BASE GRAVY",
     "Cooking Time": 18,
     "Image": "images/Tomato-Gravy.png",
-    "PopupImage": "popup_images/TOMATO GRAVY.png"
+    "PopupImage": "popup_images/TOMATO GRAVY.png",
+    "Ingredients":["tomato","cashew"]
   },
   {
     "Recipe Name": "WHITE GRAVY",
@@ -287,7 +289,7 @@
     "Cuisine": "GUJARATI",
     "Category": "MAIN COURSE",
     "Cooking Time": 10,
-    "Image": "images/lasaniya-bateta.jpg",
+    "Image": "images/lasaniya-bateta.png",
     "PopupImage": "popup_images/LASANIYA BATETA.png"
   },
   {

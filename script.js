@@ -324,3 +324,6 @@ searchBar.addEventListener('input', debouncedShowRecipes);
 window.addEventListener('load', () => {
   loadRecipes();
 });
+document.getElementById('dontKnowBar').addEventListener('click', () => {
+  window.location.href = 'ingredient_input.html';
+});
