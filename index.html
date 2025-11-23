@@ -27,7 +27,123 @@
 </div>
 <span id="recipeCount" class="recipe-count-bar"></span>
 <div class="main-content">  
-  <aside class="filters">
+    <!-- DESKTOP SIDEBAR FILTERS -->
+  <aside class="filters" id="desktopFilters">
+    <!-- ... same filter content as above, but IDs for desktop (searchBar, etc) ... -->
+    <div class="filter-group">
+      <label for="searchBar">Search Recipes</label>
+      <input type="text" id="searchBar" placeholder="Search by recipe name..." />
+    </div>
+
+    <div class="filter-group">
+      <label for="dietType">Diet Type</label>
+      <select id="dietType">
+        <option value="All">All</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="cookingMode">Cooking Mode</label>
+      <select id="cookingMode">
+        <option value="All">All</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="cuisine">Cuisine</label>
+      <select id="cuisine">
+        <option value="All">All</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="category">Category</label>
+      <select id="category">
+        <option value="All">All</option>
+      </select>
+    </div>
+    <div class="filter-group">
+      <label for="cookingTime">Max Cooking Time (min)</label>
+      <input type="range" id="cookingTime" min="0" max="20" value="20" />
+      <span id="cookingTimeLabel">20</span>
+    </div>
+    <div class="filter-group">
+      <label for="accessory">Accessory</label>
+      <select id="accessory">
+        <option value="All">All</option>
+      </select>
+    </div>
+    <button id="clearBtn">Clear Filters</button>
+    <!-- ... -->
+  </aside>
+  <section id="recipesGrid"></section>
+
+<!-- Mobile Filter Button -->
+  <button id="mobileFilterBtn" class="mobile-filter-btn" aria-label="Show filters">
+    <img src="filter.svg" alt="Filter" style="width:24px;height:24px;">
+  </button>
+
+<!-- Filter Modal for mobile -->
+  <div id="mobileFilterModal" class="mobile-filter-modal">
+    <div class="mobile-filter-content">
+      <button id="closeMobileFilter" class="close-filter-btn">&times;</button>
+      <!-- COPY your filter content here for mobile -->
+      <aside class="filters" id="mobileFilters">
+      <div class="filter-group">
+        <label for="searchBar">Search Recipes</label>
+        <input type="text" id="searchBar" placeholder="Search by recipe name..." />
+      </div>
+
+      <div class="filter-group">
+        <label for="dietType">Diet Type</label>
+        <select id="dietType">
+          <option value="All">All</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="cookingMode">Cooking Mode</label>
+        <select id="cookingMode">
+          <option value="All">All</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="cuisine">Cuisine</label>
+        <select id="cuisine">
+          <option value="All">All</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="category">Category</label>
+        <select id="category">
+          <option value="All">All</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="cookingTime">Max Cooking Time (min)</label>
+        <input type="range" id="cookingTime" min="0" max="20" value="20" />
+        <span id="cookingTimeLabel">20</span>
+      </div>
+      <div class="filter-group">
+        <label for="accessory">Accessory</label>
+        <select id="accessory">
+          <option value="All">All</option>
+        </select>
+      </div>
+      <button id="clearBtn">Clear Filters</button>
+   
+        <!-- ... same filter content as sidebar ... -->
+        <div class="filter-group">
+          <label for="searchBarMobile">Search Recipes</label>
+          <input type="text" id="searchBarMobile" placeholder="Search by recipe name..." />
+        </div>
+        <!-- Add rest of your filter groups here (dietType, etc), using different IDs for mobile if needed -->
+      </aside>
+    </div>
+  </div>
+
+<!-- Main Content (desktop sidebar filters, recipes grid) -->
+
+
+
+
+<!--   <aside class="filters">
     <div class="filter-group">
       <label for="searchBar">Search Recipes</label>
       <input type="text" id="searchBar" placeholder="Search by recipe name..." />
@@ -72,7 +188,7 @@
   </aside>
 
   <section id="recipesGrid"></section>
-</div>
+</div> -->
 
 <!-- Popup modal -->
 <div id="popupModal" style="display:none; position: fixed; top:0; left:0; width:100vw; height:100vh; background: rgba(0, 0, 0, 0.7); justify-content: center; align-items: center;">

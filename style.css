@@ -10,45 +10,43 @@ body {
   margin-top: -21px !important;
 }
 
-
+/* NAVBAR */
 .navbar {
   background-color: #1a1a1a;
   box-shadow: 0 4px 12px rgb(0 0 0 / 0.3);
-  padding: 0.5rem 0;  /* Remove horizontal padding here */
+  padding: 0.7rem 0;
   display: flex;
-  justify-content: center; /* Center the inner container */
+  justify-content: center;
   align-items: center;
 }
 
-/* Add a container inside navbar to centralize content */
 .navbar .container {
   width: 100%;
-  max-width: 1200px; /* Set max content width */
+  max-width: 1200px;
+  height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1rem; /* Small horizontal padding inside container */
+  padding: 0 1rem;
 }
 
-/* Adjust nav-left and nav-right styles to apply inside .container */
-
-.nav-left {
+.nav-left, .nav-right {
   display: flex;
   align-items: center;
-  gap: 0.1rem;
 }
 
 .nav-left img {
   height: 45px;
-  width: auto;
+  width: 45px;
+  margin-right: 0.7rem;
 }
 
 .nav-left h3 {
   margin: 0;
-  font-weight: 700;
+  font-weight: 800;
   color: #f5f5f5;
-  font-size: 1.75rem;
-  letter-spacing: 0.05em;
+  font-size: 1.7rem;
+  letter-spacing: 0.03em;
 }
 
 .nav-left p {
@@ -65,22 +63,30 @@ body {
 }
 
 .nav-right .logo {
-  height: 70px;
+  height: 65px;
   width: auto;
 }
 
+/* "Don't Know" Bar */
+.dont-know-bar {
+  cursor:pointer;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: #dd8084;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 20px auto;
+  transition: background 0.2s;
+}
+.dont-know-bar:hover{
+  background-color: #f45c00;
+}
 
-
-/* Main container */
-/* .main-content {
-  display: flex;
-  max-width: 1300px;
-  margin: 2rem auto;
-  gap: 2rem;
-  padding: 0 1.5rem;
-  min-height: calc(100vh - 100px);
-} */
- .main-content {
+/* MAIN LAYOUT */
+.main-content {
   display: flex;
   max-width: 1300px;
   margin: 2rem auto;
@@ -89,189 +95,223 @@ body {
   min-height: calc(100vh - 100px);
 }
 
-
-
-/* Filters panel */
-/* .filters {
-  flex-basis: 300px;
-  background: #ffffff;
-  border-radius: 20px;
-  padding: 1.5rem 2rem;
-  box-shadow: 0 2px 25px rgb(0 0 0 / 0.06);
+/* FILTER SIDEBAR */
+/* By default, sidebar filters are shown and mobile icon/modal hidden */
+/* Structure for desktop - filter left, grid right */
+.main-content {
   display: flex;
-  flex-direction: column;
-} */
-.filters {
+  max-width: 1300px;
+  margin: 2rem auto;
+  gap: 2rem;
+  padding: 0 1.5rem;
+}
+
+/* Sidebar always visible on desktop */
+#desktopFilters {
   flex-basis: 300px;
   background: #fff;
   border-radius: 20px;
-  padding: 1.2rem 1.2rem; /* less padding for compact look */
+  padding: 1rem 1rem;
   box-shadow: 0 2px 25px rgb(0 0 0 / 0.06);
   display: flex;
   flex-direction: column;
   position: sticky;
-  top: 2rem; /* adjust for navbar height */
-  max-height: calc(100vh - 2rem); /* stays within screen */
-  overflow-y: auto; /* sidebar is scrollable if content overflows */
+  top: 2rem;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
+  z-index: 10;
+}
+.mobile-filter-btn,
+.mobile-filter-modal {
+  display: none;
+}
+
+/* Responsive for mobile/tablet */
+@media (max-width: 800px) {
+  /* Column layout, hide sidebar, show icon/modal */
+  .main-content {
+    flex-direction: column;
+  }
+  #desktopFilters { display: none !important; }
+  .mobile-filter-btn {
+    display: flex !important;
+    position: fixed; right: 18px; bottom: 24px;
+    z-index: 5001;
+    background: #f97316; color: #fff;
+    border: none; border-radius: 50%;
+    width: 50px; height: 50px;
+    box-shadow: 0 3px 18px rgba(0,0,0,0.18);
+    justify-content: center; align-items: center; cursor: pointer;
+  }
+  .mobile-filter-modal {
+    position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.7); z-index: 7000;
+    justify-content: center; align-items: center;
+    display: none;
+  }
+  .mobile-filter-modal.active { display: flex !important; }
+  .mobile-filter-content {
+    background: #fff; border-radius: 16px; padding: 1.7rem 1.2rem;
+    width: 96vw; max-width: 400px; max-height: 95vh; overflow-y: auto; position: relative;
+  }
+  .close-filter-btn {
+    position: absolute; top: 10px; right: 18px;
+    background: none; border: none; font-size: 2rem; color: #888; cursor: pointer; z-index: 10;
+  }
+}
+
+
+/* Hide mobile icon/modal on desktop */
+@media (min-width: 801px) {
+  .mobile-filter-btn,
+  .mobile-filter-modal {
+    display: none !important;
+  }
+  .filters#desktopFilters {
+    display: flex !important;
+  }
+}
+
+
+.filters {
+  flex-basis: 300px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 1rem 1rem;
+  box-shadow: 0 2px 25px rgb(0 0 0 / 0.06);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 2rem;
+  max-height: calc(100vh - 2rem);
+  overflow-y: auto;
   z-index: 10;
 }
 
-.filters input[type="text"] {
-  padding: 10px 14px;
-  border-radius: 10px;
-  border: 1px solid #ddd;
-  font-size: 1rem;
-  outline-offset: 2px;
-  margin-bottom: 1rem;
-  transition: all 0.3s ease;
-}
-
-.filters input[type="text"]:focus {
-  border-color: #f97316;
-  box-shadow: 0 0 6px #f97316;
-}
-
-
-
+/* filter panel compact spacing */
 .filter-group {
   display: flex;
   flex-direction: column;
-  gap: 0; /* smaller gap between elements, reduce for tighter look */
+  gap: 6px; /* Tight spacing between elements */
+  margin-bottom: 10px;
 }
-
 
 .filter-group label {
   font-weight: 600;
   color: #444;
   font-size: 1rem;
+  margin-bottom: 3px;
 }
 
-
+.filters input[type="text"],
 .filters select,
 .filters input[type="range"] {
-  padding: 10px 14px;
+  padding: 9px 14px;
   border-radius: 10px;
   border: 1px solid #ddd;
   font-size: 1rem;
   outline-offset: 2px;
+  margin-bottom: 4px;
   transition: all 0.3s ease;
 }
 
-
+/* Focus/hover state for inputs */
+.filters input[type="text"]:focus,
 .filters select:focus,
 .filters input[type="range"]:focus {
   border-color: #f97316;
   box-shadow: 0 0 6px #f97316;
 }
 
-
+/* Filter clear button */
 #clearBtn {
-  padding: 12px 0;
-  border-radius: 18px;
+  padding: 11px 0;
+  border-radius: 16px;
   background: #f97316;
   border: none;
   color: #fff;
   font-weight: 700;
   cursor: pointer;
-  font-size: 1.1rem;
-  transition: background 0.3s ease;
+  font-size: 1.08rem;
+  transition: background 0.3s;
 }
-
-
 #clearBtn:hover {
   background: #f45c00;
 }
 
+/* RECIPE COUNT */
+.recipe-count-bar {
+  display: block;
+  color: #f97316;
+  font-weight: 700;
+  font-size: 1.09rem;
+  margin: 0 0 1rem 1rem;
+}
 
-/* Recipes grid */
-/* #recipesGrid {
-  flex: 1;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 2rem;
-} */
+/* RECIPES GRID */
 #recipesGrid {
   flex: 1;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1.5rem;
+  gap: 1.3rem;
 }
 
-
-/* Individual recipe card */
+/* INDIVIDUAL RECIPE CARD */
 .recipe-card {
   position: relative;
   background: #fff;
-  border-radius: 24px;
-  box-shadow: 0 8px 15px rgb(0 0 0 / 0.1);
-  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 8px 15px rgb(0 0 0 / 0.07);
+  padding: 14px;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 0.7rem;
   cursor: pointer;
   height: auto;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
-
-
 .recipe-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-6px) scale(1.02);
   box-shadow: 0 15px 35px rgb(0 0 0 / 0.15);
 }
 
-
 .recipe-image {
   width: 100%;
-  max-height: 250px;
-  border-radius: 24px 24px 0 0;
-  object-fit: fill;
+  max-height: 145px;
+  border-radius: 13px 13px 0 0;
+  object-fit: cover;
   user-select: none;
 }
 
-
 .recipe-title {
-  font-size: 1.4rem;
+  font-size: 1.19rem;
   font-weight: 700;
   color: #222;
-  margin-top: 0.3rem;
-} 
-
-
+  margin-top: 0.24rem;
+}
 .recipe-meta {
-  font-size: 1rem;
+  font-size: 0.98rem;
   color: #666;
   font-weight: 500;
 }
-
-
 .recipe-category {
   font-style: italic;
   color: #f97316;
   font-weight: 600;
 }
-
-
 .recipe-accessory {
   font-size: 0.9rem;
   color: #888;
   font-weight: 400;
 }
-.recipe-count-bar {
-  display: inline;
-  color: #f97316;
-  font-weight: 600;
-  font-size: 1.2rem;
-  margin: 0 0 0.7rem 32.6rem; /* Small left margin to match grid start, tweak as needed */
-}
 
-
-/* Time circle */
+/* TIME CIRCLE */
 .time-circle {
   position: absolute;
-  top: 16px;
-  right: 16px;
-  width: 44px;
-  height: 44px;
+  top: 11px;
+  right: 12px;
+  width: 39px;
+  height: 39px;
   border-radius: 50%;
   border: 3px solid #f97316;
   display: flex;
@@ -280,32 +320,12 @@ body {
   color: #f97316;
   font-family: 'Cambria', serif;
   font-weight: 900;
-  font-size: 14px;
+  font-size: 13px;
   background: #fff;
-  box-shadow: 0 0 16px rgb(249 115 22 / 0.7);
+  box-shadow: 0 0 12px rgb(249 115 22 / 0.16);
 }
 
-
-/* Responsive */
-@media (max-width: 900px) {
-  .main-content {
-    flex-direction: column;
-    margin: 1rem;
-    padding: 0 1rem;
-  }
-  .filters {
-    width: 100%;
-    border-radius: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  #recipesGrid {
-    grid-template-columns: 1fr;
-  }
-}
-
-
-/* Popup modal */
+/* POPUP MODAL */
 #popupModal {
   display: none;
   position: fixed;
@@ -318,49 +338,125 @@ body {
   align-items: center;
   z-index: 1000;
 }
-
-
 #popupModal > div {
   position: relative;
   background: #fff;
-  border-radius: 28px;
-  padding: 24px;
-  max-width: 90vw;
-  max-height: 90vh;
-  box-shadow: 0 15px 40px rgb(0 0 0 / 0.3);
+  border-radius: 24px;
+  padding: 18px;
+  max-width: 95vw;
+  max-height: 93vh;
+  box-shadow: 0 15px 40px rgb(0 0 0 / 0.2);
   display: flex;
   flex-direction: column;
+  overflow: auto;
 }
-
-
 #popupModal img {
   max-width: 100%;
-  max-height: 80vh;
-  border-radius: 18px;
+  max-height: 70vh;
+  border-radius: 14px;
   margin: auto;
 }
-
-
 #popupCloseBtn {
   position: absolute;
-  top: 16px;
-  right: 24px;
-  font-size: 24px;
+  top: 10px;
+  right: 14px;
+  font-size: 22px;
   background: none;
   border: none;
   color: #555;
   cursor: pointer;
   font-weight: 700;
   user-select: none;
-  transition: color 0.3s ease;
+  transition: color 0.26s;
 }
-
-
 #popupCloseBtn:hover {
   color: #d33f3f;
 }
- /* Don't Know What to Cook Bar Styles */
-.dont-know-bar:hover{
-  background-color: #f45c00;
+
+/* RESPONSIVE @media QUERIES */
+@media (max-width: 1024px) {
+  .navbar .container {
+    max-width: 98vw;
+  }
+  .main-content {
+    max-width: 98vw;
+    padding: 0 0.4rem;
+    gap: 1rem;
+  }
+  .filters {
+    flex-basis: 220px;
+    padding: 0.7rem 0.7rem;
+  }
 }
 
+@media (max-width: 800px) {
+  .main-content {
+    flex-direction: column;
+    margin: 1.2rem 0 0 0;
+    padding: 0 0.6rem;
+    gap: 0.9rem;
+  }
+  .filters {
+    width: 100%;
+    position: static !important;
+    top: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    margin-bottom: 1.3rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+  #recipesGrid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .recipe-count-bar {
+    margin-left: 0;
+    display: block;
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 0.7rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar .container {
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: flex-start;
+    padding: 0 0.5rem;
+  }
+  .nav-right .logo,
+  .nav-left img {
+    height: 36px;
+  }
+  .nav-left h3 {
+    font-size: 1.08rem;
+  }
+  .filters {
+    padding: 0.55rem 0.35rem;
+    border-radius: 10px;
+  }
+  .filter-group label,
+  .filters input,
+  .filters select {
+    font-size: 0.94rem;
+  }
+  .recipe-card {
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 0.93rem;
+    gap: 0.38rem;
+  }
+  .recipe-image {
+    border-radius: 6px 6px 0 0;
+    max-height: 90px;
+  }
+}
+
+img,
+.recipe-image,
+.navbar img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}

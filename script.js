@@ -60,6 +60,28 @@ function populateFilters() {
   populateSelect(accessory, getUniqueValues('Accessories'));
 }
 
+// Button/Modal for mobile filters
+const mobileFilterBtn = document.getElementById('mobileFilterBtn');
+const mobileFilterModal = document.getElementById('mobileFilterModal');
+const closeMobileFilter = document.getElementById('closeMobileFilter');
+const desktopFilters = document.getElementById('desktopFilters');
+const mobileFilters = document.getElementById('mobileFilters');
+// Copy filter content only ONCE, when mobile modal is opened
+mobileFilterBtn.addEventListener('click', () => {
+  if (mobileFilters.innerHTML.trim() === "") {
+      mobileFilters.innerHTML = desktopFilters.innerHTML;
+  }
+  mobileFilterModal.classList.add('active');
+});
+closeMobileFilter.addEventListener('click', () => {
+  mobileFilterModal.classList.remove('active');
+});
+mobileFilterModal.addEventListener('click', (e) => {
+  if (e.target === mobileFilterModal) mobileFilterModal.classList.remove('active');
+});
+
+
+
 // Filter recipes based on search term and filters
 function filterRecipes() {
   const searchTerm = searchBar.value.toLowerCase().trim();
