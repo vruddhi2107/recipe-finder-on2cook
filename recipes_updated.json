@@ -250,7 +250,8 @@
     "Category": "SOUP",
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Tomato-Soup.png",
-    "PopupImage": "popup_images/CREAM OF TOMATO SOUP.png"
+    "PopupImage": "popup_images/CREAM OF TOMATO SOUP.png",
+    "Ingredients":["tomato"]
   },
   {
     "Recipe Name": "CREAM OF VEGGIES",
@@ -280,7 +281,8 @@
     "Category": "SOUP",
     "Cooking Time": 10,
     "Image": "images/Tomato-Rasam.png",
-    "PopupImage": "popup_images/TOMATO RASAM.png"
+    "PopupImage": "popup_images/TOMATO RASAM.png",
+    "Ingredients":["tomato"]
   },
   {
     "Recipe Name": "LASANIYA BATETA",
@@ -350,7 +352,8 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 9,
     "Image": "images/Sev-Tomato.png",
-    "PopupImage": "popup_images/SEV TOMATO.png"
+    "PopupImage": "popup_images/SEV TOMATO.png",
+    "Ingredients":["tomato","sev"]
   },
   {
     "Recipe Name": "SAMBHAR",
