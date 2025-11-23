@@ -72,7 +72,15 @@ body {
 
 
 /* Main container */
-.main-content {
+/* .main-content {
+  display: flex;
+  max-width: 1300px;
+  margin: 2rem auto;
+  gap: 2rem;
+  padding: 0 1.5rem;
+  min-height: calc(100vh - 100px);
+} */
+ .main-content {
   display: flex;
   max-width: 1300px;
   margin: 2rem auto;
@@ -82,8 +90,9 @@ body {
 }
 
 
+
 /* Filters panel */
-.filters {
+/* .filters {
   flex-basis: 300px;
   background: #ffffff;
   border-radius: 20px;
@@ -91,7 +100,22 @@ body {
   box-shadow: 0 2px 25px rgb(0 0 0 / 0.06);
   display: flex;
   flex-direction: column;
+} */
+.filters {
+  flex-basis: 300px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 1.2rem 1.2rem; /* less padding for compact look */
+  box-shadow: 0 2px 25px rgb(0 0 0 / 0.06);
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 2rem; /* adjust for navbar height */
+  max-height: calc(100vh - 2rem); /* stays within screen */
+  overflow-y: auto; /* sidebar is scrollable if content overflows */
+  z-index: 10;
 }
+
 .filters input[type="text"] {
   padding: 10px 14px;
   border-radius: 10px;
@@ -112,7 +136,7 @@ body {
 .filter-group {
   display: flex;
   flex-direction: column;
-  gap: 0.1rem;
+  gap: 0; /* smaller gap between elements, reduce for tighter look */
 }
 
 
