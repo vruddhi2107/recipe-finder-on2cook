@@ -5,6 +5,10 @@
   min-height: 100vh;
   color: #333;
 }
+body {
+  margin-top: -21px !important;
+}
+
 
 .navbar {
   background-color: #1a1a1a;
