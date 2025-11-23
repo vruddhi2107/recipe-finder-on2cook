@@ -79,6 +79,9 @@ function filterRecipes() {
 function showRecipes() {
   recipesGrid.innerHTML = "";
   const filtered = filterRecipes();
+document.getElementById('recipeCount').textContent = `${filtered.length} recipes found`;
+  filtered.sort((a, b) => a['Cooking Time'] - b['Cooking Time']);
+
   if (filtered.length === 0) {
     recipesGrid.innerHTML = "<p>No recipes found matching your filters.</p>";
     return;
