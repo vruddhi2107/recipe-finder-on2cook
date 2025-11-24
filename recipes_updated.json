@@ -403,7 +403,7 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 9,
     "Image": "images/Chanar-Dalna.jpg",
-    "PopupImage": "popup_images/CHANAR DALNA.Jpg"
+    "PopupImage": "popup_images/CHANAR DALNA.jpg"
   },
   {
     "Recipe Name": "DARK CHOCOLATE & ORANGE CAKE",
@@ -692,8 +692,8 @@
     "Cuisine": "GUJARATI",
     "Category": "STARTERS",
     "Cooking Time": 4,
-    "Image": "images/Handvo.Jpg",
-    "PopupImage": "popup_images/HANDVO.Jpg"
+    "Image": "images/Handvo.jpg",
+    "PopupImage": "popup_images/HANDVO.jpg"
   },
   {
     "Recipe Name": "VEG MANCHURIAN GRAVY",
