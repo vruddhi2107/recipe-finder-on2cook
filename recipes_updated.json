@@ -161,16 +161,6 @@
     "Image": "images/Mashed-Potato.png",
     "PopupImage": "popup_images/MASHED POTATO.png"
   },
-  {
-    "Recipe Name": "STEAM RICE",
-    "Veg/Non Veg": "VEG",
-    "Cooking Mode": "STEAMING",
-    "Cuisine": "INDIAN",
-    "Category": "MAIN COURSE",
-    "Cooking Time": 11,
-    "Image": "images/Steam-Rice.png",
-    "PopupImage": "popup_images/STEAM RICE.png"
-  },
 
   {
     "Recipe Name": "CREAM OF SPINACH",
@@ -1273,7 +1263,7 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Tamarind-Rice.png",
-    "PopupImage": "popup_images/TAMARIND RICE.Jpg"
+    "PopupImage": "popup_images/TAMARIND RICE.jpg"
   },
   {
     "Recipe Name": "POTATO FRITTATA",
@@ -2373,7 +2363,7 @@
     "Category": "STARTERS",
     "Cooking Time": 0,
     "Image": "images/Coriander-Chicken.png",
-    "PopupImage": "popup_images/CORIANDER CHICKEN.png"
+    "PopupImage": "popup_images/CORIANDER CHICKEN.jpg"
   },
   {
     "Recipe Name": "RAVA UPMA",
@@ -3236,16 +3226,6 @@
     "PopupImage": "popup_images/SEMIYA PAYASAM.png"
   },
   {
-    "Recipe Name": "PARUPPU PAYASAM",
-    "Veg/Non Veg": "",
-    "Cooking Mode": "",
-    "Cuisine": "",
-    "Category": "",
-    "Cooking Time": 0,
-    "Image": "images/Paruppu-Payasam.png",
-    "PopupImage": "popup_images/PARUPPU PAYASAM.png"
-  },
-  {
     "Recipe Name": "SARU",
     "Veg/Non Veg": "",
     "Cooking Mode": "",
@@ -3264,16 +3244,6 @@
     "Cooking Time": 0,
     "Image": "images/Egg-Roast.png",
     "PopupImage": "popup_images/EGG ROAST.png"
-  },
-  {
-    "Recipe Name": "UDUPI SAMBHAR",
-    "Veg/Non Veg": "",
-    "Cooking Mode": "",
-    "Cuisine": "",
-    "Category": "",
-    "Cooking Time": 0,
-    "Image": "images/Udupi-Sambhar.png",
-    "PopupImage": "popup_images/UDUPI SAMBHAR.png"
   },
   {
     "Recipe Name": "MEEN KOZHUMBU",
@@ -3334,16 +3304,6 @@
     "Cooking Time": 0,
     "Image": "images/Saaru.png",
     "PopupImage": "popup_images/SAARU.png"
-  },
-  {
-    "Recipe Name": "EGG ROAST",
-    "Veg/Non Veg": "",
-    "Cooking Mode": "",
-    "Cuisine": "",
-    "Category": "",
-    "Cooking Time": 0,
-    "Image": "images/Egg-Roast.png",
-    "PopupImage": "popup_images/EGG ROAST.png"
   },
   {
     "Recipe Name": "MYSURU BAJJI",

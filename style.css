@@ -282,12 +282,69 @@ body {
   object-fit: cover;
   user-select: none;
 }
-
+/* .recipe-title {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* spacing between text and icon 
+} */
 .recipe-title {
-  font-size: 1.19rem;
+  display: flex;
+  justify-content: space-between; /* space between recipe name and right side */
+  align-items: center;
+  gap: 10px;
   font-weight: 700;
-  color: #222;
-  margin-top: 0.24rem;
+  font-size: 1.1rem;
+}
+
+/* Make .recipe-info a flex container for icon and time */
+.recipe-info {
+  display: flex;
+  align-items: center;
+  gap: 12px; /* space between icon and time */
+}
+
+.diet-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  box-sizing: content-box;
+}
+
+/* Green square with green dot center for veg */
+.diet-icon.veg {
+  border: 2.5px solid green; /* green square */
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+.diet-icon.veg::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  background-color: green; /* green dot */
+  border-radius: 50%;
+}
+
+/* Red square with red dot center for non-veg */
+.diet-icon.non-veg {
+  border: 2.5px solid red; /* red square */
+  border-radius: 3px;
+  background-color: transparent;
+}
+
+.diet-icon.non-veg::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  background-color: red; /* red dot */
+  border-radius: 50%;
 }
 .recipe-meta {
   font-size: 0.98rem;
@@ -307,22 +364,20 @@ body {
 
 /* TIME CIRCLE */
 .time-circle {
-  position: absolute;
-  top: 11px;
-  right: 12px;
-  width: 39px;
-  height: 39px;
-  border-radius: 50%;
-  border: 3px solid #f97316;
+  width: 49px;
+  height: 23px;
+  border-radius: 10%;
+  border: 2px solid #231f20;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #f97316;
+  color: #ed1c24;
   font-family: 'Cambria', serif;
   font-weight: 900;
-  font-size: 13px;
+  font-size: 14px;
   background: #fff;
   box-shadow: 0 0 12px rgb(249 115 22 / 0.16);
+  user-select: none;
 }
 
 /* POPUP MODAL */

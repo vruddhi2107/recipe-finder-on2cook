@@ -2,7 +2,7 @@ let recipes = [];
 let selectedIngredients = [];
 
 // Fetch actual recipes JSON file
-fetch('recipes_updated.json')
+fetch('recipes_out.json')
   .then(response => response.json())
   .then(data => {
     recipes = data;

@@ -19,7 +19,7 @@ const popupCloseBtn = document.getElementById('popupCloseBtn');
 
 // Fetch recipes JSON file asynchronously and initialize the app
 function loadRecipes() {
-  fetch('recipes_updated.json')
+  fetch('recipes_out.json')
     .then(response => {
       if (!response.ok) throw new Error('Failed to load recipes.json');
       return response.json();
@@ -41,6 +41,16 @@ function getUniqueValues(key) {
   return Array.from(set).sort();
 }
 
+function getUniqueAccessories() {
+  const accessorySet = new Set();
+  recipes.forEach(recipe => {
+    if (recipe['Accessories']) {
+      recipe['Accessories'].split(',').forEach(acc => accessorySet.add(acc.trim()));
+    }
+  });
+  return Array.from(accessorySet).sort();
+}
+
 // Populate filter dropdowns dynamically
 function populateFilters() {
   const populateSelect = (select, items) => {
@@ -57,7 +67,7 @@ function populateFilters() {
   populateSelect(cookingMode, getUniqueValues('Cooking Mode'));
   populateSelect(cuisine, getUniqueValues('Cuisine'));
   populateSelect(category, getUniqueValues('Category'));
-  populateSelect(accessory, getUniqueValues('Accessories'));
+  populateSelect(accessory, getUniqueAccessories());
 }
 
 // Button/Modal for mobile filters
@@ -102,7 +112,7 @@ function showRecipes() {
   recipesGrid.innerHTML = "";
   const filtered = filterRecipes();
 document.getElementById('recipeCount').textContent = `${filtered.length} recipes found`;
-  filtered.sort((a, b) => a['Cooking Time'] - b['Cooking Time']);
+  filtered.sort((a, b) => a['On2Cook Cooking Time'] - b['On2Cook Cooking Time']);
 
   if (filtered.length === 0) {
     recipesGrid.innerHTML = "<p>No recipes found matching your filters.</p>";
@@ -112,13 +122,20 @@ document.getElementById('recipeCount').textContent = `${filtered.length} recipes
     const card = document.createElement('div');
     card.className = 'recipe-card';
     card.innerHTML = `
-      <div class="time-circle">${r['Cooking Time']}m</div>
       <img src="${r.Image}" alt="${r['Recipe Name']}" class="recipe-image" />
-      <div class="recipe-title">${r['Recipe Name']}</div>
+      <div class="recipe-title">
+        ${r['Recipe Name']}
+       <div class="recipe-info"> 
+        <span class="diet-icon ${r['Veg/Non Veg'] === 'VEG' ? 'veg' : 'non-veg'}"></span>
+        <div class="time-circle">${r['Total Output']}</div>
+      </div></div>
       <div class="recipe-meta">${r['Veg/Non Veg']} | ${r['Cooking Mode']} | ${r['Cuisine']}</div>
       <div class="recipe-category">${r['Category']}</div>
       ${r['Accessories'] ? `<div class="recipe-accessory">Accessory: ${r['Accessories']}</div>` : ''}
     `;
+
+
+
     card.addEventListener('click', () => {
       openPopup(r.PopupImage, r['Recipe Name']);
     });
@@ -161,8 +178,8 @@ clearBtn.addEventListener('click', () => {
   cuisine.value = 'All';
   category.value = 'All';
   accessory.value = 'All';
-  cookingTime.value = 20;
-  cookingTimeLabel.textContent = '20';
+  cookingTime.value = 35;
+  cookingTimeLabel.textContent = '35';
   searchBar.value = '';
   showRecipes();
 });
