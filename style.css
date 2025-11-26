@@ -321,10 +321,10 @@ body {
 .diet-icon.veg::before {
   content: "";
   position: absolute;
-  top: 6px;
-  left: 6px;
-  width: 8px;
-  height: 8px;
+  top: 4.5px;
+  left: 4.5px;
+  width: 10px;
+  height: 10px;
   background-color: green; /* green dot */
   border-radius: 50%;
 }
@@ -339,10 +339,10 @@ body {
 .diet-icon.non-veg::before {
   content: "";
   position: absolute;
-  top: 6px;
-  left: 6px;
-  width: 8px;
-  height: 8px;
+  top: 4.5px;
+  left: 4.5px;
+  width: 10px;
+  height: 10px;
   background-color: red; /* red dot */
   border-radius: 50%;
 }
@@ -366,19 +366,76 @@ body {
 .time-circle {
   width: 49px;
   height: 23px;
-  border-radius: 10%;
-  border: 2px solid #231f20;
+  border-radius: 40px;
+  /* border: 2px solid #231f20; */
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ed1c24;
-  font-family: 'Cambria', serif;
-  font-weight: 900;
-  font-size: 14px;
-  background: #fff;
-  box-shadow: 0 0 12px rgb(249 115 22 / 0.16);
+  color: #fff;
+  font-family:  sans-serif;
+  font-weight: 400;
+  font-kerning:normal;
+  font-size: 12px;
+  background: #000;
+  opacity: 0.75;
+  /* box-shadow: 0 0px 30px rgba(249, 4, 4, 0.591); */
   user-select: none;
 }
+.badge-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 4px;
+  justify-content: center;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 8px;
+  padding: 8px 8px 8px 10px;
+  max-width: 100px;
+  box-shadow: 0 2px 7px rgba(0,0,0,0.06);
+  font-size: 1rem;
+}
+
+.badge.on2cook {
+  background: #ffeaea;
+  color: #bc0a1a;
+  border: 1px solid #f9d6d9;
+}
+
+.badge.normal {
+  background: #f2f4f7;
+  color: #444e57;
+  border: 1px solid #dee2e6;
+}
+
+.badge-icon {
+  font-size: 1.35em;
+  margin-right: 10px;
+  flex-shrink: 0;
+}
+
+.badge-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Ensures both text lines start aligned */
+}
+
+.badge-label {
+  font-size: 1.07em;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.badge-time {
+  font-size: 0.98em;
+  font-weight: 500;
+  margin-top: 2px;
+  line-height: 1.2;
+}
+
 
 /* POPUP MODAL */
 #popupModal {

@@ -120,6 +120,7 @@ document.getElementById('recipeCount').textContent = `${filtered.length} recipes
   }
   filtered.forEach(r => {
     const card = document.createElement('div');
+    let cleanTime = r['Normal Cooking Time']?.replace(/[ .,;:!?'"()-]/g, "") || "";
     card.className = 'recipe-card';
     card.innerHTML = `
       <img src="${r.Image}" alt="${r['Recipe Name']}" class="recipe-image" />
@@ -128,7 +129,27 @@ document.getElementById('recipeCount').textContent = `${filtered.length} recipes
        <div class="recipe-info"> 
         <span class="diet-icon ${r['Veg/Non Veg'] === 'VEG' ? 'veg' : 'non-veg'}"></span>
         <div class="time-circle">${r['Total Output']}</div>
-      </div></div>
+      </div>
+      </div>
+      <div class="badge-row">
+        <div class="badge on2cook">
+          <span class="badge-icon">⏱</span>
+          <span class="badge-content">
+            <span class="badge-label">On2Cook</span>
+            <span class="badge-time">${r['On2Cook Cooking Time']} min</span>
+          </span>
+        </div>
+
+       <div class="badge normal">
+        <span class="badge-icon">⏱</span>
+        <span class="badge-content">
+          <span class="badge-label">Normal</span>
+          <span class="badge-time">${cleanTime}</span>
+        </span>
+      </div>
+      </div>
+
+
       <div class="recipe-meta">${r['Veg/Non Veg']} | ${r['Cooking Mode']} | ${r['Cuisine']}</div>
       <div class="recipe-category">${r['Category']}</div>
       ${r['Accessories'] ? `<div class="recipe-accessory">Accessory: ${r['Accessories']}</div>` : ''}

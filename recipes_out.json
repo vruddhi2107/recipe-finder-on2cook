@@ -16,7 +16,7 @@
     "Accessories": "Coated Pan, Gravy Stirrer",
     "Total Output": "2850g",
     "On2Cook Cooking Time": "20:00",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": "30 mins."
   },
   {
     "Recipe Name": "TOMATO GRAVY",
@@ -59,7 +59,7 @@
     "Accessories": "Coated Pan, Gravy Stirrer",
     "Total Output": "2500g",
     "On2Cook Cooking Time": "18:00",
-    "Normal Cooking Time": ". Normal Cooking: 120 mins."
+    "Normal Cooking Time": "120 mins."
   },
   {
     "Recipe Name": "WHITE GRAVY",
@@ -69,7 +69,39 @@
     "Category": "BASE GRAVY",
     "Cooking Time": 18,
     "Image": "images/White-Gravy.png",
-    "PopupImage": "popup_images/WHITE GRAVY.png"
+    "PopupImage": "popup_images/WHITE GRAVY.png",
+    "Ingredients":[
+  "500 ml Oil",
+  "26g Whole Spices",
+  "4g Green Cardamom",
+  "10 g Red Chilli",
+  "2 g Clove",
+  "10 g Cinnamon Sticks",
+  "245g Powdered Masala",
+  "15 g Salt",
+  "100 ml Water",
+  "10 g Coriander Powder",
+  "10 g Garam Masala",
+  "10 g Cumin Powder",
+  "100 g Ginger Garlic Green Chilli Paste",
+  "1530g Onion Gravy Mix",
+  "1500 g Onion",
+  "20 g Fresh Coriander",
+  "10 g Fennel Seeds",
+  "600 g Cashew & Melon Seed Paste",
+  "150 g Cashew",
+  "150 g Melon Seeds",
+  "300 ml Water",
+  "400ml Water [Auto]",
+  "82g Dry Spice Mix",
+  "75 g Sugar",
+  "2 g Kasuri Methi",
+  "5 g Green Cardamom Powder"
+],
+     "Accessories": "Coated Pan, Gravy Stirrer",
+    "Total Output": "2500g",
+    "On2Cook Cooking Time": "18:00",
+    "Normal Cooking Time": "120 mins."
   },
   {
     "Recipe Name": "YELLOW GRAVY",
@@ -79,7 +111,40 @@
     "Category": "BASE GRAVY",
     "Cooking Time": 18,
     "Image": "images/Yellow-Gravy.png",
-    "PopupImage": "popup_images/YELLOW GRAVY.png"
+    "PopupImage": "popup_images/YELLOW GRAVY.png",
+    "Ingredients": [
+      "500 ml Oil",
+      "26g Whole Spices",
+      "4g Green Cardamom",
+      "10 g Red Chilli",
+      "2 g Clove",
+      "10 g Cinnamon Sticks",
+      "250 g Powdered Masala",
+      "15 g Salt",
+      "5 g Turmeric Powder",
+      "10 g Red Chilli Powder",
+      "100 ml Water",
+      "10 g Garam Masala",
+      "10 g Cumin Powder",
+      "100 g Ginger Garlic Green Chilli Paste",
+      "1530g Onion Gravy Mix",
+      "1500 g Onion",
+      "20 g Fresh Coriander",
+      "10 g Fennel Seeds",
+      "600 g Cashew & Melon Seed Paste",
+      "150 g Cashew",
+      "150 g Melon Seeds",
+      "300 ml Water",
+      "400 ml Water [Auto]",
+      "82g Dry Spice Mix",
+      "75 g Sugar",
+      "2 g Kasuri Methi",
+      "5 g Green Cardamom Powder"
+    ],
+     "Accessories": "Coated Pan, Gravy Stirrer",
+    "Total Output": "2500g",
+    "On2Cook Cooking Time": "18:00",
+    "Normal Cooking Time": "120 mins."
   },
   {
     "Recipe Name": "COCONUT RICE 1600G",
@@ -89,7 +154,21 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 17,
     "Image": "images/Coconut-Rice-1600g.png",
-    "PopupImage": "popup_images/COCONUT RICE 1600G.png"
+    "PopupImage": "popup_images/COCONUT RICE 1600G.png",
+    "Accessories": "Non-Coated Pan, 1 Large Non-Stick Mat",
+    "Ingredients": [
+      "500g Soaked Rice [India Gate Super Basmati)",
+      "400 g Raw Rice, Soaked for 30 minutes",
+      "1050g Fresh Coconut Milk",
+      "100g Ghee",
+      "10 g Cinnamon",
+      "40 g Green Chilly Slit",
+      "40 g Ginger Garlic Paste",
+      "15 g Salt"
+    ],
+    "Total Output": "1600g",
+    "On2Cook Cooking Time": "17:00",
+    "Normal Cooking Time": "30 mins."
   },
   {
     "Recipe Name": "PENNE ARRABBIATA",
@@ -118,7 +197,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "15:00",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "MOONGDAL HALWA 2000G",
@@ -128,7 +207,20 @@
     "Category": "DESSERTS",
     "Cooking Time": 14,
     "Image": "images/Moongdal-Halwa-2000g.png",
-    "PopupImage": "popup_images/MOONGDAL HALWA 2000G.png"
+    "PopupImage": "popup_images/MOONGDAL HALWA 2000G.png",
+    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "500g Ghee",
+      "500 g Moong Dal Mix",
+      "450 g Moong Dal Powder",
+      "50 g Suji",
+      "500 g Sugar",
+      "15 g Green Cardamom Powder",
+      "990 ml Water [Auto]"
+    ],
+     "Total Output": "2000g",
+    "On2Cook Cooking Time": "14:00",
+    "Normal Cooking Time": ".   60 mins."
   },
   {
     "Recipe Name": "KESARI BHAAT",
@@ -156,7 +248,7 @@
     ],
     "Total Output": "1300g",
     "On2Cook Cooking Time": "14:00",
-    "Normal Cooking Time": ". Normal Cooking: 42 mins."
+    "Normal Cooking Time": ".   42 mins."
   },
   {
     "Recipe Name": "COCONUT RICE 1000G",
@@ -166,7 +258,21 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 13,
     "Image": "images/Coconut-Rice-1000g.png",
-    "PopupImage": "popup_images/COCONUT RICE 1000G.png"
+    "PopupImage": "popup_images/COCONUT RICE 1000G.png",
+    "Accessories": "Non Coated Pan, 1 Large Non-Stick Mat",
+    "Ingredients": [
+      "300g Soaked Rice [India Gate Super Basmati]",
+      "250 g Raw Rice, Soaked for 30 minutes",
+      "800g Fresh Coconut Milk",
+      "50g Ghee",
+      "5 g Cinnamon",
+      "20 g Green Chilly Slit",
+      "20 g Ginger Garlic Paste",
+      "10 g Salt"
+    ],
+    "Total Output": "1000g",
+    "On2Cook Cooking Time": "13:30",
+    "Normal Cooking Time": "25 mins."
   },
   {
     "Recipe Name": "PENNE ALFREDO (MAGGI PREMIX)",
@@ -176,7 +282,19 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 13,
     "Image": "images/Penne-Alfredo-(maggi-Premix).png",
-    "PopupImage": "popup_images/PENNE ALFREDO (MAGGI PREMIX).png"
+    "PopupImage": "popup_images/PENNE ALFREDO (MAGGI PREMIX).png",
+    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "30g Butter",
+      "100g Penne Pasta",
+      "700 ml Water (Auto)",
+      "300g Maggi White Sauce Mix",
+      "50 g Maggi White Sauce Pre Mix",
+      "250 ml Milk"
+    ],
+    "Total Output": "500g",
+    "On2Cook Cooking Time": "13:00",
+    "Normal Cooking Time": "29 mins."
   },
   {
     "Recipe Name": "PENNE ARRABIATA MAGGIE PREMIX",
@@ -186,7 +304,19 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 13,
     "Image": "images/Penne-Arrabiata-Maggie-Premix.png",
-    "PopupImage": "popup_images/PENNE ARRABIATA MAGGIE PREMIX.png"
+    "PopupImage": "popup_images/PENNE ARRABIATA MAGGIE PREMIX.png",
+    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "30g Butter",
+      "100g Penne Pasta",
+      "700 ml Water (Auto)",
+      "300g Maggi Red Sauce Mix",
+      "50 g Maggi Red Sauce Pre Mix",
+      "250 ml Milk"
+    ],
+    "Total Output": "500g",
+    "On2Cook Cooking Time": "13:00",
+    "Normal Cooking Time": "20 mins."
   },
   {
     "Recipe Name": "BAIGAN BHARTHA",
@@ -221,7 +351,7 @@
     ],
     "Total Output": "750g",
     "On2Cook Cooking Time": "13:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "DAL MAKHANI",
@@ -259,7 +389,7 @@
     ],
     "Total Output": "1500g",
     "On2Cook Cooking Time": "13:00",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "VEG BIRYANI",
@@ -305,7 +435,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "13:00",
-    "Normal Cooking Time": ". Normal Cooking: 60 mins."
+    "Normal Cooking Time": ".   60 mins."
   },
   {
     "Recipe Name": "STEAM RICE",
@@ -325,7 +455,7 @@
     ],
     "Total Output": "1800g",
     "On2Cook Cooking Time": "12:00",
-    "Normal Cooking Time": ". Normal Cooking: 36 mins."
+    "Normal Cooking Time": ".   36 mins."
   },
   {
     "Recipe Name": "MASHED POTATO",
@@ -349,7 +479,7 @@
     ],
     "Total Output": "1200g",
     "On2Cook Cooking Time": "12:00",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "CREAM OF SPINACH",
@@ -383,7 +513,7 @@
     ],
     "Total Output": "700ml",
     "On2Cook Cooking Time": "10:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "CREAM OF BROCCOLI SOUP",
@@ -427,7 +557,7 @@
     ],
     "Total Output": "700ml",
     "On2Cook Cooking Time": "10:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "CREAM OF CAULIFLOWER SOUP",
@@ -437,7 +567,31 @@
     "Category": "SOUP",
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Cauliflower-Soup.png",
-    "PopupImage": "popup_images/CREAM OF CAULIFLOWER SOUP.png"
+    "PopupImage": "popup_images/CREAM OF CAULIFLOWER SOUP.png",
+    "Accessories":"Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "20g Butter",
+      "3g Whole Spices",
+      "2 g Bay Leaves",
+      "1 g Whole Black Pepper",
+      "400 ml Water [Auto]",
+      "38g Seasoned Cream",
+      "30 g Cream",
+      "3g Salt",
+      "3 g White Pepper Powder",
+      "2 g Rosemary",
+      "10g All Purpose Flour",
+      "355g Cauliflower Puree",
+      "250 g Cauliflower",
+      "25 g Onion",
+      "13 g Carrot",
+      "12g Celery",
+      "50 ml Milk",
+      "5 g Salt"
+    ],
+    "Total Output": "700ml",
+    "On2Cook Cooking Time": "10:00",
+    "Normal Cooking Time": "25 mins."
   },
   {
     "Recipe Name": "CREAM OF CORN SOUP",
@@ -447,7 +601,31 @@
     "Category": "SOUP",
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Corn-Soup.png",
-    "PopupImage": "popup_images/CREAM OF CORN SOUP.png"
+    "PopupImage": "popup_images/CREAM OF CORN SOUP.png",
+    "Accessories":"Coated Pan, Silicone Stirrer",
+    "Ingredients": [
+      "20g Butter",
+      "3g Whole Spices",
+      "2g Bay Leaves",
+      "1 g Whole Black Pepper",
+      "400 ml Water [Auto]",
+      "38 g Seasoned Cream",
+      "30 g Cream",
+      "3g Salt",
+      "3 g White Pepper Powder",
+      "2g Rosemary",
+      "10g ALL Purpose Flour",
+      "355g Corn Puree",
+      "250 g Corn",
+      "25 g Onion",
+      "13 g Carrot",
+      "12g Celery",
+      "50 ml Milk",
+      "5g Salt"
+    ],
+    "Total Output": "700ml",
+    "On2Cook Cooking Time": "10:00",
+    "Normal Cooking Time": "25 mins."
   },
   {
     "Recipe Name": "CREAM OF MUSHROOM SOUP",
@@ -457,7 +635,31 @@
     "Category": "SOUP",
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Mushroom-Soup.png",
-    "PopupImage": "popup_images/CREAM OF MUSHROOM SOUP.png"
+    "PopupImage": "popup_images/CREAM OF MUSHROOM SOUP.png",
+    "Accessories":"Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+        "20g Butter",
+        "3g Whole Spices",
+        "2pc Bay Leaves",
+        "1 g Whole Black Pepper",
+        "400 ml Water [Auto]",
+        "38g Seasoned Cream",
+        "30 g Cream",
+        "3 g Salt",
+        "3 g White Pepper Powder",
+        "2g Rosemary",
+        "10g All Purpose Flour",
+        "355g Mushroom Puree",
+        "250 g Mushroom",
+        "25 g Onion",
+        "13 g Carrot",
+        "12 g Celery",
+        "50 ml Milk",
+        "5 g Salt"
+      ],
+    "Total Output": "700ml",
+    "On2Cook Cooking Time": "10:00",
+    "Normal Cooking Time": "25 mins."
   },
   {
     "Recipe Name": "CREAM OF PEAS SOUP",
@@ -467,7 +669,31 @@
     "Category": "SOUP",
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Peas-Soup.png",
-    "PopupImage": "popup_images/CREAM OF PEAS SOUP.png"
+    "PopupImage": "popup_images/CREAM OF PEAS SOUP.png",
+    "Accessories":"Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "20g Butter",
+      "3g Whole Spices",
+      "2g Bay Leaves",
+      "1 g Whole Black Pepper",
+      "400 ml Water [Auto]",
+      "38 g Seasoned Cream",
+      "30 g Cream",
+      "3 g Salt",
+      "3 g White Pepper Powder",
+      "2g Rosemary",
+      "10g All Purpose Flour",
+      "355g Peas Puree",
+      "250 g Peas",
+      "25 g Onion",
+      "13 g Carrot",
+      "12g Celery",
+      "50 ml Milk",
+      "5 g Salt"
+    ],
+    "Total Output": "700ml",
+    "On2Cook Cooking Time": "10:00",
+    "Normal Cooking Time": "25 mins."
   },
   {
     "Recipe Name": "CREAM OF TOMATO SOUP",
@@ -478,9 +704,30 @@
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Tomato-Soup.png",
     "PopupImage": "popup_images/CREAM OF TOMATO SOUP.png",
+    "Accessories":"Coated Pan, Silicone Stirrer",
     "Ingredients": [
-      "tomato"
-    ]
+      "20g Butter",
+      "3g Whole Spices",
+      "2 g Bay Leaves",
+      "1 g Whole Black Pepper",
+      "400 ml Water [Auto]",
+      "38g Seasoned Cream",
+      "30 g Cream",
+      "3 g Salt",
+      "3 g White Pepper Powder",
+      "2 g Rosemary",
+      "10g All Purpose Flour",
+      "355g Tomato Puree",
+      "250 g Tomato",
+      "25 g Onion",
+      "13 g Carrot",
+      "12 g Celery",
+      "50 ml Milk",
+      "5 g Salt"
+    ],
+    "Total Output": "700ml",
+    "On2Cook Cooking Time": "10:00",
+    "Normal Cooking Time": "25 mins."
   },
   {
     "Recipe Name": "CREAM OF VEGGIES",
@@ -515,7 +762,7 @@
     ],
     "Total Output": "700ml",
     "On2Cook Cooking Time": "10:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "AVIYAL",
@@ -555,7 +802,7 @@
     ],
     "Total Output": "1200g",
     "On2Cook Cooking Time": "10:00",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "TOMATO RASAM",
@@ -591,7 +838,7 @@
     "Accessories": "Coated Pan, Silicone Stirrer",
     "Total Output": "800g",
     "On2Cook Cooking Time": "10:00",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "LASANIYA BATETA",
@@ -625,7 +872,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "10:00",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "SHORSHE ILISH",
@@ -658,7 +905,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "10:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "CHICKEN VARUTHARACHA",
@@ -700,7 +947,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "10:00",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "KADAI CHICKEN",
@@ -747,7 +994,7 @@
     ],
     "Total Output": "800g",
     "On2Cook Cooking Time": "9:00",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "CHICKEN MAPPAS",
@@ -780,7 +1027,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "9:00",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "MYSORE PAK",
@@ -800,7 +1047,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "9:00",
-    "Normal Cooking Time": ". Normal Cooking: 42 mins."
+    "Normal Cooking Time": ".   42 mins."
   },
   {
     "Recipe Name": "SEV TOMATO",
@@ -840,7 +1087,7 @@
     "Accessories": "Coated Pan, Silicone Stirrer",
     "Total Output": "1000g",
     "On2Cook Cooking Time": "9:00",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "SAMBHAR",
@@ -882,7 +1129,7 @@
     ],
     "Total Output": "1200g",
     "On2Cook Cooking Time": "9:00",
-    "Normal Cooking Time": ". Normal Cooking: 45 mins."
+    "Normal Cooking Time": ".   45 mins."
   },
   {
     "Recipe Name": "PANEER PEAS KEEMA",
@@ -912,7 +1159,7 @@
     ],
     "Total Output": "650g",
     "On2Cook Cooking Time": "9:00",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "VEG SUKTO",
@@ -952,7 +1199,7 @@
     ],
     "Total Output": "1100g",
     "On2Cook Cooking Time": "9:00",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "STUFFED BRINJAL",
@@ -992,7 +1239,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "9:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "CHANAR DALNA",
@@ -1020,7 +1267,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "9:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "DARK CHOCOLATE & ORANGE CAKE",
@@ -1050,7 +1297,7 @@
     ],
     "Total Output": "720g",
     "On2Cook Cooking Time": "7:00",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "COFFEE WALNUT CAKE",
@@ -1079,7 +1326,7 @@
     ],
     "Total Output": "650g",
     "On2Cook Cooking Time": "7:00",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "MASALA CHAI CAKE",
@@ -1107,7 +1354,7 @@
     ],
     "Total Output": "650g",
     "On2Cook Cooking Time": "7:00",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "CHOCOLATE DRY FRUITS CAKE",
@@ -1117,7 +1364,21 @@
     "Category": "DESSERTS",
     "Cooking Time": 7,
     "Image": "images/Chocolate-Dry-Fruits-Cake.png",
-    "PopupImage": "popup_images/CHOCOLATE DRY FRUITS CAKE.png"
+    "PopupImage": "popup_images/CHOCOLATE DRY FRUITS CAKE.png",
+    "Accessories": "2 Grill Mesh, Non Coated Pan, Cake Mold and Cake Mold Stirrer",
+    "Ingredients":[
+      "600g Cake Mix",
+      "300 g Pillsbury Cooker Cake Chocolate Flavour",
+      "240 ml Water",
+      "60 ml Oil",
+      "100g Nut Mix",
+      "40 g Chopped Cashews",
+      "40 g Chopped Almond",
+      "20 g Raisins"
+    ],
+    "Total Output": "650g",
+    "On2Cook Cooking Time": "6:00",
+    "Normal Cooking Time": "50 mins."
   },
   {
     "Recipe Name": "SABUDANA KHICHDI",
@@ -1146,7 +1407,7 @@
     ],
     "Total Output": "280g",
     "On2Cook Cooking Time": "7:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "UDON BOILING",
@@ -1164,7 +1425,7 @@
     ],
     "Total Output": "300g",
     "On2Cook Cooking Time": "7:00",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "SOBA BOILING",
@@ -1182,7 +1443,7 @@
     ],
     "Total Output": "300g",
     "On2Cook Cooking Time": "7:00",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "MATAR MASALA",
@@ -1216,7 +1477,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "6:00",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "MUSHROOM GHEE ROAST",
@@ -1254,7 +1515,7 @@
     ],
     "Total Output": "550g",
     "On2Cook Cooking Time": "6:00",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "GUJARATI KADHI",
@@ -1289,7 +1550,7 @@
     ],
     "Total Output": "1200g",
     "On2Cook Cooking Time": "6:00",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "CHICKEN CHEESE MAGGI",
@@ -1311,7 +1572,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "05:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "CHICKEN MAGGI",
@@ -1332,7 +1593,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "5:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "MASALA MAGGI",
@@ -1352,7 +1613,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "5:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "VEGETABLE MAGGI",
@@ -1376,7 +1637,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "5:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "VEGETABLE NOODLES",
@@ -1408,7 +1669,7 @@
     ],
     "Total Output": "575g",
     "On2Cook Cooking Time": "5:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "CHINGRI MALAI",
@@ -1444,7 +1705,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "5:00",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "CHICKEN FRIED RICE",
@@ -1478,7 +1739,7 @@
     ],
     "Total Output": "550g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "CHICKEN SCHEZWAN FRIED RICE",
@@ -1511,7 +1772,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "KUNG PAO CHICKEN",
@@ -1545,7 +1806,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "CHICKEN SHAMMI KEBAB",
@@ -1555,7 +1816,29 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 4,
     "Image": "images/Chicken-Shammi-Kebab.png",
-    "PopupImage": "popup_images/CHICKEN SHAMMI KEBAB.png"
+    "PopupImage": "popup_images/CHICKEN SHAMMI KEBAB.png",
+    "Accessories": "Non Coated Pan, Small Teflon Sheet",
+    "Ingredients":[
+      "7pcs. Chicken Shami Mix (280 g)",
+      "150 g Boneless Chicken Thigh",
+      "40 g Chopped Onion",
+      "5 g Chopped Green Chilli",
+      "5 ml Lemon Juice",
+      "5 g Ginger Garlic",
+      "5 g Chopped Coriander",
+      "5 g Chopped Mint",
+      "1 g Garam Masala",
+      "1 g Red Chilli Powder",
+      "1 g Coriander Powder",
+      "1 g Cumin Powder",
+      "4 g Salt",
+      "17 g Bread Crumbs",
+      "40 g Whole Egg",
+      "20 g Butter For Brushing"
+    ],
+    "Total Output": "7 Pcs",
+    "On2Cook Cooking Time": "4:00",
+    "Normal Cooking Time": "20 mins."
   },
   {
     "Recipe Name": "TANDOORI CHICKEN",
@@ -1600,7 +1883,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "PANEER BHURJI",
@@ -1630,7 +1913,7 @@
     ],
     "Total Output": "250g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "PANEER CHEESE BHURJI",
@@ -1661,7 +1944,7 @@
     ],
     "Total Output": "275g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "SAMOSA (FROZEN)",
@@ -1678,7 +1961,7 @@
     ],
     "Total Output": "4 Pcs.",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "SAUTEED VEGETABLE",
@@ -1711,7 +1994,7 @@
     ],
     "Total Output": "280g",
     "On2Cook Cooking Time": "5:20",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "THAI GREEN CURRY VEG",
@@ -1746,7 +2029,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "3:00",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "BHARELA KARELA",
@@ -1789,7 +2072,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "PRAWN MOILEE",
@@ -1821,7 +2104,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "HANDVO",
@@ -1863,7 +2146,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "VEG MANCHURIAN GRAVY",
@@ -1901,7 +2184,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "MALAI CHICKEN TIKKA",
@@ -1911,7 +2194,17 @@
     "Category": "STARTERS",
     "Cooking Time": 3,
     "Image": "images/Malai-Chicken-Tikka.png",
-    "PopupImage": "popup_images/MALAI CHICKEN TIKKA.png"
+    "PopupImage": "popup_images/MALAI CHICKEN TIKKA.png",
+    "Accessories": "Non Coated Pan, Small Non-Stick Mat",
+    "Ingredients": [
+      "554g Marinated Chicken",
+      "300 g Chicken Thigh Boneless",
+      "Malai Marination (50 g Cashews, 50 g Cream, 50 g Processed Cheese, 70 g Hung Curd, 5g Green Chilli, 10 g Ginger, 10 g Coriander Leaves, 3g Green Cardamom Powder, 3 g Salt, 3g Black Pepper Powder)",
+      "20ml oil for Brushing"
+    ],
+    "Total Output": "380g",
+    "On2Cook Cooking Time": "3:00",
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "MALAI KEEMA",
@@ -1949,7 +2242,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "3:00",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "CHICKEN STIR FRY NOODLE",
@@ -1959,7 +2252,33 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 3,
     "Image": "images/Chicken-Stir-Fry-Noodle.png",
-    "PopupImage": "popup_images/CHICKEN STIR FRY NOODLE.png"
+    "PopupImage": "popup_images/CHICKEN STIR FRY NOODLE.png",
+    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "15 ml Oil",
+      "250g Exotic Vegetables & Chicken",
+      "10 g Garlic",
+      "5 g Ginger",
+      "5 g Green Chilli",
+      "50 g Onion",
+      "20 g Red Bell Pepper",
+      "20 g Yellow Zucchini",
+      "20 g Green Zucchini",
+      "20 g Broccoli",
+      "20 g Carrot",
+      "80 g Chicken Shredded",
+      "250g Mix Sauce & Noodles",
+      "20 g Schezwan Sauce",
+      "15 ml Oyster Sauce",
+      "5 ml Light Soya Sauce",
+      "5 ml Dark Soya Sauce",
+      "5 g Aromat Powder",
+      "200 g Boiled Noodles",
+      "5g Spring Onion"
+    ],
+    "Total Output": "450g",
+    "On2Cook Cooking Time": "3:00",
+    "Normal Cooking Time": "15 mins."
   },
   {
     "Recipe Name": "MALAI BROCCOLI TIKKA",
@@ -1988,7 +2307,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "MALAI GOBI TIKKA",
@@ -2017,7 +2336,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "MALAI MUSHROOM TIKKA",
@@ -2046,7 +2365,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "MALAI PANEER TIKKA",
@@ -2075,7 +2394,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "PANEER TIKKA",
@@ -2100,7 +2419,7 @@
     ],
     "Total Output": "250g",
     "On2Cook Cooking Time": "3:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "THAI VEG GREEN CURRY",
@@ -2135,7 +2454,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "THAI NOODLE SOUP",
@@ -2169,7 +2488,7 @@
     ],
     "Total Output": "300g",
     "On2Cook Cooking Time": "3:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "THAI VEG RED CURRY",
@@ -2202,7 +2521,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "KUNG PAO MUSHROOM",
@@ -2237,7 +2556,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:00",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "VEGETABLE POHA",
@@ -2269,7 +2588,7 @@
     ],
     "Total Output": "650g",
     "On2Cook Cooking Time": "3:00",
-    "Normal Cooking Time": ". Normal Cooking: 9 mins."
+    "Normal Cooking Time": ".   9 mins."
   },
   {
     "Recipe Name": "GRILL CHEESE SANDWICH",
@@ -2279,7 +2598,20 @@
     "Category": "SNACKS",
     "Cooking Time": 3,
     "Image": "images/Grill-Cheese-Sandwich.png",
-    "PopupImage": "popup_images/GRILL CHEESE SANDWICH.png"
+    "PopupImage": "popup_images/GRILL CHEESE SANDWICH.png",
+    "Accessories": "Grill Pan",
+    "Ingredients":[
+        "50g Bread 2 Slices",
+        "50 g Cheese Spread",
+        "60g Stuffing",
+        "15 g Mozzarella Cheese",
+        "15 g Processed Cheese",
+        "15 g Red Cheddar Cheese",
+        "15 g Parmesan Cheese"
+      ],
+    "Total Output": "1 Portion",
+    "On2Cook Cooking Time": "3:20",
+    "Normal Cooking Time": "20 mins."
   },
   {
     "Recipe Name": "CHICKEN POPCORN",
@@ -2297,7 +2629,7 @@
     ],
     "Total Output": "180g",
     "On2Cook Cooking Time": "2:00",
-    "Normal Cooking Time": ". Normal Cooking: 5 mins."
+    "Normal Cooking Time": ".   5 mins."
   },
   {
     "Recipe Name": "KODI PAKORA",
@@ -2307,7 +2639,27 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 2,
     "Image": "images/Kodi-Pakora.png",
-    "PopupImage": "popup_images/KODI PAKORA.png"
+    "PopupImage": "popup_images/KODI PAKORA.png",
+    "Accessories": "Non Coated Pan, Frying Basket & Stirrer",
+    "Ingredients": [
+      "150g Chicken Thigh Boneless",
+      "58g Chicken Marination",
+      "1g Turmeric Powder",
+      "5 g Red Chili Powder",
+      "5 g Ginger Garlic Paste",
+      "4 g Salt",
+      "5 ml Lemon Juice",
+      "3 g Curry Leaves",
+      "5 g Kashmiri Chilli Powder",
+      "30 g Curd",
+      "45g Flour Mix",
+      "20 g Rice Flour",
+      "5 g Corn Flour",
+      "20 g Flour"
+    ],
+     "Total Output": "500g",
+    "On2Cook Cooking Time": "2:00",
+    "Normal Cooking Time": ".   8 mins."
   },
   {
     "Recipe Name": "CHICKEN 65",
@@ -2333,7 +2685,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "2:00",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "FRENCH FRIES",
@@ -2350,7 +2702,7 @@
     ],
     "Total Output": "120g",
     "On2Cook Cooking Time": "2:00",
-    "Normal Cooking Time": ". Normal Cooking: 5 mins."
+    "Normal Cooking Time": ".   5 mins."
   },
   {
     "Recipe Name": "MUSHROOM NUGGET",
@@ -2360,7 +2712,15 @@
     "Category": "STARTERS",
     "Cooking Time": 2,
     "Image": "images/Mushroom-Nugget.png",
-    "PopupImage": "popup_images/MUSHROOM NUGGET.png"
+    "PopupImage": "popup_images/MUSHROOM NUGGET.png",
+    "Accessories" : "Non Coated Pan, Frying Basket & Stirrer",
+    "Ingredients":[
+      "200g Coated Mushrooms",
+      "5g Peri Peri Powder"
+    ],
+    "Total Output": "180g",
+    "On2Cook Cooking Time": "2:00",
+    "Normal Cooking Time": "10 mins."
   },
   {
     "Recipe Name": "POTATO WEDGES",
@@ -2377,7 +2737,7 @@
     ],
     "Total Output": "140g",
     "On2Cook Cooking Time": "2:00",
-    "Normal Cooking Time": ". Normal Cooking: 6 mins."
+    "Normal Cooking Time": ".   6 mins."
   },
   {
     "Recipe Name": "VEG BURGER PATTY",
@@ -2394,7 +2754,7 @@
     ],
     "Total Output": "4 Pcs.",
     "On2Cook Cooking Time": "2:00",
-    "Normal Cooking Time": ". Normal Cooking: 4 mins."
+    "Normal Cooking Time": ".   4 mins."
   },
   {
     "Recipe Name": "JAMA FRIED PANEER",
@@ -2425,7 +2785,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "2:00",
-    "Normal Cooking Time": ". Normal Cooking: 15:00 mins"
+    "Normal Cooking Time": ".   15:00 mins"
   },
   {
     "Recipe Name": "BROWN STOCK",
@@ -2449,7 +2809,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "32:40",
-    "Normal Cooking Time": ". Normal Cooking: 3-4 Hours."
+    "Normal Cooking Time": ".   3-4 Hours."
   },
   {
     "Recipe Name": "GOLDEN STOCK MUTTON",
@@ -2469,7 +2829,14 @@
     "Category": "STARTERS",
     "Cooking Time": 1,
     "Image": "images/Mozzarella-Stick.png",
-    "PopupImage": "popup_images/MOZZARELLA STICK.png"
+    "PopupImage": "popup_images/MOZZARELLA STICK.png",
+    "Accessories" : "Non Coated Pan, Frying Basket & Stirrer",
+    "Ingredients":[
+      "6 Pieces Breaded Mozzarella Sticks"
+    ],
+    "Total Output": "350g",
+    "On2Cook Cooking Time": "1:00",
+    "Normal Cooking Time": "4 mins."
   },
   {
     "Recipe Name": "NOLEN GUR PAYES",
@@ -2496,7 +2863,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "MIRCHI KA SALAN",
@@ -2540,7 +2907,7 @@
     ],
     "Total Output": "2000g",
     "On2Cook Cooking Time": "16:00",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "GAJAR HALWA 1KG",
@@ -2550,7 +2917,25 @@
     "Category": "DESSERTS",
     "Cooking Time": 0,
     "Image": "images/Gajar-Halwa-1kg.png",
-    "PopupImage": "popup_images/GAJAR HALWA 1KG.png"
+    "PopupImage": "popup_images/GAJAR HALWA 1KG.png",
+    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "100g Ghee",
+      "1000g Grated Carrot",
+      "210g Sugar Mix",
+      "200 g Sugar",
+      "10 g Cardamom Powder",
+      "200 ml Milk",
+      "10 Strands Kesar",
+      "300 g Mawa Mix",
+      "200 g Mawa",
+      "40 g Cashew",
+      "40 g Almond",
+      "20 g Pistachio"
+    ],
+    "Total Output": "1000g",
+    "On2Cook Cooking Time": "15:40",
+    "Normal Cooking Time": "75 mins."
   },
   {
     "Recipe Name": "RAVA UPMA 2500 G",
@@ -2582,7 +2967,7 @@
     ],
     "Total Output": "2500g",
     "On2Cook Cooking Time": "14:00",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "PAAL PAYASAM",
@@ -2606,7 +2991,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "14:40",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "RAJASTHANI STYLE CHICKEN CURRY",
@@ -2644,7 +3029,7 @@
     ],
     "Total Output": "1600g",
     "On2Cook Cooking Time": "14:30",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "KASHMIRI PULAO",
@@ -2683,7 +3068,7 @@
     ],
     "Total Output": "2400g",
     "On2Cook Cooking Time": "14:30",
-    "Normal Cooking Time": ". Normal Cooking: 45 mins."
+    "Normal Cooking Time": ".   45 mins."
   },
   {
     "Recipe Name": "KORI GASSI 2200 G",
@@ -2716,7 +3101,7 @@
     ],
     "Total Output": "2200g",
     "On2Cook Cooking Time": "14:10",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "PONGAL",
@@ -2746,7 +3131,7 @@
     ],
     "Total Output": "2000g",
     "On2Cook Cooking Time": "14:10",
-    "Normal Cooking Time": ". Normal Cooking: 60 mins."
+    "Normal Cooking Time": ".   60 mins."
   },
   {
     "Recipe Name": "ROSE SAUCE PASTA",
@@ -2777,7 +3162,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "14:10",
-    "Normal Cooking Time": ". Normal Cooking: 42:30 mins."
+    "Normal Cooking Time": ".   42:30 mins."
   },
   {
     "Recipe Name": "ALFREDO PASTA",
@@ -2808,7 +3193,7 @@
     ],
     "Total Output": "750g",
     "On2Cook Cooking Time": "11:40",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "VIETNAMESE SOUP",
@@ -2847,7 +3232,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "13:30",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "BASIL PENNE PESTO PASTA",
@@ -2883,7 +3268,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "13:30",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "ANDHRA CHICKEN RASSA",
@@ -2915,7 +3300,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "13:20",
-    "Normal Cooking Time": ". Normal Cooking: 45 mins."
+    "Normal Cooking Time": ".   45 mins."
   },
   {
     "Recipe Name": "PAELLA RICE",
@@ -2972,7 +3357,7 @@
     ],
     "Total Output": "1800g",
     "On2Cook Cooking Time": "13:00",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "GHEE RICE",
@@ -2997,7 +3382,7 @@
     ],
     "Total Output": "2000g",
     "On2Cook Cooking Time": "13:00",
-    "Normal Cooking Time": ". Normal Cooking: 45 mins."
+    "Normal Cooking Time": ".   45 mins."
   },
   {
     "Recipe Name": "ANDHRA CHICKEN CURRY",
@@ -3027,7 +3412,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "12:55",
-    "Normal Cooking Time": ". Normal Cooking: 45 mins."
+    "Normal Cooking Time": ".   45 mins."
   },
   {
     "Recipe Name": "XACUTI CHICKEN",
@@ -3073,7 +3458,7 @@
     ],
     "Total Output": "1600g",
     "On2Cook Cooking Time": "12:40",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "ANDHRA MUSHROOM CURRY",
@@ -3103,7 +3488,7 @@
     ],
     "Total Output": "800g",
     "On2Cook Cooking Time": "12:40",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "ANDHRA PANEER CURRY",
@@ -3132,7 +3517,7 @@
     ],
     "Total Output": "800g",
     "On2Cook Cooking Time": "12:40",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "PAO BHAJI MASALA",
@@ -3142,7 +3527,35 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Pao-Bhaji-Masala.png",
-    "PopupImage": "popup_images/PAO BHAJI MASALA.png"
+    "PopupImage": "popup_images/PAO BHAJI MASALA.png",
+    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Ingredients": [
+      "150ml Oil",
+      "350 g Chopped Vegetables",
+      "100 g Onion",
+      "200 g Tomato",
+      "50 g Capsicum",
+      "103g Powdered Masala Mix",
+      "25 g Everest Pav Bhaji Masala",
+      "5 g Turmeric Powder",
+      "8 g Red Chilli Powder",
+      "10 g Kashmiri Red Chilli Powder",
+      "15 g Salt",
+      "40 g Ginger Garlic Green Chilli Paste",
+      "800g Grated Vegetables",
+      "500 g Potato",
+      "100 g Cauliflower",
+      "100 g Carrot",
+      "100 g Green Peas",
+      "15g Sugar",
+      "150g Butter",
+      "30 g Coriander Leaves",
+      "20 ml Lemon Juice",
+      "500ml Water [Auto]"
+    ],
+    "Total Output": "1500g",
+    "On2Cook Cooking Time": "15:40",
+    "Normal Cooking Time": "90 mins."
   },
   {
     "Recipe Name": "PEAS PULAO",
@@ -3167,7 +3580,7 @@
     ],
     "Total Output": "1900g",
     "On2Cook Cooking Time": "12:10",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "BROWN ONION RICE",
@@ -3195,7 +3608,7 @@
     ],
     "Total Output": "1900g",
     "On2Cook Cooking Time": "12:40",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "CHOLE MASALA 1 KG",
@@ -3205,7 +3618,29 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Chole-Masala-1-Kg.png",
-    "PopupImage": "popup_images/CHOLE MASALA 1 KG.png"
+    "PopupImage": "popup_images/CHOLE MASALA 1 KG.png",
+    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "20g Ghee",
+      "7g Whole Spices",
+      "315g Mix Vegetables",
+      "250g Onion",
+      "30g Garlic",
+      "15g Ginger",
+      "20 g Green Chilli",
+      "45g Indian Spices",
+      "20g Chole Masala",
+      "3g Turmeric powder",
+      "`0g Kashmiri chilli Powder",
+      "10g Salt",
+      "2g Black Salt",
+      "100 ml Water (Auto 200 g",
+      "Tomate Puree",
+      "600 g Boiled Chale"
+    ],
+    "Total Output": "1000g",
+    "On2Cook Cooking Time": "12:10",
+    "Normal Cooking Time": "40 mins."
   },
   {
     "Recipe Name": "FRY VEG BIRYANI",
@@ -3215,7 +3650,39 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Fry-Veg-Biryani.png",
-    "PopupImage": "popup_images/FRY VEG BIRYANI.png"
+    "PopupImage": "popup_images/FRY VEG BIRYANI.png",
+    "Accessories": "Non Coated Pan, 1 Grill Mesh, 1 Large Non-Stick Mat",
+    "Ingredients": [
+      "120 ml Water",
+      "40g Ghee",
+      "335g Marinated Vegetables",
+      "30 ml Mustard Oil",
+      "30 g Yogurt",
+      "30 g Peas",
+      "5 ml Lemon Juice",
+      "2 g Turmeric Powder",
+      "3g Red Chilli Powder",
+      "3 g Coriander Powder",
+      "3g Cumin Powder",
+      "6 g Salt",
+      "6 g Garam Masala",
+      "20 g Ginger Garlic Paste",
+      "17 g Brown Onion",
+      "Fried Vegetables [60 g Carrot, 60 g Beans, 60 g Cauliflower)",
+      "72 ml Mix Liquid",
+      "40 ml Milk",
+      "6 g Garam Masala",
+      "10 ml Kewra Water",
+      "6 g Salt",
+      "10 ml Rose Water",
+      "Mix Greens: 5g Green Chilli Slit, 10 g Coriander Leaves, 10 g Mint Leaves",
+      "300g Soaked Rice [India Gate Super Basmati)",
+      "10g Brown Onion",
+      "540 ml Water [Auto]"
+    ],
+    "Total Output": "1000g",
+    "On2Cook Cooking Time": "13:00",
+    "Normal Cooking Time": "60 mins."
   },
   {
     "Recipe Name": "JEERA RICE",
@@ -3225,7 +3692,20 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Jeera-Rice.png",
-    "PopupImage": "popup_images/JEERA RICE.png"
+    "PopupImage": "popup_images/JEERA RICE.png",
+    "Accessories": "Coated Pan",
+    "Ingredients": [
+        "60ml Oil",
+        "20g Whole Spices",
+        "15 g Cumin Seeds",
+        "5 g Bay Leaves",
+        "25g Salt",
+        "800g Soaked Rice [India Gate Basmati Super)",
+        "990 ml - Water [Auto]"
+      ],
+    "Total Output": "1900g",
+    "On2Cook Cooking Time": "12:00",
+    "Normal Cooking Time": "25 mins."
   },
   {
     "Recipe Name": "LEMON RICE",
@@ -3251,7 +3731,7 @@
     ],
     "Total Output": "1900g",
     "On2Cook Cooking Time": "12:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "ALOO MATAR RASSA",
@@ -3287,7 +3767,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "11:50",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "TARIWALA KUKKAD",
@@ -3329,7 +3809,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "11:30",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "ALOO RASSAWALA",
@@ -3365,7 +3845,7 @@
     ],
     "Total Output": "850g",
     "On2Cook Cooking Time": "11:30",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "TAMARIND RICE",
@@ -3395,7 +3875,7 @@
     ],
     "Total Output": "1100g",
     "On2Cook Cooking Time": "11:30",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "POTATO FRITTATA",
@@ -3424,7 +3904,7 @@
     ],
     "Total Output": "8 Portions",
     "On2Cook Cooking Time": "09:50",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "ANDHRA CHICKEN FRY",
@@ -3452,7 +3932,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "10:40",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "GAJAR HALWA 500G",
@@ -3481,7 +3961,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "10:40",
-    "Normal Cooking Time": ". Normal Cooking: 45 mins."
+    "Normal Cooking Time": ".   45 mins."
   },
   {
     "Recipe Name": "KALAKAND",
@@ -3503,7 +3983,7 @@
     ],
     "Total Output": "2300g",
     "On2Cook Cooking Time": "10:40",
-    "Normal Cooking Time": ". Normal Cooking: 90 mins."
+    "Normal Cooking Time": ".   90 mins."
   },
   {
     "Recipe Name": "SAFED MURGH",
@@ -3549,7 +4029,7 @@
     ],
     "Total Output": "1500g",
     "On2Cook Cooking Time": "10:30",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "CHICKEN KOSHA",
@@ -3592,7 +4072,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "10:20",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "SICHUAN SAUCE",
@@ -3629,7 +4109,7 @@
     ],
     "Total Output": "1100g",
     "On2Cook Cooking Time": "10:10",
-    "Normal Cooking Time": ". Normal Cooking: 60 mins."
+    "Normal Cooking Time": ".   60 mins."
   },
   {
     "Recipe Name": "RAJMA MASALA",
@@ -3662,7 +4142,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "10:00",
-    "Normal Cooking Time": ". Normal Cooking: 45 mins."
+    "Normal Cooking Time": ".   45 mins."
   },
   {
     "Recipe Name": "CHICKEN SAOJI",
@@ -3705,7 +4185,7 @@
     ],
     "Total Output": "900g",
     "On2Cook Cooking Time": "9:40",
-    "Normal Cooking Time": "Normal Cooking: 45 mins"
+    "Normal Cooking Time": "  45 mins"
   },
   {
     "Recipe Name": "MUSHROOM SAOJI",
@@ -3748,7 +4228,7 @@
     ],
     "Total Output": "990g",
     "On2Cook Cooking Time": "9:40",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "MUGHLAI CHICKEN",
@@ -3791,7 +4271,7 @@
     ],
     "Total Output": "800g",
     "On2Cook Cooking Time": "9:00",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "CHICKEN GHEE ROAST",
@@ -3838,7 +4318,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "8:50",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "KESAR PHIRNI",
@@ -3863,7 +4343,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "5:40",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "PANEER SAOJI",
@@ -3906,7 +4386,7 @@
     ],
     "Total Output": "900g",
     "On2Cook Cooking Time": "8:40",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "MOONG DAL HALWA 1000G",
@@ -3916,7 +4396,20 @@
     "Category": "DESSERTS",
     "Cooking Time": 0,
     "Image": "images/Moong-Dal-Halwa-1000g.png",
-    "PopupImage": "popup_images/MOONG DAL HALWA 1000G.png"
+    "PopupImage": "popup_images/MOONG DAL HALWA 1000G.png",
+    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Ingredients": [
+      "200g Ghee",
+      "200 g Moong Dal Mix",
+      "180 g Moong Dal Powder",
+      "20 g Suji",
+      "200 g Sugar",
+      "5 g Green Cardamom Powder",
+      "400ml Water [Auto]"
+    ],
+    "Total Output": "1000g",
+    "On2Cook Cooking Time": "08:30",
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "MALAI KOFTA",
@@ -3958,7 +4451,7 @@
     ],
     "Total Output": "550g",
     "On2Cook Cooking Time": "8:30",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "ALOO POSTO",
@@ -3986,7 +4479,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "8:30",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "NIZAMI DUM CHICKEN",
@@ -4027,7 +4520,7 @@
     ],
     "Total Output": "900g",
     "On2Cook Cooking Time": "8:20",
-    "Normal Cooking Time": ". Normal Cooking: 45 mins."
+    "Normal Cooking Time": ".   45 mins."
   },
   {
     "Recipe Name": "CHICKEN CHENGAZI",
@@ -4071,7 +4564,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "8:20",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "CHICKEN KORMA",
@@ -4107,7 +4600,7 @@
     ],
     "Total Output": "800g",
     "On2Cook Cooking Time": "8:20",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "CHENNAI CHICKEN MASALA",
@@ -4147,7 +4640,7 @@
     ],
     "Total Output": "750g",
     "On2Cook Cooking Time": "8:10",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "KERALA FISH CURRY",
@@ -4182,7 +4675,7 @@
     ],
     "Total Output": "850g",
     "On2Cook Cooking Time": "9:10",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "SAFED CHICKEN MAKHANI",
@@ -4192,7 +4685,41 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Safed-Chicken-Makhani.png",
-    "PopupImage": "popup_images/SAFED CHICKEN MAKHANI.png"
+    "PopupImage": "popup_images/SAFED CHICKEN MAKHANI.png",
+      "Accessories" : "Coated Pan, Silicone Stirrer",
+      "Ingredients":[
+        "30 g Oil & 30 g Ghee",
+        "426g Raw Gravy Mix",
+        "250 g Raw Green Tomato",
+        "30 g Onion",
+        "30 g Curd",
+        "8 g Ginger",
+        "16 g Garlic",
+        "8g Green Chilli",
+        "40 g Cashew",
+        "20 g Melon Seeds",
+        "15 g Khoya",
+        "5 g Salt",
+        "2 g White Pepper Powder",
+        "2g Garam Masala",
+        "121g Cream Mix",
+        "30 g Butter",
+        "50 g Cream",
+        "30 g Milk",
+        "2g Cardamom Powder",
+        "1g Kasuri Methi Powder",
+        "8 g Sugar",
+        "413g Marinated Chicken",
+        "300 g Chicken Curry Cut",
+        "60 g Hung Curd",
+        "20 g Ginger Garlic Green Chilli Paste",
+        "3g Salt",
+        "30 g Oil",
+        "150ml Water (Auto)"
+      ],
+    "Total Output": "600g",
+    "On2Cook Cooking Time": "8:10",
+    "Normal Cooking Time": "45 mins."
   },
   {
     "Recipe Name": "CHICKEN TIKKA MASALA",
@@ -4245,7 +4772,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "8:10",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "PANEER TIKKA MASALA",
@@ -4296,7 +4823,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "8:10",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "GAJAR KA HALWA",
@@ -4321,7 +4848,7 @@
     ],
     "Total Output": "425g",
     "On2Cook Cooking Time": "7:45",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "GOAN ALOO BHAJI",
@@ -4351,7 +4878,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "07:45",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "CHICKEN CURRY",
@@ -4390,7 +4917,7 @@
     ],
     "Total Output": "780g",
     "On2Cook Cooking Time": "7:40",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "CHICKEN REZALA",
@@ -4431,7 +4958,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "7:40",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "KORI GASSI 650 G",
@@ -4465,7 +4992,7 @@
     ],
     "Total Output": "650g",
     "On2Cook Cooking Time": "7:40",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "IDLI SHAKSHUKA",
@@ -4494,7 +5021,7 @@
     ],
     "Total Output": "3 Portions",
     "On2Cook Cooking Time": "7:40",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "BUTTER CHICKEN",
@@ -4535,7 +5062,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "7:30",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "PRAWNS CURRY",
@@ -4576,7 +5103,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "7:50",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "BHINDI MASALA",
@@ -4610,7 +5137,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "7:30",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "KADAI PANEER",
@@ -4658,7 +5185,7 @@
     ],
     "Total Output": "620g",
     "On2Cook Cooking Time": "7:30",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "PUNJABI KADHI",
@@ -4697,7 +5224,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "7:30",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "SHIMLA MIRCH ALOO",
@@ -4729,7 +5256,7 @@
     ],
     "Total Output": "550g",
     "On2Cook Cooking Time": "7:30",
-    "Normal Cooking Time": ". Normal Cooking: 22 mins."
+    "Normal Cooking Time": ".   22 mins."
   },
   {
     "Recipe Name": "MIX VEG COCONUT CURRY",
@@ -4739,7 +5266,11 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Mix-Veg-Coconut-Curry.png",
-    "PopupImage": "popup_images/MIX VEG COCONUT CURRY.png"
+    "PopupImage": "popup_images/MIX VEG COCONUT CURRY.png",
+    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Total Output": "1100g",
+    "On2Cook Cooking Time": "7:30",
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "ALOO GOBI",
@@ -4771,7 +5302,7 @@
     ],
     "Total Output": "625g",
     "On2Cook Cooking Time": "7:40",
-    "Normal Cooking Time": ". Normal Cooking: 22 mins."
+    "Normal Cooking Time": ".   22 mins."
   },
   {
     "Recipe Name": "BREAKFAST EGG PIE",
@@ -4799,7 +5330,7 @@
     ],
     "Total Output": "8pcs",
     "On2Cook Cooking Time": "7:20",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "VEG DIWANI HANDI",
@@ -4843,7 +5374,7 @@
     ],
     "Total Output": "550g",
     "On2Cook Cooking Time": "7:20",
-    "Normal Cooking Time": ". Normal Cooking: 45 mins."
+    "Normal Cooking Time": ".   45 mins."
   },
   {
     "Recipe Name": "SAFED PANEER MAKHANI",
@@ -4882,7 +5413,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "7:10",
-    "Normal Cooking Time": ". Normal Cooking: 45 mins."
+    "Normal Cooking Time": ".   45 mins."
   },
   {
     "Recipe Name": "VEGGIE MAC & CHEESE",
@@ -4917,7 +5448,7 @@
     ],
     "Total Output": "650g",
     "On2Cook Cooking Time": "7:05",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "APPLE CINNAMON CAKE",
@@ -4948,7 +5479,7 @@
     ],
     "Total Output": "770g",
     "On2Cook Cooking Time": "7:00",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "BANANA CARAMEL CAKE",
@@ -4976,7 +5507,7 @@
     ],
     "Total Output": "750g",
     "On2Cook Cooking Time": "7:00",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "CARAMEL CAKE",
@@ -5008,7 +5539,7 @@
     ],
     "Total Output": "650g",
     "On2Cook Cooking Time": "7:00",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "ESPAGNOLE SAUCE",
@@ -5037,7 +5568,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "7:00",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "CHOCOLATE SPONGE",
@@ -5057,7 +5588,7 @@
     ],
     "Total Output": "550g",
     "On2Cook Cooking Time": "6:00",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "CHICKEN PALLIPALAYAM",
@@ -5067,7 +5598,10 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Chicken-Pallipalayam.png",
-    "PopupImage": "popup_images/CHICKEN PALLIPALAYAM.png"
+    "PopupImage": "popup_images/CHICKEN PALLIPALAYAM.png",
+    "Total Output": "650g",
+    "On2Cook Cooking Time": "7:00",
+    "Normal Cooking Time": "25 mins."
   },
   {
     "Recipe Name": "CACIO E PEPE CHICKEN",
@@ -5096,7 +5630,7 @@
     ],
     "Total Output": "650g",
     "On2Cook Cooking Time": "6:40",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "MATAR PANEER",
@@ -5130,7 +5664,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "6:40",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "PEPPER CHICKEN",
@@ -5162,7 +5696,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "6:40",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "CARROT CAKE",
@@ -5185,7 +5719,7 @@
     ],
     "Total Output": "750g",
     "On2Cook Cooking Time": "6:30",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "EGG SHAKSHUKA",
@@ -5213,7 +5747,7 @@
     ],
     "Total Output": "3 Portions",
     "On2Cook Cooking Time": "7:30",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "CHICKEN STROGANOFF",
@@ -5252,7 +5786,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "6:30",
-    "Normal Cooking Time": "Normal Cooking: 25 mins"
+    "Normal Cooking Time": "  25 mins"
   },
   {
     "Recipe Name": "KAJU MASALA",
@@ -5291,7 +5825,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "6:30",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "SUJI HALWA",
@@ -5317,7 +5851,7 @@
     ],
     "Total Output": "2300g",
     "On2Cook Cooking Time": "6:30",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "CABBAGE PORIYAL",
@@ -5345,7 +5879,7 @@
     ],
     "Total Output": "480g",
     "On2Cook Cooking Time": "6:30",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "PINDI CHOLE",
@@ -5376,7 +5910,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "06:30",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "STEAMED IDLI",
@@ -5398,7 +5932,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "06:30",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "BHARELA MIRCHI",
@@ -5425,7 +5959,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "6:30",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "VEG JAIPURI",
@@ -5470,7 +6004,7 @@
     ],
     "Total Output": "650g",
     "On2Cook Cooking Time": "6:30",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "DHABA MUTTON",
@@ -5512,7 +6046,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "6:10",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "MUSHROOM MAPPAS",
@@ -5544,7 +6078,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "6:10",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "CLASSIC VELOUTE SAUCE",
@@ -5564,7 +6098,7 @@
     ],
     "Total Output": "1000ml",
     "On2Cook Cooking Time": "6:10",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "MALABAR PRAWN",
@@ -5574,7 +6108,11 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Malabar-Prawn.png",
-    "PopupImage": "popup_images/MALABAR PRAWN.png"
+    "PopupImage": "popup_images/MALABAR PRAWN.png",
+    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Total Output": "700g",
+    "On2Cook Cooking Time": "6:10",
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "BANANA WALNUT CAKE",
@@ -5598,7 +6136,7 @@
     ],
     "Total Output": "650g",
     "On2Cook Cooking Time": "6:00",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "MASALA ALOO",
@@ -5629,7 +6167,7 @@
     ],
     "Total Output": "250g",
     "On2Cook Cooking Time": "5:30",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "BOMBAY KEEMA MASALA",
@@ -5673,7 +6211,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "5:45",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "ASIAN CHILLI GARLIC FISH",
@@ -5712,7 +6250,7 @@
     ],
     "Total Output": "420g",
     "On2Cook Cooking Time": "5:40",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "CACIO E PEPE MUSHROOM",
@@ -5741,7 +6279,7 @@
     ],
     "Total Output": "650g",
     "On2Cook Cooking Time": "5:40",
-    "Normal Cooking Time": ". Normal Cooking: 35 mins."
+    "Normal Cooking Time": ".   35 mins."
   },
   {
     "Recipe Name": "PANEER JALFREZI",
@@ -5778,7 +6316,7 @@
     ],
     "Total Output": "650g",
     "On2Cook Cooking Time": "5:40",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "MAC AND CHEESE (Maggi Premix)",
@@ -5799,7 +6337,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "5:30",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "PANEER MAKHANI",
@@ -5809,7 +6347,29 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Paneer-Makhani.png",
-    "PopupImage": "popup_images/PANEER MAKHANI.png"
+    "PopupImage": "popup_images/PANEER MAKHANI.png",
+    "Accessories" : "Non Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "20ml Oil",
+      "20g Butter",
+      "325g Raw Gravy Mix",
+      "250 g Tomato",
+      "40 g Cashews",
+      "20 g Melon Seeds",
+      "10 g Kashmiri Chilli Powder",
+      "5 g Salt",
+      "150 ml Water (Auto)",
+      "12g Dry Spice Mix",
+      "1g Kasuri Methi",
+      "1g Green Cardamom Powder",
+      "10 g Sugar",
+      "150g Diced Paneer",
+      "30g Cream",
+      "20g Ghee"
+    ],
+    "Total Output": "600g",
+    "On2Cook Cooking Time": "5:40",
+    "Normal Cooking Time": "35 mins."
   },
   {
     "Recipe Name": "RED MACRONI PASTA (Maggi Premix)",
@@ -5819,7 +6379,19 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Red-Macroni-Pasta-(maggi-Premix).png",
-    "PopupImage": "popup_images/RED MACRONI PASTA (Maggi Premix).png"
+    "PopupImage": "popup_images/RED MACRONI PASTA (Maggi Premix).png",
+    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "30g Butter",
+      "100g Macaroni",
+      "300 ml Water",
+      "300g Maggi Red Sauce Mix",
+      "50 g Maggi Red Sauce Pre Mix",
+      "250 ml Milk"
+    ],
+    "Total Output": "500g",
+    "On2Cook Cooking Time": "5:30",
+    "Normal Cooking Time": "15 mins."
   },
   {
     "Recipe Name": "PRAWNS MAPPAS",
@@ -5829,7 +6401,29 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Prawns-Mappas.png",
-    "PopupImage": "popup_images/PRAWNS MAPPAS.png"
+    "PopupImage": "popup_images/PRAWNS MAPPAS.png",
+    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Ingredients": [
+      "40 ml Oil",
+      "167g Chopped Vegetables",
+      "5 g Ginger",
+      "10 g Garlic",
+      "150 g Onion",
+      "2g Curry leaves",
+      "33g Indian Masala Blend",
+      "8 g Coriander Powder",
+      "2 g Cloves",
+      "2 g Cardamom",
+      "5 g Cinnamon Stick",
+      "2 pcs Star Anise",
+      "4g Turmeric Powder",
+      "10 g Salt",
+      "500g Prawns",
+      "500 ml Coconut Milk"
+    ],
+    "Total Output": "500g",
+    "On2Cook Cooking Time": "5:10",
+    "Normal Cooking Time": "20 mins."
   },
   {
     "Recipe Name": "EGG HAKKA NOODLES",
@@ -5859,7 +6453,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "5:10",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "CHICKEN HAKKA NOODLE",
@@ -5869,7 +6463,30 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Chicken-Hakka-Noodle.png",
-    "PopupImage": "popup_images/CHICKEN HAKKA NOODLE.png"
+    "PopupImage": "popup_images/CHICKEN HAKKA NOODLE.png",
+    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Ingredients": [
+      "20ml Oil",
+      "100g Chicken",
+      "185g Mix Vegetables",
+      "10 g Chopped Garlic",
+      "5 g Chopped Ginger",
+      "10 g Sliced Green Chilli",
+      "40 g Sliced Carrot",
+      "40 g Sliced Cabbage",
+      "40 g Sliced Onion",
+      "40 g Sliced Bell Pepper",
+      "404g Mix Sauce & Noodles",
+      "350 g Boiled Noodles",
+      "30 ml Green Chilli Sauce",
+      "1g Salt",
+      "10 ml Light Soya Sauce",
+      "5 ml Vinegar",
+      "8 g Aromat Powder"
+    ],
+     "Total Output": "700g",
+      "On2Cook Cooking Time": "5:10",
+      "Normal Cooking Time": "12 mins."
   },
   {
     "Recipe Name": "CHICKEN CHILLI GARLIC NOODLES",
@@ -5903,7 +6520,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "5:10",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "EGG SCHEZWAN NOODLES",
@@ -5913,7 +6530,29 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Egg-Schezwan-Noodles.png",
-    "PopupImage": "popup_images/EGG SCHEZWAN NOODLES.png"
+    "PopupImage": "popup_images/EGG SCHEZWAN NOODLES.png",
+    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Ingredients": [
+      "20ml Oil",
+      "80g Egg (2 Nos.)",
+      "195g Mix Vegetables",
+      "20 g Chopped Garlic",
+      "5 g Chopped Ginger",
+      "10 g Sliced Green Chilli",
+      "40 g Sliced Carrot",
+      "40 g Sliced Cabbage",
+      "40 g Sliced Onion",
+      "40 g Sliced Bell Pepper",
+      "430g Mix Sauce & Noodles",
+      "350 g Boiled Noodles",
+      "60 ml Schezwan Sauce",
+      "10 ml Light Soya Sauce",
+      "5 ml Vinegar",
+      "5 g Aromat Powder"
+    ],
+    "Total Output": "700g",
+    "On2Cook Cooking Time": "5:10",
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "CHICKEN SCHEZWAN NOODLE",
@@ -5923,7 +6562,31 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Chicken-Schezwan-Noodle.png",
-    "PopupImage": "popup_images/CHICKEN SCHEZWAN NOODLE.png"
+    "PopupImage": "popup_images/CHICKEN SCHEZWAN NOODLE.png",
+    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Ingredients": [
+      "20ml OiL",
+      "100g Chicken",
+      "197g Mix Vegetables",
+      "20 g Chopped Garlic",
+      "5 g Chopped Ginger",
+      "10 g Sliced Green Chilli",
+      "2 g Chilli Flakes",
+      "40 g Sliced Carrot",
+      "40 g Sliced Cabbage",
+      "40 g Sliced Onion",
+      "40 g Sliced Bell Pepper",
+      "430g Mix Sauce & Noodles",
+      "350 g Boiled Noodles",
+      "60 ml Schezwan Sauce",
+      "10 ml Light Soya Sauce",
+      "5 ml Vinegar",
+      "5 g Aromat Powder"
+    ],
+    "Total Output": "700g",
+    "On2Cook Cooking Time": "5:10",
+    "Normal Cooking Time": "12 mins."
+
   },
   {
     "Recipe Name": "EGG CHILLI GARLIC NOODLES",
@@ -5957,7 +6620,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "5:10",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "AFGHANI MUTTON",
@@ -6001,17 +6664,29 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "5:10",
-    "Normal Cooking Time": "Normal Cooking: 40 mins"
+    "Normal Cooking Time": "  40 mins"
   },
   {
-    "Recipe Name": "JEERA  ALOO",
+    "Recipe Name": "JEERA ALOO",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "SAUTEING",
     "Cuisine": "INDIAN",
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Jeera-Aloo.png",
-    "PopupImage": "popup_images/JEERA  ALOO.png"
+    "PopupImage": "popup_images/JEERA  ALOO.png",
+    "Accessories": "Coated Pan, Stirrer",
+    "Ingredients": [
+      "30ml Cumin seeds",
+      "250g Diced Potatoes",
+      "30 ml Water",
+      "4g Salt",
+      "2 g Turmeric Powder",
+      "2g Coriander Leaves"
+    ],
+    "Total Output": "200g",
+    "On2Cook Cooking Time": "5:00",
+    "Normal Cooking Time": "20 mins."
   },
   {
     "Recipe Name": "BROCCOLI CHEESE",
@@ -6040,7 +6715,7 @@
     ],
     "Total Output": "800g",
     "On2Cook Cooking Time": "5:05",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "BRIGADEIRO",
@@ -6060,7 +6735,7 @@
     ],
     "Total Output": "900g",
     "On2Cook Cooking Time": "5:00",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "CHEESE MAGGI",
@@ -6081,7 +6756,7 @@
     ],
     "Total Output": "485g",
     "On2Cook Cooking Time": "5:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "SHAHI DAHI HALWA",
@@ -6108,7 +6783,7 @@
     ],
     "Total Output": "850g",
     "On2Cook Cooking Time": "4:50",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "SHAHI PANEER KORMA",
@@ -6149,7 +6824,7 @@
     ],
     "Total Output": "550g",
     "On2Cook Cooking Time": "6:50",
-    "Normal Cooking Time": ". Normal Cooking: 40 mins."
+    "Normal Cooking Time": ".   40 mins."
   },
   {
     "Recipe Name": "ASIAN CHILLI GARLIC VEGGIES",
@@ -6185,7 +6860,7 @@
     ],
     "Total Output": "420g",
     "On2Cook Cooking Time": "",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "VEG SCHEZWAN NOODLES",
@@ -6216,7 +6891,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "4:40",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "VEG CHILI GARLIC NOODLES",
@@ -6226,7 +6901,29 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Veg-Chili-Garlic-Noodles.png",
-    "PopupImage": "popup_images/VEG CHILI GARLIC NOODLES.png"
+    "PopupImage": "popup_images/VEG CHILI GARLIC NOODLES.png",
+    "Accessories" : "Coated Pan, Noodle Stirrer",
+    "Ingredients":[
+      "20 ml Oil",
+      "195g Chopped Vegetables",
+      "20 g Chopped Garlic",
+      "5 g Chopped Ginger",
+      "10 g Sliced Green Chilli",
+      "40 g Sliced Carrot",
+      "40 g Sliced Cabbage",
+      "40 g Sliced Onion",
+      "40 g Sliced Bell Pepper",
+      "410g Mix Sauce & Noodles",
+      "40 ml Schezwan Sauce",
+      "10 ml Light Soya Sauce",
+      "5 ml Vinegar",
+      "5 g Aromat Powder",
+      "350 g Boiled Noodles",
+      "10g Garnish Fried Garlic"
+    ],
+    "Total Output": "700g",
+    "On2Cook Cooking Time": "4:40",
+    "Normal Cooking Time": "12 mins."
   },
   {
     "Recipe Name": "VEG HAKKA NOODLES",
@@ -6259,7 +6956,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "4:40",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "GUJARATI DAL",
@@ -6294,7 +6991,7 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "4:40",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "EGG BHURJI",
@@ -6326,7 +7023,7 @@
     ],
     "Total Output": "250g",
     "On2Cook Cooking Time": "4:35",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "FRIED CHICKEN DRUMSTICKS",
@@ -6344,7 +7041,7 @@
     ],
     "Total Output": "180g",
     "On2Cook Cooking Time": "4:30",
-    "Normal Cooking Time": ". Normal Cooking: 6 mins."
+    "Normal Cooking Time": ".   6 mins."
   },
   {
     "Recipe Name": "ASIAN CHILLI GARLIC CHICKEN",
@@ -6381,7 +7078,7 @@
     ],
     "Total Output": "420g",
     "On2Cook Cooking Time": "5:40",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "ASIAN STIR FRIED FISH",
@@ -6419,7 +7116,7 @@
     ],
     "Total Output": "420g",
     "On2Cook Cooking Time": "5:50",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "ASIAN CHILLI GARLIC PRAWNS",
@@ -6458,7 +7155,7 @@
     ],
     "Total Output": "420g",
     "On2Cook Cooking Time": "5:40",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "ASIAN STIR FRIED PRAWN",
@@ -6468,7 +7165,36 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Asian-Stir-Fried-Prawn.png",
-    "PopupImage": "popup_images/ASIAN STIR FRIED PRAWN.png"
+    "PopupImage": "popup_images/ASIAN STIR FRIED PRAWN.png",
+    "Ingredients": [
+      "30 ml Oil",
+      "45g Chopped Vegetables",
+      "10 g Ginger",
+      "30 g Garlic",
+      "5 g Green Chilli",
+      "300 g Mix Vegetables & Prawns",
+      "25 g Baby Corn",
+      "25 g Broccoli",
+      "25 g Zucchini",
+      "25 g Mushroom",
+      "25 g Mix Bell Pepper",
+      "25 g Carrot",
+      "150 g Prawns",
+      "18g Sauce Mix",
+      "5 g Aromat Powder",
+      "2 g Salt",
+      "5 ml Soy Sauce",
+      "4 ml Vinegar",
+      "2 g Sugar",
+      "150 ml Water (Auto)",
+      "22 ml Slurry",
+      "2g Corn Flour",
+      "20 ml Water"
+    ],
+    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Total Output": "420g",
+    "On2Cook Cooking Time": "5:50",
+    "Normal Cooking Time": "10 mins."
   },
   {
     "Recipe Name": "THAI CHICKEN RED CURRY",
@@ -6501,7 +7227,7 @@
     ],
     "Total Output": "750g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "THAI CHICKEN GREEN CURRY",
@@ -6534,7 +7260,7 @@
     ],
     "Total Output": "750g",
     "On2Cook Cooking Time": "4:30",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "ASIAN STIR FRY CHICKEN",
@@ -6572,7 +7298,7 @@
     ],
     "Total Output": "420g",
     "On2Cook Cooking Time": "4:30",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "MUTTON ROGAN",
@@ -6602,7 +7328,7 @@
     ],
     "Total Output": "1000g",
     "On2Cook Cooking Time": "4:30",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "BESAN LADOO",
@@ -6623,7 +7349,7 @@
     ],
     "Total Output": "640g",
     "On2Cook Cooking Time": "4:30",
-    "Normal Cooking Time": ". Normal Cooking: 18 mins."
+    "Normal Cooking Time": ".   18 mins."
   },
   {
     "Recipe Name": "GINGER TEA",
@@ -6644,7 +7370,7 @@
     ],
     "Total Output": "200ml",
     "On2Cook Cooking Time": "04:30",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "ASIAN STIR FRIED VEGETABLES",
@@ -6682,7 +7408,7 @@
     ],
     "Total Output": "420g",
     "On2Cook Cooking Time": "5:50",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "HOT & SOUR SOUP",
@@ -6722,7 +7448,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "4:30",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "MANCHOW SOUP",
@@ -6758,7 +7484,7 @@
     ],
     "Total Output": "700g",
     "On2Cook Cooking Time": "4:30",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "CORIANDER CHICKEN",
@@ -6786,7 +7512,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "4:30",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "RAVA UPMA",
@@ -6817,7 +7543,7 @@
     ],
     "Total Output": "300g",
     "On2Cook Cooking Time": "4:20",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "STUFFED GRILLED CHICKEN",
@@ -6846,7 +7572,7 @@
     ],
     "Total Output": "190g",
     "On2Cook Cooking Time": "4:15",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "CHICKEN SWEET CORN SOUP",
@@ -6887,7 +7613,7 @@
     ],
     "Total Output": "1100g",
     "On2Cook Cooking Time": "4:10",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "CHICKEN MANCHURIAN GRAVY",
@@ -6927,7 +7653,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "4:10",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "MUGHLAI PANEER",
@@ -6958,7 +7684,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "4:10",
-    "Normal Cooking Time": ". Normal Cooking: 50 mins."
+    "Normal Cooking Time": ".   50 mins."
   },
   {
     "Recipe Name": "CHICKEN CHILLI GARLIC FRIED RICE",
@@ -6990,7 +7716,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "CHICKEN SAN DEIGO",
@@ -7000,7 +7726,38 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Chicken-San-Deigo.png",
-    "PopupImage": "popup_images/CHICKEN SAN DEIGO.png"
+    "PopupImage": "popup_images/CHICKEN SAN DEIGO.png",
+    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Ingredients": [
+      "169g Oil & Mix Ingredients",
+      "30 g Olive Oil",
+      "5 g Chopped Garlic",
+      "1 g Chopped Basil Leaves",
+      "1g Black Pepper Powder",
+      "1 g Salt",
+      "1g Oregano",
+      "130 g Diced Chicken",
+      "105g Exotic Vegetables",
+      "15 g Broccoli",
+      "15g Green Capsicum",
+      "15 g Yellow Capsicum",
+      "15 g Red Capsicum",
+      "15 g Green Zucchini",
+      "15 g Yellow Zucchini",
+      "15 g Chopped Garlic",
+      "256g Veloute Sauce & Other Ingredients",
+      "200 g Veloute Sauce",
+      "20 g Cheese",
+      "30 g Cream",
+      "1g Oregano",
+      "1g Chilli Flakes",
+      "1 g Black Pepper Powder",
+      "1 g Salt",
+      "2g Chopped Basil leaves"
+    ],
+    "Total Output": "500g",
+    "On2Cook Cooking Time": "4:00",
+    "Normal Cooking Time": "30 mins."
   },
   {
     "Recipe Name": "STEAMED MOMO",
@@ -7017,7 +7774,7 @@
     ],
     "Total Output": "5 Pcs.",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 60 mins."
+    "Normal Cooking Time": ".   60 mins."
   },
   {
     "Recipe Name": "VEG SWEET CORN SOUP",
@@ -7056,7 +7813,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 60 mins."
+    "Normal Cooking Time": ".   60 mins."
   },
   {
     "Recipe Name": "THAI RED CURRY VEG",
@@ -7091,7 +7848,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "3:00",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "PANEER MANCHURIAN GRAVY",
@@ -7128,7 +7885,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "4:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "CHICKEN MANCHURIAN DRY",
@@ -7167,7 +7924,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:50",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "VEG MANCHURIAN DRY",
@@ -7205,7 +7962,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:50",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "PANEER MANCHURIAN DRY",
@@ -7243,7 +8000,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:50",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "GOBI MANCHURIAN DRY",
@@ -7282,7 +8039,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "03:50",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "CHICKEN LEMON CORIANDER SOUP",
@@ -7320,7 +8077,7 @@
     ],
     "Total Output": "700ml",
     "On2Cook Cooking Time": "3:40",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "VEG LEMON CORIANDER SOUP",
@@ -7357,7 +8114,7 @@
     ],
     "Total Output": "750 ml",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "BARBECUE CHICKEN WINGS",
@@ -7375,7 +8132,7 @@
     ],
     "Total Output": "6pcs",
     "On2Cook Cooking Time": "3:20",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "CHICKEN TIKKA",
@@ -7398,7 +8155,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "HOISIN CHICKEN STEAM BUNS",
@@ -7408,7 +8165,32 @@
     "Category": "STARTERS",
     "Cooking Time": 0,
     "Image": "images/Hoisin-Chicken-Steam-Buns.png",
-    "PopupImage": "popup_images/HOISIN CHICKEN STEAM BUNS.png"
+    "PopupImage": "popup_images/HOISIN CHICKEN STEAM BUNS.png",
+    "Accessories": "2 Grill Mesh, Non Coated Pan",
+    "Ingredients": [
+      "680g Dough",
+      "400 g All Purpose Flour",
+      "8g Dry Yeast",
+      "4 g Sugar",
+      "3g Salt",
+      "25 ml Oil",
+      "240 ml Water",
+      "360g Chicken Filling",
+      "280 g Chopped Chicken Thigh Boneless",
+      "4g Salt",
+      "3g Aromat",
+      "30g Chopped Onion",
+      "15 g Hoisin Sauce",
+      "10g Chopped Garlic",
+      "3g Black Pepper Powder",
+      "45 g Chilli Garlic Sauce",
+      "90g Stuffed Bun",
+      "60 g Dough",
+      "30 g Chicken Filling"
+    ],
+    "Total Output": "3 Pcs",
+    "On2Cook Cooking Time": "3:30",
+    "Normal Cooking Time": " 15 mins."
   },
   {
     "Recipe Name": "EGG FRIED RICE",
@@ -7441,7 +8223,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "3:50",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "JAMA FRIED CHICKEN",
@@ -7472,7 +8254,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 15:00 mins"
+    "Normal Cooking Time": ".   15:00 mins"
   },
   {
     "Recipe Name": "CHILLI CHICKEN GRAVY",
@@ -7510,7 +8292,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "CHICKEN STIR FRY WITH CLEAR SAUCE",
@@ -7542,7 +8324,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "CHICKEN STIR FRY WITH BROWN SAUCE",
@@ -7574,7 +8356,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "EGG SCHEZWAN FRIED RICE",
@@ -7605,7 +8387,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "EGG CHILLI GARLIC FRIED RICE",
@@ -7638,7 +8420,7 @@
     ],
     "Total Output": "450g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "TANDOORI BROCCOLI TIKKA",
@@ -7661,7 +8443,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "TANDOORI GOBI TIKKA",
@@ -7684,7 +8466,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "TANDOORI MUSHROOM TIKKA",
@@ -7707,7 +8489,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "HOISIN MUSHROOM STEAM BUN",
@@ -7742,7 +8524,7 @@
     ],
     "Total Output": "3 Portions",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "CHILLI CHEESE STEAM BUN",
@@ -7777,7 +8559,7 @@
     ],
     "Total Output": "3 Portions",
     "On2Cook Cooking Time": "",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "SCHEZWAN FRIED RICE",
@@ -7810,7 +8592,7 @@
     ],
     "Total Output": "425g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "THAI GREEN PASTE",
@@ -7843,7 +8625,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "THAI RED PASTE",
@@ -7877,7 +8659,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "PANEER CHILLI GRAVY",
@@ -7914,7 +8696,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "VEGETABLE STIR FRIED CLEAR SAUCE",
@@ -7924,7 +8706,29 @@
     "Category": "BASE SAUCE",
     "Cooking Time": 0,
     "Image": "images/Vegetable-Stir-Fried-Clear-Sauce.png",
-    "PopupImage": "popup_images/VEGETABLE STIR FRIED CLEAR SAUCE.png"
+    "PopupImage": "popup_images/VEGETABLE STIR FRIED CLEAR SAUCE.png",
+    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Ingredients": [
+      "15ml Oil",
+      "133g Mix Chopped Vegetables",
+      "5 g Garlic",
+      "5 g Ginger",
+      "3 g Green Chilli",
+      "20 g Onion",
+      "20 g Broccoli",
+      "20 g Yellow Zucchini",
+      "20 g Baby Corn",
+      "20 g Carrot",
+      "20 g Mushroom",
+      "293g Mix Sauce",
+      "250 ml Clear Stir Fried Sauce",
+      "10 ml Dark Soy Sauce",
+      "30 ml Sichuan Sauce",
+      "3g Aromat"
+    ],
+    "Total Output": "400g",
+    "On2Cook Cooking Time": "3:30",
+    "Normal Cooking Time": "15 mins."
   },
   {
     "Recipe Name": "VEGETABLE STIR FRIED BROWN SAUCE",
@@ -7934,7 +8738,30 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Vegetable-Stir-Fried-Brown-Sauce.png",
-    "PopupImage": "popup_images/VEGETABLE STIR FRIED BROWN SAUCE.png"
+    "PopupImage": "popup_images/VEGETABLE STIR FRIED BROWN SAUCE.png",
+    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "15ml Oil",
+      "133g Mix Chopped Vegetables",
+      "5 g Garlic",
+      "5 g Ginger",
+      "3 g Green Chilli",
+      "20 g Onion",
+      "20 g Broccoli",
+      "20 g Yellow Zucchini",
+      "20 g Baby Corn",
+      "20 g Carrot",
+      "20 g Mushroom",
+      "293g Mix Sauce",
+      "250 ml Brown Stir Fried Sauce",
+      "10 ml Dark Soy Sauce",
+      "30 ml Sichuan Sauce",
+      "3g Aromat",
+      "100 ml Water [Auto]"
+    ],
+    "Total Output": "400g",
+    "On2Cook Cooking Time": "3:30",
+    "Normal Cooking Time": "15 mins."
   },
   {
     "Recipe Name": "ROASTED CHICKEN",
@@ -7962,7 +8789,7 @@
     ],
     "Total Output": "2 Pcs.",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "CHICKEN LOLLIPOP",
@@ -8000,7 +8827,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "CARROT PORIYAL",
@@ -8033,7 +8860,7 @@
     ],
     "Total Output": "300g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "VEG FRIED RICE",
@@ -8067,7 +8894,7 @@
     ],
     "Total Output": "425g",
     "On2Cook Cooking Time": "3:10",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "HONEY CHILLI CHICKEN",
@@ -8106,7 +8933,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:20",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "HONEY CHILLI POTATO",
@@ -8146,7 +8973,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:20",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "GOBI MANCHURIAN GRAVY",
@@ -8185,7 +9012,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:20",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "MUSHROOM CHILLI GRAVY",
@@ -8219,7 +9046,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "3:20",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "BROWN HERB RICE",
@@ -8249,7 +9076,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "3:15",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "PEPPER QUINOA",
@@ -8278,7 +9105,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "3:15",
-    "Normal Cooking Time": ". Normal Cooking: 25 mins."
+    "Normal Cooking Time": ".   25 mins."
   },
   {
     "Recipe Name": "CHILLI CHICKEN DRY",
@@ -8315,7 +9142,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:10",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "TOM KHA SOUP",
@@ -8349,7 +9176,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "3:10",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
+    "Normal Cooking Time": ".   30 mins."
   },
   {
     "Recipe Name": "PANEER CHILI  DRY",
@@ -8359,7 +9186,33 @@
     "Category": "STARTERS",
     "Cooking Time": 0,
     "Image": "images/Paneer-Chili-Dry.png",
-    "PopupImage": "popup_images/PANEER CHILI  DRY.png"
+    "PopupImage": "popup_images/PANEER CHILI  DRY.png",
+    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Ingredients": [
+      "20ml Oil",
+      "15g Chopped Vegetables",
+      "10 g Garlic",
+      "5 g Ginger",
+      "130g Mixed Vegetables",
+      "60 g Onion",
+      "60 g Capsicum",
+      "10 g Green Chilli",
+      "52g Mixed Sauce",
+      "35 g Schezwan Sauce",
+      "10 g Dark Soy Sauce",
+      "2 g Vinegar",
+      "5 g Ketchup",
+      "60 ml Water (Auto)",
+      "25g Cornflour Slurry",
+      "5 g Corn Flour",
+      "20 ml Water",
+      "180g Chinese Fried Paneer",
+      "5 g Spring Onion",
+      "2 g Fresh Coriander"
+    ],
+    "Total Output": "350g",
+    "On2Cook Cooking Time": "3:10",
+    "Normal Cooking Time": "12 mins."
   },
   {
     "Recipe Name": "MUSHROOM CHILI DRY",
@@ -8369,7 +9222,33 @@
     "Category": "STARTERS",
     "Cooking Time": 0,
     "Image": "images/Mushroom-Chili-Dry.png",
-    "PopupImage": "popup_images/MUSHROOM CHILI DRY.png"
+    "PopupImage": "popup_images/MUSHROOM CHILI DRY.png",
+    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "20 ml Oil",
+      "15g Chopped Vegetables",
+      "10 g Garlic",
+      "5 g Ginger",
+      "130g Mixed Vegetables",
+      "60 g Onion",
+      "60 g Capsicum",
+      "10 g Green Chilli",
+      "429g Mixed Sauce",
+      "25 g Schezwan Sauce",
+      "10 ml Light Soy Sauce",
+      "2 ml Vinegar",
+      "5 g Tomato Ketchup",
+      "60 ml Water [Auto]",
+      "25g Corn Flour Slurry",
+      "5 g Corn Flour",
+      "20 g Water",
+      "180g Chinese Fried Mushroom",
+      "5 g Spring Onion",
+      "2 g Fresh Coriander"
+    ],
+    "Total Output": "350g",
+    "On2Cook Cooking Time": "3:10",
+    "Normal Cooking Time": "12 mins."
   },
   {
     "Recipe Name": "CHICKEN DARBARI TIKKA",
@@ -8400,7 +9279,7 @@
     ],
     "Total Output": "325g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "VEG CHILI GARLIC FRIED RICE",
@@ -8410,7 +9289,28 @@
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
     "Image": "images/Veg-Chili-Garlic-Fried-Rice.png",
-    "PopupImage": "popup_images/VEG CHILI GARLIC FRIED RICE.png"
+    "PopupImage": "popup_images/VEG CHILI GARLIC FRIED RICE.png",
+    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Ingredients":[
+      "20ml Oil",
+      "97g Chopped Vegetables",
+      "10 g Garlic",
+      "5 g Ginger",
+      "10 g Green Chilli",
+      "2g Chilli Flakes",
+      "30 g Carrot",
+      "20 g Beans",
+      "20 g Capsicum",
+      "360g Rice & Mix Sauce",
+      "300 g Boiled India Gate Basmati Rice",
+      "40 ml Schezwan Sauce",
+      "10 ml Light Soya Sauce",
+      "5 ml Vinegar",
+      "5 g Aromat Powder"
+    ],
+    "Total Output": "450g",
+    "On2Cook Cooking Time": "3:00",
+    "Normal Cooking Time": "12 mins."
   },
   {
     "Recipe Name": "THAI CHILLI BASIL FRIED RICE",
@@ -8444,7 +9344,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "HERB RICE",
@@ -8475,7 +9375,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "3:00",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "GRILL CHICKEN BREAST",
@@ -8485,7 +9385,21 @@
     "Category": "STARTERS",
     "Cooking Time": 0,
     "Image": "images/Grill-Chicken-Breast.png",
-    "PopupImage": "popup_images/GRILL CHICKEN BREAST.png"
+    "PopupImage": "popup_images/GRILL CHICKEN BREAST.png",
+    "Accessories": "Coated Pan",
+    "Ingredients": [
+      "195g Marinated Boneless Chicken Breast",
+      "180 g Chicken Breast Boneless",
+      "10 ml Oil",
+      "2 g Garlic",
+      "1g Salt",
+      "1 g Chilli Flakes",
+      "1g Oregano",
+      "40 ml Water (Auto)"
+    ],
+    "Total Output": "170g",
+    "On2Cook Cooking Time": "2:50",
+    "Normal Cooking Time": "8 mins."
   },
   {
     "Recipe Name": "CHICKEN FAJITA QUESADILLA",
@@ -8515,7 +9429,7 @@
     ],
     "Total Output": "1Portion",
     "On2Cook Cooking Time": "2:50",
-    "Normal Cooking Time": ". Normal Cooking: 8 mins."
+    "Normal Cooking Time": ".   8 mins."
   },
   {
     "Recipe Name": "VEG FAJITA QUESADILLA",
@@ -8546,7 +9460,7 @@
     ],
     "Total Output": "1 Portion",
     "On2Cook Cooking Time": "2:50",
-    "Normal Cooking Time": ". Normal Cooking: 8 mins."
+    "Normal Cooking Time": ".   8 mins."
   },
   {
     "Recipe Name": "CHINESE CLEAR STIR FRY SAUCE",
@@ -8577,7 +9491,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "2:40",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "SCHEZWAN CHICKEN",
@@ -8615,7 +9529,7 @@
     ],
     "Total Output": "300g",
     "On2Cook Cooking Time": "2:40",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "CHINESE BROWN STIR FRY SAUCE",
@@ -8646,7 +9560,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "2:40",
-    "Normal Cooking Time": ". Normal Cooking: 20 mins."
+    "Normal Cooking Time": ".   20 mins."
   },
   {
     "Recipe Name": "SWEET & SOUR SAUCE",
@@ -8676,7 +9590,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "2:40",
-    "Normal Cooking Time": ". Normal Cooking: 60 mins."
+    "Normal Cooking Time": ".   60 mins."
   },
   {
     "Recipe Name": "BURNT GARLIC FRIED RICE",
@@ -8706,7 +9620,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "2:40",
-    "Normal Cooking Time": ". Normal Cooking: 10 mins."
+    "Normal Cooking Time": ".   10 mins."
   },
   {
     "Recipe Name": "FRIED CHICKEN STRIPS",
@@ -8724,7 +9638,7 @@
     ],
     "Total Output": "180g",
     "On2Cook Cooking Time": "2:30",
-    "Normal Cooking Time": ". Normal Cooking: 6 mins."
+    "Normal Cooking Time": ".   6 mins."
   },
   {
     "Recipe Name": "CHICKEN SALT & PEPPERS",
@@ -8734,7 +9648,32 @@
     "Category": "STARTERS",
     "Cooking Time": 0,
     "Image": "images/Chicken-Salt-&-Peppers.png",
-    "PopupImage": "popup_images/CHICKEN SALT & PEPPERS.png"
+    "PopupImage": "popup_images/CHICKEN SALT & PEPPERS.png",
+    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Ingredients": [
+    "30g Oil",
+    "12g Chopped Vegetables",
+    "5 g Garlic",
+    "5 g Ginger",
+    "2 g Green Chilli",
+    "190g Chopped Vegetables",
+    "100 g Onion",
+    "30 g Red Capsicum",
+    "30 g Green Capsicum",
+    "30 g Yellow Capsicum",
+    "420g Fried Chicken & Seasoning",
+    "300 g Chicken",
+    "50 g Corn Starch",
+    "40 g Maida",
+    "20 g Schezwan Sauce",
+    "3 g Salt",
+    "2 g Black Pepper",
+    "3 g Aromat Powder",
+    "2g Chilli Flakes"
+  ],
+    "Total Output": "500g",
+    "On2Cook Cooking Time": "2:30",
+    "Normal Cooking Time": "10 mins."
   },
   {
     "Recipe Name": "FRIED PANEER STRIPS",
@@ -8752,7 +9691,7 @@
     ],
     "Total Output": "180g",
     "On2Cook Cooking Time": "2:30",
-    "Normal Cooking Time": ". Normal Cooking: 6 mins"
+    "Normal Cooking Time": ".   6 mins"
   },
   {
     "Recipe Name": "VEG STIR FRY NOODLES",
@@ -8786,7 +9725,7 @@
     ],
     "Total Output": "500g",
     "On2Cook Cooking Time": "2:30",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "UDON NOODLES",
@@ -8819,7 +9758,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "2:30",
-    "Normal Cooking Time": ". Normal Cooking: 7:30 mins."
+    "Normal Cooking Time": ".   7:30 mins."
   },
   {
     "Recipe Name": "SOBA NOODLES",
@@ -8851,7 +9790,7 @@
     ],
     "Total Output": "400g",
     "On2Cook Cooking Time": "2:30",
-    "Normal Cooking Time": ". Normal Cooking: 7:30 mins."
+    "Normal Cooking Time": ".   7:30 mins."
   },
   {
     "Recipe Name": "ULIWADA",
@@ -8881,7 +9820,7 @@
     ],
     "Total Output": "250g",
     "On2Cook Cooking Time": "2:30",
-    "Normal Cooking Time": ". Normal Cooking: 7:30 mins."
+    "Normal Cooking Time": ".   7:30 mins."
   },
   {
     "Recipe Name": "CRISPY CORN SALT & PEPPPERS",
@@ -8891,7 +9830,29 @@
     "Category": "STARTERS",
     "Cooking Time": 0,
     "Image": "images/Crispy-Corn-Salt-&-Pepppers.png",
-    "PopupImage": "popup_images/CRISPY CORN SALT & PEPPPERS.png"
+    "PopupImage": "popup_images/CRISPY CORN SALT & PEPPPERS.png",
+    "Accessories":"Coated Pan, Silicone Stirrer",
+    "Ingredients": [
+      "30 ml Oil",
+      "12g Chopped Vegetables",
+      "5 g Ginger",
+      "5 g Garlic",
+      "2 g Green Chilli",
+      "190g Chopped Vegetables",
+      "100 g Onion",
+      "30 g Red Capsicum",
+      "30 g Green Capsicum",
+      "30 g Yellow Capsicum",
+      "390g Fried Corn",
+      "10g Seasoning",
+      "3g Salt",
+      "2 g Black Pepper Powder",
+      "3g Aromat Powder",
+      "2 g Chilli Flakes"
+    ],
+    "Total Output": "500g",
+    "On2Cook Cooking Time": "02:20",
+    "Normal Cooking Time": "18 mins."
   },
   {
     "Recipe Name": "SCHEZWAN PANEER DRY",
@@ -8924,7 +9885,7 @@
     ],
     "Total Output": "350g",
     "On2Cook Cooking Time": "2:10",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "BRAZILIAN CHICKEN BALLS",
@@ -8949,7 +9910,7 @@
     ],
     "Total Output": "8pcs",
     "On2Cook Cooking Time": "2:00",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "CHEESE OMELETTE",
@@ -8975,7 +9936,7 @@
     ],
     "Total Output": "200g",
     "On2Cook Cooking Time": "1:30",
-    "Normal Cooking Time": ". Normal Cooking: 7 mins."
+    "Normal Cooking Time": ".   7 mins."
   },
   {
     "Recipe Name": "AMRITSARI FISH",
@@ -9013,7 +9974,7 @@
     ],
     "Total Output": "10 Pcs",
     "On2Cook Cooking Time": "1:30",
-    "Normal Cooking Time": ". Normal Cooking: 6 mins."
+    "Normal Cooking Time": ".   6 mins."
   },
   {
     "Recipe Name": "BARBECUE PANEER STRIP",
@@ -9023,7 +9984,15 @@
     "Category": "STARTERS",
     "Cooking Time": 0,
     "Image": "images/Barbecue-Paneer-Strip.png",
-    "PopupImage": "popup_images/BARBECUE PANEER STRIP.png"
+    "PopupImage": "popup_images/BARBECUE PANEER STRIP.png",
+    "Accessories": "Non Coated Pan, Frying Basket & Stirrer",
+    "Ingredients": [
+      "6 pcs Breaded Paneer Strips",
+      "60g Barbecue Sauce"
+    ],
+    "Total Output": "6 Pcs",
+    "On2Cook Cooking Time": "2:30",
+    "Normal Cooking Time": "12 mins."
   },
   {
     "Recipe Name": "BRAZILIAN CHEESE BALLS",
@@ -9048,7 +10017,7 @@
     ],
     "Total Output": "8pcs",
     "On2Cook Cooking Time": "1:30",
-    "Normal Cooking Time": ". Normal Cooking: 6 mins."
+    "Normal Cooking Time": ".   6 mins."
   },
   {
     "Recipe Name": "FRIED MOMO",
@@ -9065,7 +10034,7 @@
     ],
     "Total Output": "5 Pcs",
     "On2Cook Cooking Time": "1:30",
-    "Normal Cooking Time": ". Normal Cooking: 6 mins."
+    "Normal Cooking Time": ".   6 mins."
   },
   {
     "Recipe Name": "GULAB JAMUN",
@@ -9083,7 +10052,7 @@
     ],
     "Total Output": "550g",
     "On2Cook Cooking Time": "02:55",
-    "Normal Cooking Time": ". Normal Cooking: 15 mins."
+    "Normal Cooking Time": ".   15 mins."
   },
   {
     "Recipe Name": "FROZEN PIZZA",
@@ -9104,7 +10073,7 @@
     ],
     "Total Output": "1 Pizza",
     "On2Cook Cooking Time": "3:30",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "PODI IDLI",
@@ -9128,7 +10097,7 @@
     ],
     "Total Output": "250g",
     "On2Cook Cooking Time": "2:40",
-    "Normal Cooking Time": ". Normal Cooking: 12 mins."
+    "Normal Cooking Time": ".   12 mins."
   },
   {
     "Recipe Name": "KERALA VEGETABLE STEW",
@@ -9166,7 +10135,7 @@
     ],
     "Total Output": "900g",
     "On2Cook Cooking Time": "9:00",
-    "Normal Cooking Time": ". Normal Cooking: 45 mins."
+    "Normal Cooking Time": ".   45 mins."
   },
   {
     "Recipe Name": "KERALA CHICKEN STEW",
@@ -9203,7 +10172,7 @@
     ],
     "Total Output": "1200g",
     "On2Cook Cooking Time": "10:00",
-    "Normal Cooking Time": ". Normal Cooking: 45 mins."
+    "Normal Cooking Time": ".   45 mins."
   },
   {
     "Recipe Name": "VEGETABLE KORMA",
@@ -9247,16 +10216,6 @@
     ],
     "Total Output": "600g",
     "On2Cook Cooking Time": "9:40",
-    "Normal Cooking Time": ". Normal Cooking: 30 mins."
-  },
-  {
-    "Recipe Name": "SEMIYA PAYASAM",
-    "Veg/Non Veg": "",
-    "Cooking Mode": "",
-    "Cuisine": "",
-    "Category": "",
-    "Cooking Time": 0,
-    "Image": "images/Semiya-Payasam.png",
-    "PopupImage": "popup_images/SEMIYA PAYASAM.png"
+    "Normal Cooking Time": ".   30 mins."
   }
 ]
