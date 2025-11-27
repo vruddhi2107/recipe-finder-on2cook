@@ -2,57 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Ingredient-Based Recipe Recommender</title>
+  <title>Smart Recipe Finder</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="ingredient.css" />
 </head>
 <body>
-  <header class="navbar">
-    <div class="container">
-      <div class="nav-left">
-        <img src="fork-knife.png" alt="Fork and Knife Icon" />
-        <div class="nav-text">
-          <h3>Recipe Finder</h3>
-          <p>Enter ingredients and discover recipes!</p>
+  <div class="page-bg">
+    <!-- Top heading area like the screenshot -->
+    <header class="top-hero">
+      <button id="backBtn">Back to Recipes</button>
+      <h1>Smart Recipe Finder</h1>
+      <p>Tell us what you have, we'll show you what you can make!</p>
+    </header>
+
+    <!-- Center white card -->
+    <main class="main-card">
+      <!-- Input header row -->
+      <section class="input-header">
+        <div class="input-title">
+      <span class="input-icon">
+        <img src="plate-fork-knife.png" alt="Recipe icon"/>
+      </span>
+          <div>
+            <h2>Add Your Ingredients</h2>
+            <p>Type the ingredients you have in your kitchen</p>
+          </div>
         </div>
+      </section>
+
+      <!-- Search bar + Add button -->
+      <section class="ingredient-input-section">
+        <div class="search-row">
+          <div class="search-input-wrapper">
+            <span class="search-icon">🍔</span>
+            <input
+              type="text"
+              id="ingredientInput"
+              placeholder="e.g., chicken, tomato, onion, garlic..."
+              autocomplete="off"
+            />
+          </div>
+          <button id="addIngredientBtn">+ Add</button>
+        </div>
+
+        <!-- Large dashed box like the screenshot -->
+        <div class="empty-box">
+          <div class="empty-inner">
+            <p class="empty-main">Start typing ingredients above to begin</p>
+            <p class="empty-sub">Try: chicken, rice, tomato, garlic, onion...</p>
+          </div>
+
+          <!-- Selected chips appear at top-left inside box -->
+          <div class="selected-ingredients" id="selectedIngredientsBox">
+            <b>Selected Ingredients:</b>
+            <div id="ingredientTags"></div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Results -->
+      <section class="recipe-results-section">
+        <div id="recipesCount"></div>
+        <div id="recipeResults"></div>
+      </section>
+    </main>
+
+    <!-- Popup Modal -->
+    <div id="popupModal">
+      <div>
+        <button id="popupCloseBtn">&times;</button>
+        <img id="popupImage" src="" alt="Recipe Image" />
       </div>
-      <div class="nav-right">
-        <img src="on2cook logo_White 1.png" alt="Company Logo" class="logo" />
-      </div>
-    </div>
-  </header>
-
-  <main class="main-content">
-    <button id="backBtn">&#8592; Back to Recipes</button>
-    <h2>Ingredient-Based Recipe Recommender</h2>
-    <p>Enter the ingredients you have, and we'll find recipes for you!</p>
-
-    <div class="ingredient-input-section">
-      <label for="ingredientInput"><b>Add Your Ingredients</b></label><br />
-      <input
-        type="text"
-        id="ingredientInput"
-        placeholder="e.g., chicken, tomato, onion..."
-        autocomplete="off"
-      />
-      <button id="addIngredientBtn">Add</button>
-      <div class="selected-ingredients">
-        <b>Selected Ingredients:</b>
-        <div id="ingredientTags"></div>
-      </div>
-    </div>
-
-    <div class="recipe-results-section">
-      <div id="recipesCount"></div>
-      <div id="recipeResults"></div>
-    </div>
-  </main>
-
-  <!-- Popup Modal for Recipe Image -->
-  <div id="popupModal">
-    <div>
-      <button id="popupCloseBtn">&times;</button>
-      <img id="popupImage" src="" alt="Recipe Image" />
     </div>
   </div>
 
