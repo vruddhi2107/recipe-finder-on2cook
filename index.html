@@ -1,208 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Recipe Finder</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <title>Recipe Finder</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header class="navbar">
-  <div class="container">
-    <div class="nav-left">
-      <img src="fork-knife.png" alt="Fork and Knife Icon" />
-      <div class="nav-text">
-        <h3>Recipe Finder</h3>
-        <p>Discover your next favorite meal!</p>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container">
+      <div class="nav-left">
+        <img src="fork-knife.png" alt="Fork and Knife Icon" />
+        <div class="nav-text">
+          <h3>Recipe Finder</h3>
+          <p>Discover your next favorite meal!</p>
+        </div>
+      </div>
+      <div class="nav-right">
+        <img src="on2cook logo_White 1.png" alt="Company Logo" class="logo" />
       </div>
     </div>
-    <div class="nav-right">
-      <img src="on2cook logo_White 1.png" alt="Company Logo" class="logo" />
-    </div>
+  </header>
+
+  <!-- Don't Know What to Cook Bar -->
+  <div class="promo-bar">
+    <span class="promo-text">From ingredients to meals in minutes.</span>
+    <button class="cta-button" onclick="location.href='ingredient_input.html'">Get Started</button>
   </div>
-</header>
-<!-- Don't Know What to Cook Bar -->
- <div class="promo-bar">
-  <span class="promo-text">From ingredients to meals in minutes.</span>
-<button class="cta-button" onclick="location.href='ingredient_input.html'">Get Started</button>
-</div>
 
+  <!-- Recipe count -->
+  <span id="recipeCount" class="recipe-count-bar"></span>
 
-<span id="recipeCount" class="recipe-count-bar"></span>
-<div class="main-content">  
-    <!-- DESKTOP SIDEBAR FILTERS -->
-  <aside class="filters" id="desktopFilters">
-    <!-- ... same filter content as above, but IDs for desktop (searchBar, etc) ... -->
-    <div class="filter-group">
-      <label for="searchBar">Search Recipes</label>
-      <input type="text" id="searchBar" placeholder="Search by recipe name..." />
-    </div>
+  <!-- MAIN CONTENT -->
+  <div class="main-content">
 
-    <div class="filter-group">
-      <label for="dietType">Diet Type</label>
-      <select id="dietType">
-        <option value="All">All</option>
-      </select>
-    </div>
-    <div class="filter-group">
-      <label for="cookingMode">Cooking Mode</label>
-      <select id="cookingMode">
-        <option value="All">All</option>
-      </select>
-    </div>
-    <div class="filter-group">
-      <label for="cuisine">Cuisine</label>
-      <select id="cuisine">
-        <option value="All">All</option>
-      </select>
-    </div>
-    <div class="filter-group">
-      <label for="category">Category</label>
-      <select id="category">
-        <option value="All">All</option>
-      </select>
-    </div>
-    <div class="filter-group">
-      <label for="cookingTime">Max Cooking Time (min)</label>
-      <input type="range" id="cookingTime" min="0" max="35" value="35" />
-      <span id="cookingTimeLabel">35</span>
-    </div>
-    <div class="filter-group">
-      <label for="accessory">Accessory</label>
-      <select id="accessory">
-        <option value="All">All</option>
-      </select>
-    </div>
-    <button id="clearBtn">Clear Filters</button>
-    <!-- ... -->
-  </aside>
-  <section id="recipesGrid"></section>
+    <!-- DESKTOP FILTERS (glassy) -->
+    <aside class="filters" id="desktopFilters">
+      <div class="filter-header">Filters</div>
 
-<!-- Mobile Filter Button -->
+      <!-- Diet chips (built dynamically) -->
+      <div class="filter-group">
+        <label>Diet Type</label>
+        <div id="dietTypeChipGroup"></div>
+      </div>
+
+      <!-- Max Cooking Time -->
+      <div class="filter-group">
+        <label>Max Cooking Time</label>
+        <div class="time-row">
+          <span>Any</span>
+          <input type="range" id="cookingTime" min="0" max="35" value="35" />
+          <span id="cookingTimeLabel">35 min</span>
+        </div>
+      </div>
+
+      <!-- Cooking Mode radios -->
+      <div class="filter-group">
+        <label>Cooking Mode</label>
+        <div class="radio-grid" id="cookingModeRadioGroup"></div>
+      </div>
+
+      <!-- Cuisine radios -->
+      <div class="filter-group">
+        <label>Cuisine</label>
+        <div class="radio-grid" id="cuisineRadioGroup"></div>
+      </div>
+
+      <!-- Category radios -->
+      <div class="filter-group">
+        <label>Category</label>
+        <div class="radio-grid" id="categoryRadioGroup"></div>
+      </div>
+
+      <button id="clearBtn">Clear Filters</button>
+    </aside>
+
+    <!-- RECIPES GRID -->
+    <section id="recipesGrid"></section>
+  </div>
+
+  <!-- Mobile Filter Button -->
   <button id="mobileFilterBtn" class="mobile-filter-btn" aria-label="Show filters">
     <img src="filter.svg" alt="Filter" style="width:24px;height:24px;">
   </button>
 
-<!-- Filter Modal for mobile -->
+  <!-- Mobile Filter Modal -->
   <div id="mobileFilterModal" class="mobile-filter-modal">
     <div class="mobile-filter-content">
       <button id="closeMobileFilter" class="close-filter-btn">&times;</button>
-      <!-- COPY your filter content here for mobile -->
       <aside class="filters" id="mobileFilters">
-      <div class="filter-group">
-        <label for="searchBarMobile">Search Recipes</label>
-        <input type="text" id="searchBarMobile" placeholder="Search by recipe name..." />
-      </div>
+        <div class="filter-header">Filters</div>
 
-      <div class="filter-group">
-        <label for="dietTypeMobile">Diet Type</label>
-        <select id="dietTypeMobile">
-          <option value="All">All</option>
-        </select>
-      </div>
-      <div class="filter-group">
-        <label for="cookingModeMobile">Cooking Mode</label>
-        <select id="cookingModeMobile">
-          <option value="All">All</option>
-        </select>
-      </div>
-      <div class="filter-group">
-        <label for="cuisineMobile">Cuisine</label>
-        <select id="cuisineMobile">
-          <option value="All">All</option>
-        </select>
-      </div>
-      <div class="filter-group">
-        <label for="categoryMobile">Category</label>
-        <select id="categoryMobile">
-          <option value="All">All</option>
-        </select>
-      </div>
-      <div class="filter-group">
-        <label for="cookingTimeMobile">Max Cooking Time (min)</label>
-        <input type="range" id="cookingTimeMobile" min="0" max="35" value="35" />
-        <span id="cookingTimeLabelMobile">35</span>
-      </div>
-      <div class="filter-group">
-        <label for="accessoryMobile">Accessory</label>
-        <select id="accessoryMobile">
-          <option value="All">All</option>
-        </select>
-      </div>
-      <button id="clearBtnMobile">Clear Filters</button>
-   
-        <!-- ... same filter content as sidebar ... -->
         <div class="filter-group">
           <label for="searchBarMobile">Search Recipes</label>
           <input type="text" id="searchBarMobile" placeholder="Search by recipe name..." />
         </div>
-        <!-- Add rest of your filter groups here (dietType, etc), using different IDs for mobile if needed -->
+
+        <div class="filter-group">
+          <label for="dietTypeMobile">Diet Type</label>
+          <select id="dietTypeMobile">
+            <option value="All">All</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="cookingModeMobile">Cooking Mode</label>
+          <select id="cookingModeMobile">
+            <option value="All">All</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="cuisineMobile">Cuisine</label>
+          <select id="cuisineMobile">
+            <option value="All">All</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="categoryMobile">Category</label>
+          <select id="categoryMobile">
+            <option value="All">All</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label for="cookingTimeMobile">Max Cooking Time (min)</label>
+          <input type="range" id="cookingTimeMobile" min="0" max="35" value="35" />
+          <span id="cookingTimeLabelMobile">35</span>
+        </div>
+
+        <div class="filter-group">
+          <label for="accessoryMobile">Accessory</label>
+          <select id="accessoryMobile">
+            <option value="All">All</option>
+          </select>
+        </div>
+
+        <button id="clearBtnMobile">Clear Filters</button>
       </aside>
     </div>
   </div>
 
-<!-- Main Content (desktop sidebar filters, recipes grid) -->
-
-
-
-
-<!--   <aside class="filters">
-    <div class="filter-group">
-      <label for="searchBar">Search Recipes</label>
-      <input type="text" id="searchBar" placeholder="Search by recipe name..." />
+  <!-- Popup modal for recipe image -->
+  <div id="popupModal" style="display:none; position: fixed; top:0; left:0; width:100vw; height:100vh; background: rgba(0, 0, 0, 0.7); justify-content: center; align-items: center;">
+    <div style="position: relative; background: #fff; padding: 20px; border-radius: 12px; max-width: 90vw; max-height: 90vh; overflow: auto;">
+      <button id="popupCloseBtn" style="position: absolute; top: 10px; right: 10px; font-size: 20px; cursor: pointer;">&times;</button>
+      <img id="popupImage" src="" alt="Recipe Image" style="max-width: 100%; max-height: 80vh; border-radius: 10px;" />
     </div>
+  </div>
 
-    <div class="filter-group">
-      <label for="dietType">Diet Type</label>
-      <select id="dietType">
-        <option value="All">All</option>
-      </select>
-    </div>
-    <div class="filter-group">
-      <label for="cookingMode">Cooking Mode</label>
-      <select id="cookingMode">
-        <option value="All">All</option>
-      </select>
-    </div>
-    <div class="filter-group">
-      <label for="cuisine">Cuisine</label>
-      <select id="cuisine">
-        <option value="All">All</option>
-      </select>
-    </div>
-    <div class="filter-group">
-      <label for="category">Category</label>
-      <select id="category">
-        <option value="All">All</option>
-      </select>
-    </div>
-    <div class="filter-group">
-      <label for="cookingTime">Max Cooking Time (min)</label>
-      <input type="range" id="cookingTime" min="0" max="20" value="20" />
-      <span id="cookingTimeLabel">20</span>
-    </div>
-    <div class="filter-group">
-      <label for="accessory">Accessory</label>
-      <select id="accessory">
-        <option value="All">All</option>
-      </select>
-    </div>
-    <button id="clearBtn">Clear Filters</button>
-  </aside>
-
-  <section id="recipesGrid"></section>
-</div> -->
-
-<!-- Popup modal -->
-<div id="popupModal" style="display:none; position: fixed; top:0; left:0; width:100vw; height:100vh; background: rgba(0, 0, 0, 0.7); justify-content: center; align-items: center;">
-  <div style="position: relative; background: #fff; padding: 20px; border-radius: 12px; max-width: 90vw; max-height: 90vh; overflow: auto;">
-    <button id="popupCloseBtn" style="position: absolute; top: 10px; right: 10px; font-size: 20px; cursor: pointer;">&times;</button>
-    <img id="popupImage" src="" alt="Recipe Image" style="max-width: 100%; max-height: 80vh; border-radius: 10px;" />
-  </div>
-</div>
-
-<script src="script.js"></script>
-
+  <script src="script.js"></script>
 </body>
 </html>
-
