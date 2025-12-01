@@ -86,7 +86,7 @@ function displayRecipes() {
 
   countDiv.textContent = filtered.length
     ? `${filtered.length} Recipes Found`
-    : 'No Recipes Found';
+    : 'These ingredients don’t get along. Try different ones.';
 
   resultsDiv.innerHTML = '';
   filtered.forEach(r => {

@@ -179,9 +179,23 @@ function showRecipes() {
   recipesGrid.innerHTML = '';
 
   if (filtered.length === 0) {
-    recipesGrid.innerHTML = '<p class="empty-text">No recipes found matching your filters.</p>';
-    return;
-  }
+  recipesGrid.innerHTML = `
+    <div class="empty-state">
+      <div class="empty-illustration">
+        <span class="empty-emoji">🍽️</span>
+        <span class="empty-sparkle">✨</span>
+      </div>
+      <h3 class="empty-title">No recipes on this plate…</h3>
+      <p class="empty-text">
+        Try relaxing a filter or two, or switch cuisines to discover more delicious ideas.
+      </p>
+      <button class="empty-btn" type="button" onclick="document.getElementById('clearBtn').click()">
+        Clear filters & explore
+      </button>
+    </div>
+  `;
+  return;
+}
 
   filtered.forEach(r => {
     const card = document.createElement('div');
