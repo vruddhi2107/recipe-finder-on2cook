@@ -11,6 +11,10 @@ const clearBtn = document.getElementById('clearBtn');
 const recipesGrid = document.getElementById('recipesGrid');
 const recipeCountEl = document.getElementById('recipeCount');
 
+const searchBarDesktop = document.getElementById('searchBarDesktop');
+const sortTimeAsc = document.getElementById('sortTimeAsc');
+const sortTimeDesc = document.getElementById('sortTimeDesc');
+
 // Mobile elements
 const mobileFilterBtn = document.getElementById('mobileFilterBtn');
 const mobileFilterModal = document.getElementById('mobileFilterModal');
@@ -25,6 +29,9 @@ const cookingTimeMobile = document.getElementById('cookingTimeMobile');
 const cookingTimeLabelMobile = document.getElementById('cookingTimeLabelMobile');
 const clearBtnMobile = document.getElementById('clearBtnMobile');
 
+const sortTimeAscMobile = document.getElementById('sortTimeAscMobile');
+const sortTimeDescMobile = document.getElementById('sortTimeDescMobile');
+
 // Popup elements
 const popupModal = document.getElementById('popupModal');
 const popupImage = document.getElementById('popupImage');
@@ -33,6 +40,7 @@ const popupCloseBtn = document.getElementById('popupCloseBtn');
 // FILTER STATE
 const filterState = {
   searchTerm: '',
+  sortBy: 'time-asc',
   dietVal: 'All',
   cookingModeVal: 'All',
   cuisineVal: 'All',
@@ -40,6 +48,23 @@ const filterState = {
   accessoryVal: 'All',
   maxCookingTime: 35
 };
+
+searchBarDesktop?.addEventListener('input', debounce((e) => {
+  filterState.searchTerm = e.target.value.toLowerCase().trim();
+  showRecipes();
+}, 250));
+
+sortTimeAscMobile?.addEventListener('click', () => {
+  filterState.sortBy = 'time-asc';
+  updateMobileSortButtons();
+  applyMobileFilters();
+});
+
+sortTimeDescMobile?.addEventListener('click', () => {
+  filterState.sortBy = 'time-desc';
+  updateMobileSortButtons();
+  applyMobileFilters();
+});
 
 // Helpers
 function getUniqueValues(key) {
@@ -56,6 +81,29 @@ function getUniqueAccessories() {
   return Array.from(s).sort();
 }
 
+function setupSortButtons() {
+  sortTimeAsc?.addEventListener('click', () => {
+    filterState.sortBy = 'time-asc';
+    updateSortButtons();
+    showRecipes();
+  });
+  
+  sortTimeDesc?.addEventListener('click', () => {
+    filterState.sortBy = 'time-desc';
+    updateSortButtons();
+    showRecipes();
+  });
+}
+
+function updateSortButtons() {
+  sortTimeAsc?.classList.toggle('active', filterState.sortBy === 'time-asc');
+  sortTimeDesc?.classList.toggle('active', filterState.sortBy === 'time-desc');
+}
+
+function updateMobileSortButtons() {
+  sortTimeAscMobile?.classList.toggle('active', filterState.sortBy === 'time-asc');
+  sortTimeDescMobile?.classList.toggle('active', filterState.sortBy === 'time-desc');
+}
 // Build chips/radios
 function buildDietChips(values) {
   dietTypeChipGroup.innerHTML = '';
@@ -129,6 +177,9 @@ function loadRecipes() {
       buildRadioGroup(categoryRadioGroup, getUniqueValues('Category'), 'category');
       populateMobileFilters();
       showRecipes();
+      setupSortButtons(); // Add this line
+      updateSortButtons(); // Add this line
+      updateMobileSortButtons();
     })
     .catch(() => {
       recipesGrid.innerHTML = '<p class="error-text">Failed to load recipes.</p>';
@@ -169,12 +220,19 @@ function filterRecipes() {
 
 // Render recipes
 function showRecipes() {
-  const filtered = filterRecipes().sort((a, b) => {
-    const ta = parseInt(a['On2Cook Cooking Time'], 10) || 0;
-    const tb = parseInt(b['On2Cook Cooking Time'], 10) || 0;
-    return ta - tb;
+  let filtered = filterRecipes();
+  
+  // Apply sorting based on filterState.sortBy
+  filtered = filtered.sort((a, b) => {
+    const ta = parseInt(a['On2Cook Cooking Time'], 10) || 999;
+    const tb = parseInt(b['On2Cook Cooking Time'], 10) || 999;
+    
+    if (filterState.sortBy === 'time-asc') {
+      return ta - tb;
+    } else {
+      return tb - ta;
+    }
   });
-
   recipeCountEl.textContent = `${filtered.length} recipes found`;
   recipesGrid.innerHTML = '';
 
@@ -251,7 +309,7 @@ clearBtn.addEventListener('click', () => {
   filterState.categoryVal = 'All';
   filterState.accessoryVal = 'All';
   filterState.maxCookingTime = 35;
-
+  filterState.sortBy = 'time-asc'; // Add this line
   cookingTime.value = 35;
   cookingTimeLabel.textContent = '35 min';
 
@@ -272,6 +330,7 @@ clearBtn.addEventListener('click', () => {
   cookingTimeMobile.value = 35;
   cookingTimeLabelMobile.textContent = '35';
 
+  updateSortButtons();
   showRecipes();
 });
 
@@ -317,6 +376,8 @@ clearBtnMobile.addEventListener('click', () => {
   accessoryMobile.value = 'All';
   cookingTimeMobile.value = 35;
   cookingTimeLabelMobile.textContent = '35';
+  filterState.sortBy = 'time-asc'; // Add this line
+  updateMobileSortButtons();
   applyMobileFilters();
 });
 

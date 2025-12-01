@@ -39,6 +39,24 @@
     <aside class="filters" id="desktopFilters">
       <div class="filter-header">Filters</div>
 
+      <!-- Add this right after the Diet Type filter-group in #desktopFilters -->
+        <div class="filter-group">
+          <label>Search Recipes</label>
+          <input type="text" id="searchBarDesktop" placeholder="Search by recipe name..." />
+        </div>
+
+        <div class="filter-group">
+          <label>Sort By</label>
+          <div class="sort-controls">
+            <button id="sortTimeAsc" class="sort-btn active" data-sort="time-asc">
+              ⏱ Time (Fastest)
+            </button>
+            <button id="sortTimeDesc" class="sort-btn" data-sort="time-desc">
+              ⏱ Time (Slowest)
+            </button>
+          </div>
+        </div>
+
       <!-- Diet chips (built dynamically) -->
       <div class="filter-group">
         <label>Diet Type</label>
@@ -96,6 +114,20 @@
           <label for="searchBarMobile">Search Recipes</label>
           <input type="text" id="searchBarMobile" placeholder="Search by recipe name..." />
         </div>
+
+        <!-- Add this right after the cookingTimeMobile filter-group in #mobileFilters -->
+        <div class="filter-group">
+          <label for="sortMobile">Sort By</label>
+          <div class="sort-controls">
+            <button id="sortTimeAscMobile" class="sort-btn active" data-sort="time-asc">
+              ⏱ Fastest
+            </button>
+            <button id="sortTimeDescMobile" class="sort-btn" data-sort="time-desc">
+              ⏱ Slowest
+            </button>
+          </div>
+        </div>
+
 
         <div class="filter-group">
           <label for="dietTypeMobile">Diet Type</label>

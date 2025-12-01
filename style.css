@@ -693,3 +693,86 @@ input[type="range"]::-moz-range-thumb {
   transform: translateY(-1px);
   box-shadow: 0 14px 32px rgba(237, 28, 36, 0.7);
 }
+
+/* Search input styling */
+#searchBarDesktop {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 0.85rem;
+  transition: all 0.2s ease;
+  backdrop-filter: blur(10px);
+}
+
+#searchBarDesktop:focus {
+  outline: none;
+  border-color: #ed1c24;
+  box-shadow: 0 0 0 3px rgba(237, 28, 36, 0.1);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Sort controls */
+.sort-controls {
+  display: flex;
+  gap: 6px;
+}
+
+.sort-btn {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  border-radius: 10px;
+  background: rgba(248, 250, 252, 0.95);
+  color: #0f172a;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  text-align: center;
+}
+
+.sort-btn:hover {
+  background: rgba(226, 239, 255, 0.98);
+  border-color: #38bdf8;
+  transform: translateY(-1px);
+}
+
+.sort-btn.active {
+  background: linear-gradient(135deg, #ed1c24, #fb923c);
+  color: white;
+  border-color: transparent;
+  box-shadow: 0 6px 16px rgba(237, 28, 36, 0.4);
+}
+/* Add to your existing CSS - mobile sort buttons need slight adjustment */
+@media (max-width: 800px) {
+  /* Mobile sort buttons - stack vertically for better space */
+  .mobile-filter-content .sort-controls {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .mobile-filter-content .sort-btn {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    border-radius: 12px;
+  }
+  
+  /* Dark theme adjustments for mobile modal */
+  .mobile-filter-content .sort-btn {
+    background: rgba(248, 250, 252, 0.95);
+    border-color: rgba(148, 163, 184, 0.6);
+    color: #0f172a;
+  }
+  
+  .mobile-filter-content .sort-btn.active {
+    background: linear-gradient(135deg, #ed1c24, #fb923c);
+    color: white;
+  }
+  
+  .mobile-filter-content .sort-btn:hover {
+    background: rgba(226, 239, 255, 0.98);
+    border-color: #38bdf8;
+  }
+}
