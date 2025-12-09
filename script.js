@@ -382,17 +382,151 @@ clearBtnMobile.addEventListener('click', () => {
 });
 
 // Popup
+// Enhanced Popup functionality - ZOOMS IN PLACE (no shifting)
+let zoomState = {
+  scale: 1,
+  minScale: 0.5,
+  maxScale: 4,
+  translateX: 0,
+  translateY: 0,
+  isDragging: false,
+  startX: 0,
+  startY: 0
+};
+
 function openPopup(src, alt) {
   popupImage.src = src;
   popupImage.alt = alt || 'Recipe Image';
+  resetZoom();
   popupModal.style.display = 'flex';
 }
+
+function resetZoom() {
+  zoomState.scale = 1;
+  zoomState.translateX = 0;
+  zoomState.translateY = 0;
+  updateImageTransform();
+}
+
+function updateImageTransform() {
+  const transform = `translate(${zoomState.translateX}px, ${zoomState.translateY}px) scale(${zoomState.scale})`;
+  popupImage.style.transform = transform;
+}
+
+function zoomImage(factor) {
+  // ✅ SIMPLIFIED: Zoom in place - NO shifting/translation adjustment
+  zoomState.scale = Math.max(zoomState.minScale, Math.min(zoomState.maxScale, zoomState.scale * factor));
+  updateImageTransform();
+}
+
+// Event listeners for popup
 popupCloseBtn.addEventListener('click', () => {
   popupModal.style.display = 'none';
 });
+
 popupModal.addEventListener('click', e => {
-  if (e.target === popupModal) popupModal.style.display = 'none';
+  if (e.target === popupModal) {
+    popupModal.style.display = 'none';
+  }
 });
+
+// Zoom controls
+const zoomInBtn = document.querySelector('.zoom-in');
+const zoomOutBtn = document.querySelector('.zoom-out');
+const zoomResetBtn = document.querySelector('.zoom-reset');
+const wrapper = popupImage.parentElement;
+
+if (zoomInBtn) zoomInBtn.addEventListener('click', () => zoomImage(1.25));
+if (zoomOutBtn) zoomOutBtn.addEventListener('click', () => zoomImage(0.8));
+if (zoomResetBtn) zoomResetBtn.addEventListener('click', resetZoom);
+
+// Image interaction events
+popupImage.addEventListener('dblclick', resetZoom);
+
+// Mouse wheel zoom - ZOOMS IN PLACE
+wrapper.addEventListener('wheel', (e) => {
+  e.preventDefault();
+  const factor = e.deltaY > 0 ? 0.9 : 1.15;
+  zoomImage(factor);  // No coordinates = no shifting
+});
+
+// Drag to pan (ONLY when zoomed)
+wrapper.addEventListener('mousedown', (e) => {
+  if (zoomState.scale > 1.01) {  // Only allow drag when actually zoomed
+    zoomState.isDragging = true;
+    zoomState.startX = e.clientX - zoomState.translateX;
+    zoomState.startY = e.clientY - zoomState.translateY;
+    wrapper.style.cursor = 'grabbing';
+  }
+});
+
+document.addEventListener('mousemove', (e) => {
+  if (zoomState.isDragging) {
+    zoomState.translateX = e.clientX - zoomState.startX;
+    zoomState.translateY = e.clientY - zoomState.startY;
+    updateImageTransform();
+  }
+});
+
+document.addEventListener('mouseup', () => {
+  zoomState.isDragging = false;
+  if (wrapper && zoomState.scale <= 1.01) {
+    wrapper.style.cursor = 'zoom-in';  // Default cursor when not zoomed
+  } else {
+    wrapper.style.cursor = 'grab';
+  }
+});
+
+// Touch support for mobile
+let lastTouchDistance = 0;
+
+wrapper.addEventListener('touchstart', (e) => {
+  if (e.touches.length === 1 && zoomState.scale > 1.01) {
+    zoomState.isDragging = true;
+    zoomState.startX = e.touches[0].clientX - zoomState.translateX;
+    zoomState.startY = e.touches[0].clientY - zoomState.translateY;
+  } else if (e.touches.length === 2) {
+    const touch1 = e.touches[0];
+    const touch2 = e.touches[1];
+    lastTouchDistance = Math.hypot(
+      touch1.clientX - touch2.clientX,
+      touch1.clientY - touch2.clientY
+    );
+  }
+});
+
+wrapper.addEventListener('touchmove', (e) => {
+  if (e.touches.length === 1 && zoomState.isDragging) {
+    e.preventDefault();
+    zoomState.translateX = e.touches[0].clientX - zoomState.startX;
+    zoomState.translateY = e.touches[0].clientY - zoomState.startY;
+    updateImageTransform();
+  } else if (e.touches.length === 2) {
+    e.preventDefault();
+    const touch1 = e.touches[0];
+    const touch2 = e.touches[1];
+    const currentDistance = Math.hypot(
+      touch1.clientX - touch2.clientX,
+      touch1.clientY - touch2.clientY
+    );
+    
+    if (lastTouchDistance > 0) {
+      const factor = currentDistance / lastTouchDistance;
+      zoomImage(factor);  // ZOOM IN PLACE - no shifting
+    }
+    
+    lastTouchDistance = currentDistance;
+  }
+});
+
+wrapper.addEventListener('touchend', () => {
+  zoomState.isDragging = false;
+  lastTouchDistance = 0;
+});
+
+// Set default cursor
+wrapper.style.cursor = 'zoom-in';
+
 
 // Debounce
 function debounce(fn, delay) {
