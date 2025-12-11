@@ -13,7 +13,7 @@
       "1500 ml Water (Manual)",
       "1090 ml Water [Auto]"
     ],
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Total Output": "2850g",
     "On2Cook Cooking Time": "20:00",
     "Normal Cooking Time": "30 mins."
@@ -56,7 +56,7 @@
       "2 g Kasuri Methi",
       "5 g Green Cardamom Powder"
     ],
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Total Output": "2500g",
     "On2Cook Cooking Time": "18:00",
     "Normal Cooking Time": "120 mins."
@@ -98,7 +98,7 @@
   "2 g Kasuri Methi",
   "5 g Green Cardamom Powder"
 ],
-     "Accessories": "Coated Pan, Silicone Stirrer",
+     "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Total Output": "2500g",
     "On2Cook Cooking Time": "18:00",
     "Normal Cooking Time": "120 mins."
@@ -141,7 +141,7 @@
       "2 g Kasuri Methi",
       "5 g Green Cardamom Powder"
     ],
-     "Accessories": "Coated Pan, Silicone Stirrer",
+     "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Total Output": "2500g",
     "On2Cook Cooking Time": "18:00",
     "Normal Cooking Time": "120 mins."
@@ -155,7 +155,7 @@
     "Cooking Time": 17,
     "Image": "images/Coconut-Rice-1600G.png",
     "PopupImage": "popup_images/COCONUT RICE 1600G.png",
-    "Accessories": "Stainless Steel Pan, Large Non-Stick Mat",
+    "Accessories": "Pan Non Coated (SS), MP Mats (Big)",
     "Ingredients": [
       "500g Soaked Rice [India Gate Super Basmati)",
       "400 g Raw Rice, Soaked for 30 minutes",
@@ -179,7 +179,7 @@
     "Cooking Time": 15,
     "Image": "images/Penne-Arrabbiata.png",
     "PopupImage": "popup_images/PENNE ARRABBIATA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Butter",
       "10g Chopped Garlic",
@@ -208,7 +208,7 @@
     "Cooking Time": 14,
     "Image": "images/Moongdal-Halwa-2000G.png",
     "PopupImage": "popup_images/MOONGDAL HALWA 2000G.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
       "500g Ghee",
       "500 g Moong Dal Mix",
@@ -231,7 +231,7 @@
     "Cooking Time": 14,
     "Image": "images/Kesari-Bhaat.png",
     "PopupImage": "popup_images/KESARI BHAAT.png",
-    "Accessories": "Stainless Steel Pan, Silicone Stirrer",
+    "Accessories": "Pan Non Coated (SS), Silicone Stirrer",
     "Ingredients": [
       "350g Rava",
       "280g Ghee",
@@ -259,7 +259,7 @@
     "Cooking Time": 13,
     "Image": "images/Coconut-Rice-1000G.png",
     "PopupImage": "popup_images/COCONUT RICE 1000G.png",
-    "Accessories": "Stainless Steel Pan, Large Non-Stick Mat",
+    "Accessories": "Pan Non Coated (SS), MP Mats (Big)",
     "Ingredients": [
       "300g Soaked Rice [India Gate Super Basmati]",
       "250 g Raw Rice, Soaked for 30 minutes",
@@ -283,7 +283,7 @@
     "Cooking Time": 13,
     "Image": "images/Penne-Alfredo-(maggi-Premix).png",
     "PopupImage": "popup_images/PENNE ALFREDO (MAGGI PREMIX).png",
-    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Accessories" : "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
       "30g Butter",
       "100g Penne Pasta",
@@ -305,7 +305,7 @@
     "Cooking Time": 13,
     "Image": "images/Penne-Arrabiata-Maggie-Premix.png",
     "PopupImage": "popup_images/PENNE ARRABIATA MAGGIE PREMIX.png",
-    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Accessories" : "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
       "30g Butter",
       "100g Penne Pasta",
@@ -327,7 +327,7 @@
     "Cooking Time": 13,
     "Image": "images/Baigan-Bhartha.png",
     "PopupImage": "popup_images/BAIGAN BHARTHA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "701g Eggplant Mix",
       "400 g Eggplant",
@@ -362,7 +362,7 @@
     "Cooking Time": 13,
     "Image": "images/Dal-Makhani.png",
     "PopupImage": "popup_images/DAL MAKHANI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "113g Ghee & Whole Khada Masala",
       "100 g Ghee",
@@ -400,7 +400,7 @@
     "Cooking Time": 12,
     "Image": "images/Veg-Biryani.png",
     "PopupImage": "popup_images/VEG BIRYANI.png",
-    "Accessories": "Stainless Steel Pan, Large Non-Stick Mat, Grill Mesh",
+    "Accessories": "Pan Non Coated (SS), MP Mats (Big), Mesh Mat",
     "Ingredients": [
       "120 ml Water",
       "40g Ghee",
@@ -446,7 +446,7 @@
     "Cooking Time": 12,
     "Image": "images/Steam-Rice.png",
     "PopupImage": "popup_images/STEAM RICE.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "50g Oil",
       "1000 g India Gate Super Basmati Rice",
@@ -466,7 +466,7 @@
     "Cooking Time": 12,
     "Image": "images/Mashed-Potato.png",
     "PopupImage": "popup_images/MASHED POTATO.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "1000 g Diced Potato",
       "10 g Salt",
@@ -490,7 +490,7 @@
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Spinach.png",
     "PopupImage": "popup_images/CREAM OF SPINACH.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Butter",
       "3g Whole Spices",
@@ -534,7 +534,7 @@
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Carrot.png",
     "PopupImage": "popup_images/CREAM OF CARROT.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Butter",
       "3g Whole Spices",
@@ -568,7 +568,7 @@
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Cauliflower-Soup.png",
     "PopupImage": "popup_images/CREAM OF CAULIFLOWER SOUP.png",
-    "Accessories":"Coated Pan, Silicone Stirrer",
+    "Accessories":"Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
       "20g Butter",
       "3g Whole Spices",
@@ -602,7 +602,7 @@
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Corn-Soup.png",
     "PopupImage": "popup_images/CREAM OF CORN SOUP.png",
-    "Accessories":"Coated Pan, Silicone Stirrer",
+    "Accessories":"Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Butter",
       "3g Whole Spices",
@@ -636,7 +636,7 @@
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Mushroom-Soup.png",
     "PopupImage": "popup_images/CREAM OF MUSHROOM SOUP.png",
-    "Accessories":"Coated Pan, Silicone Stirrer",
+    "Accessories":"Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
         "20g Butter",
         "3g Whole Spices",
@@ -670,7 +670,7 @@
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Peas-Soup.png",
     "PopupImage": "popup_images/CREAM OF PEAS SOUP.png",
-    "Accessories":"Coated Pan, Silicone Stirrer",
+    "Accessories":"Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
       "20g Butter",
       "3g Whole Spices",
@@ -704,7 +704,7 @@
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Tomato-Soup.png",
     "PopupImage": "popup_images/CREAM OF TOMATO SOUP.png",
-    "Accessories":"Coated Pan, Silicone Stirrer",
+    "Accessories":"Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Butter",
       "3g Whole Spices",
@@ -738,7 +738,7 @@
     "Cooking Time": 10,
     "Image": "images/Cream-Of-Veggies.png",
     "PopupImage": "popup_images/CREAM OF VEGGIES.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Butter",
       "3g Whole Spices",
@@ -773,7 +773,7 @@
     "Cooking Time": 10,
     "Image": "images/Aviyal.png",
     "PopupImage": "popup_images/AVIYAL.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "15 ml Coconut Oil",
       "760g Mixed Vegetables",
@@ -835,7 +835,7 @@
       "2 g Cumin Powder",
       "1000 ml Water [Auto]"
     ],
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Total Output": "800g",
     "On2Cook Cooking Time": "10:00",
     "Normal Cooking Time": ".   35 mins."
@@ -849,7 +849,7 @@
     "Cooking Time": 10,
     "Image": "images/lasaniya-bateta.png",
     "PopupImage": "popup_images/LASANIYA BATETA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "134g Oil & Tempering",
       "50 g Oil",
@@ -883,7 +883,7 @@
     "Cooking Time": 10,
     "Image": "images/Shorshe-Ilish.png",
     "PopupImage": "popup_images/SHORSHE ILISH.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "50g Mustard Oil",
       "10g Green Chilli",
@@ -916,7 +916,7 @@
     "Cooking Time": 10,
     "Image": "images/Chicken-Varutharacha.png",
     "PopupImage": "popup_images/CHICKEN VARUTHARACHA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "83g Oil & Tempering",
       "80 g Coconut Oil",
@@ -958,7 +958,7 @@
     "Cooking Time": 9,
     "Image": "images/Kadai-Chicken.png",
     "PopupImage": "popup_images/KADAI CHICKEN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "40 ml Oil",
       "20 g Ghee",
@@ -1005,7 +1005,7 @@
     "Cooking Time": 9,
     "Image": "images/Chicken-Mappas.png",
     "PopupImage": "popup_images/CHICKEN MAPPAS.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "80 ml. Oil",
       "167g Chopped Vegetables",
@@ -1038,7 +1038,7 @@
     "Cooking Time": 9,
     "Image": "images/Mysore-Pak.png",
     "PopupImage": "popup_images/MYSORE PAK.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "500 g Sugar",
       "230 ml Water",
@@ -1084,7 +1084,7 @@
       "100g Ratlami Sev",
       "2g Coriander Leaves"
     ],
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Total Output": "1000g",
     "On2Cook Cooking Time": "9:00",
     "Normal Cooking Time": ".   30 mins."
@@ -1098,7 +1098,7 @@
     "Cooking Time": 9,
     "Image": "images/Sambhar.png",
     "PopupImage": "popup_images/SAMBHAR.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "50 mL Oil",
       "12g Tadka",
@@ -1140,7 +1140,7 @@
     "Cooking Time": 9,
     "Image": "images/Paneer-Peas-Keema.png",
     "PopupImage": "popup_images/PANEER PEAS KEEMA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "959g Oil & Vegetables",
       "200g Onion",
@@ -1170,7 +1170,7 @@
     "Cooking Time": 9,
     "Image": "images/Veg-Sukto.png",
     "PopupImage": "popup_images/VEG SUKTO.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "100g Mustard Oil",
       "5g Whole Spices",
@@ -1210,7 +1210,7 @@
     "Cooking Time": 9,
     "Image": "images/Stuffed-Brinjal.png",
     "PopupImage": "popup_images/STUFFED BRINJAL.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "67g Oil & Tempering",
       "60 g Oil",
@@ -1250,7 +1250,7 @@
     "Cooking Time": 9,
     "Image": "images/Chanar-Dalna.jpg",
     "PopupImage": "popup_images/CHANAR DALNA.jpg",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Oil",
       "2 pcs Bay Leaf",
@@ -1278,7 +1278,7 @@
     "Cooking Time": 7,
     "Image": "images/Dark-Chocolate-&-Orange-Cake.png",
     "PopupImage": "popup_images/DARK CHOCOLATE & ORANGE CAKE.png",
-    "Accessories": "Grill Mesh, Stainless Steel Pan, Cake Mold and Cake Mold Stirrer",
+    "Accessories": "Mesh Mat, Pan Non Coated (SS), Cake Kit",
     "Ingredients": [
       "380g Batter Mix",
       "75 g Butter",
@@ -1308,7 +1308,7 @@
     "Cooking Time": 7,
     "Image": "images/Coffee-Walnut-Cake.png",
     "PopupImage": "popup_images/COFFEE WALNUT CAKE.png",
-    "Accessories": "Grill Mesh, Stainless Steel Pan, Cake Mold and Cake Mold Stirrer",
+    "Accessories": "Mesh Mat, Pan Non Coated (SS), Cake Kit",
     "Ingredients": [
       "390g Batter Mix",
       "75 g Butter",
@@ -1337,7 +1337,7 @@
     "Cooking Time": 7,
     "Image": "images/Masala-Chai-Cake.png",
     "PopupImage": "popup_images/MASALA CHAI CAKE.png",
-    "Accessories": "Grill Mesh, Stainless Steel Pan, Cake Mold and Cake Mold Stirrer",
+    "Accessories": "Mesh Mat, Pan Non Coated (SS), Cake Kit",
     "Ingredients": [
       "428g Batter Mix",
       "75 g Butter",
@@ -1365,7 +1365,7 @@
     "Cooking Time": 7,
     "Image": "images/Chocolate-Dry-Fruits-Cake.png",
     "PopupImage": "popup_images/CHOCOLATE DRY FRUITS CAKE.png",
-    "Accessories": "Grill Mesh, Stainless Steel Pan, Cake Mold and Cake Mold Stirrer",
+    "Accessories": "Mesh Mat, Pan Non Coated (SS), Cake Kit",
     "Ingredients":[
       "600g Cake Mix",
       "300 g Pillsbury Cooker Cake Chocolate Flavour",
@@ -1389,7 +1389,7 @@
     "Cooking Time": 7,
     "Image": "images/Sabudana-Khichdi.png",
     "PopupImage": "popup_images/SABUDANA KHICHDI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Ghee",
       "5g Cumin Seeds",
@@ -1418,7 +1418,7 @@
     "Cooking Time": 7,
     "Image": "images/Udon-Boiling.png",
     "PopupImage": "popup_images/UDON BOILING.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "1liter Water [Auto]",
       "100g Udon Noodles"
@@ -1436,7 +1436,7 @@
     "Cooking Time": 7,
     "Image": "images/Soba-Boiling.png",
     "PopupImage": "popup_images/SOBA BOILING.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "1 liter Water {Auto)",
       "100g Soba Noodles"
@@ -1454,7 +1454,7 @@
     "Cooking Time": 6,
     "Image": "images/Matar-Masala.png",
     "PopupImage": "popup_images/MATAR MASALA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "40 ml Oil",
       "20g Ghee",
@@ -1488,7 +1488,7 @@
     "Cooking Time": 6,
     "Image": "images/Mushroom-Ghee-Roast.png",
     "PopupImage": "popup_images/MUSHROOM GHEE ROAST.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Ghee",
       "5g Curry Leaves",
@@ -1526,7 +1526,7 @@
     "Cooking Time": 6,
     "Image": "images/Gujarati-Kadhi.png",
     "PopupImage": "popup_images/GUJARATI KADHI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Ghee (2 tsp)",
       "11g Tempering",
@@ -1561,7 +1561,7 @@
     "Cooking Time": 5,
     "Image": "images/Chicken-Cheese-Maggi.png",
     "PopupImage": "popup_images/CHICKEN CHEESE MAGGI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Butter",
       "2packets Maggi",
@@ -1583,7 +1583,7 @@
     "Cooking Time": 5,
     "Image": "images/Chicken-Maggi.png",
     "PopupImage": "popup_images/CHICKEN MAGGI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Butter",
       "2packets Maggi",
@@ -1604,7 +1604,7 @@
     "Cooking Time": 5,
     "Image": "images/Masala-Maggi.png",
     "PopupImage": "popup_images/MASALA MAGGI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Butter",
       "2packets Maggi",
@@ -1624,7 +1624,7 @@
     "Cooking Time": 5,
     "Image": "images/Vegetable-Maggi.png",
     "PopupImage": "popup_images/VEGETABLE MAGGI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Butter",
       "140g Maggi",
@@ -1648,7 +1648,7 @@
     "Cooking Time": 5,
     "Image": "images/Vegetable-Noodles.png",
     "PopupImage": "popup_images/VEGETABLE NOODLES.png",
-    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Accessories": "Pan Coated (ceramic), Noodle Stirrer",
     "Ingredients": [
       "40 ml Oil",
       "20g Chopped Vegetables",
@@ -1680,7 +1680,7 @@
     "Cooking Time": 5,
     "Image": "images/Chingri-Malai.png",
     "PopupImage": "popup_images/CHINGRI MALAI.jpg",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "364g Prawn & Tempering",
       "30 g Mustard Oil",
@@ -1716,7 +1716,7 @@
     "Cooking Time": 4,
     "Image": "images/Chicken-Fried-Rice.png",
     "PopupImage": "popup_images/CHICKEN FRIED RICE.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "20g Chopped Vegetables",
@@ -1750,7 +1750,7 @@
     "Cooking Time": 4,
     "Image": "images/Chicken-Schezwan-Fried-Rice.png",
     "PopupImage": "popup_images/CHICKEN SCHEZWAN FRIED RICE.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "20g Chopped Vegetables",
@@ -1783,7 +1783,7 @@
     "Cooking Time": 4,
     "Image": "images/Kung-Pao-Chicken.png",
     "PopupImage": "popup_images/KUNG PAO CHICKEN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30ml Oil",
       "112g Whole Red Chilli",
@@ -1817,7 +1817,7 @@
     "Cooking Time": 4,
     "Image": "images/Chicken-Shammi-Kebab.png",
     "PopupImage": "popup_images/CHICKEN SHAMMI KEBAB.png",
-    "Accessories": "Stainless Steel Pan, Small Teflon Sheet",
+    "Accessories": "Pan Non Coated (SS), MP Mats (Small)",
     "Ingredients":[
       "7pcs. Chicken Shami Mix (280 g)",
       "150 g Boneless Chicken Thigh",
@@ -1894,7 +1894,7 @@
     "Cooking Time": 4,
     "Image": "images/Paneer-Bhurji.png",
     "PopupImage": "popup_images/PANEER BHURJI.png",
-    "Accessories": "Stainless Steel Pan, Silicone Stirrer",
+    "Accessories": "Pan Non Coated (SS), Silicone Stirrer",
     "Ingredients": [
       "40 ml Oil",
       "100g Chopped Vegetables",
@@ -1924,7 +1924,7 @@
     "Cooking Time": 4,
     "Image": "images/Paneer-Cheese-Bhurji.png",
     "PopupImage": "popup_images/PANEER CHEESE BHURJI.png",
-    "Accessories": "Stainless Steel Pan, Silicone Stirrer",
+    "Accessories": "Pan Non Coated (SS), Silicone Stirrer",
     "Ingredients": [
       "40 ml Oil",
       "100 g Chopped Vegetables",
@@ -1955,7 +1955,7 @@
     "Cooking Time": 4,
     "Image": "images/Samosa (frozen).png",
     "PopupImage": "popup_images/SAMOSA (FROZEN).png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "4 Pieces Frozen Samosa"
     ],
@@ -1972,7 +1972,7 @@
     "Cooking Time": 4,
     "Image": "images/Sauteed-Vegetable.png",
     "PopupImage": "popup_images/SAUTEED VEGETABLE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "15g Chopped Garlic",
@@ -2005,7 +2005,7 @@
     "Cooking Time": 4,
     "Image": "images/Thai-Green-Curry-Veg.png",
     "PopupImage": "popup_images/THAI GREEN CURRY VEG.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30ml Oil",
       "50g Chopped Vegetables",
@@ -2040,7 +2040,7 @@
     "Cooking Time": 4,
     "Image": "images/Bharela-Karela.jpg",
     "PopupImage": "popup_images/BHARELA KARELA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Oil",
       "2g Cumin Seeds",
@@ -2083,7 +2083,7 @@
     "Cooking Time": 4,
     "Image": "images/Prawn-Moilee.png",
     "PopupImage": "popup_images/PRAWN MOILEE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "62g Coconut Oil & Tempering",
       "50 g Coconut Oil",
@@ -2115,7 +2115,7 @@
     "Cooking Time": 4,
     "Image": "images/Handvo.jpg",
     "PopupImage": "popup_images/HANDVO.jpg",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Oil",
       "2g Cumin Seeds",
@@ -2157,7 +2157,7 @@
     "Cooking Time": 3,
     "Image": "images/Veg-Manchurian-Gravy.png",
     "PopupImage": "popup_images/VEG MANCHURIAN GRAVY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "15g Chopped Vegetables",
@@ -2195,7 +2195,7 @@
     "Cooking Time": 3,
     "Image": "images/Malai-Chicken-Tikka.png",
     "PopupImage": "popup_images/MALAI CHICKEN TIKKA.png",
-    "Accessories": "Stainless Steel Pan, Small Non-Stick Mat",
+    "Accessories": "Pan Non Coated (SS), MP Mats (Small)",
     "Ingredients": [
       "554g Marinated Chicken",
       "300 g Chicken Thigh Boneless",
@@ -2215,7 +2215,7 @@
     "Cooking Time": 3,
     "Image": "images/Malai-Keema.png",
     "PopupImage": "popup_images/MALAI KEEMA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "15g Ghee",
       "5g Whole Spices",
@@ -2253,7 +2253,7 @@
     "Cooking Time": 3,
     "Image": "images/Chicken-Stir-Fry-Noodle.png",
     "PopupImage": "popup_images/CHICKEN STIR FRY NOODLE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
       "15 ml Oil",
       "250g Exotic Vegetables & Chicken",
@@ -2289,7 +2289,7 @@
     "Cooking Time": 3,
     "Image": "images/Malai-Broccoli-Tikka.png",
     "PopupImage": "popup_images/MALAI BROCCOLI TIKKA.png",
-    "Accessories": "Stainless Steel Pan, Small Non-Stick Mat",
+    "Accessories": "Pan Non Coated (SS), MP Mats (Small)",
     "Ingredients": [
       "554g Marinated Broccoli",
       "300 g Broccoli Florets",
@@ -2318,7 +2318,7 @@
     "Cooking Time": 3,
     "Image": "images/Malai-Gobi-Tikka.png",
     "PopupImage": "popup_images/MALAI GOBI TIKKA.png",
-    "Accessories": "Stainless Steel Pan, Small Non-Stick Mat",
+    "Accessories": "Pan Non Coated (SS), MP Mats (Small)",
     "Ingredients": [
       "554g Marinated Cauliflower",
       "300 g Cauliflower Florets",
@@ -2347,7 +2347,7 @@
     "Cooking Time": 3,
     "Image": "images/Malai-Mushroom-Tikka.png",
     "PopupImage": "popup_images/MALAI MUSHROOM TIKKA.png",
-    "Accessories": "Stainless Steel Pan, Small Non-Stick Mat",
+    "Accessories": "Pan Non Coated (SS), MP Mats (Small)",
     "Ingredients": [
       "554g Marinated Mushroom",
       "300 g Mushroorn Caps",
@@ -2376,7 +2376,7 @@
     "Cooking Time": 3,
     "Image": "images/Malai-Paneer-Tikka.png",
     "PopupImage": "popup_images/MALAI PANEER TIKKA.png",
-    "Accessories": "Stainless Steel Pan, Small Non-Stick Mat",
+    "Accessories": "Pan Non Coated (SS), MP Mats (Small)",
     "Ingredients": [
       "554g Marinated Paneer",
       "300 g Paneer Cubes",
@@ -2405,7 +2405,7 @@
     "Cooking Time": 3,
     "Image": "images/Paneer-Tikka.png",
     "PopupImage": "popup_images/PANEER TIKKA.png",
-    "Accessories": "Stainless Steel Pan, Small Non-Stick Mat",
+    "Accessories": "Pan Non Coated (SS), MP Mats (Small)",
     "Ingredients": [
       "445 g Marinated Paneer and Vegetables",
       "300 g Paneer Cubes",
@@ -2430,7 +2430,7 @@
     "Cooking Time": 3,
     "Image": "images/Thai-Veg-Green-Curry.png",
     "PopupImage": "popup_images/THAI VEG GREEN CURRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "201g Exotic Vegetables",
@@ -2465,7 +2465,7 @@
     "Cooking Time": 3,
     "Image": "images/Thai-Noodle-Soup.png",
     "PopupImage": "popup_images/THAI NOODLE SOUP.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "50g Chopped Vegetables",
@@ -2499,7 +2499,7 @@
     "Cooking Time": 3,
     "Image": "images/Thai-Veg-Red-Curry.png",
     "PopupImage": "popup_images/THAI VEG RED CURRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "201g Exotic Vegetables 10 g Garlic",
@@ -2532,7 +2532,7 @@
     "Cooking Time": 3,
     "Image": "images/Kung-Pao-Mushroom.png",
     "PopupImage": "popup_images/KUNG PAO MUSHROOM.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30ml Oil",
       "357g Whole Red Chilli",
@@ -2567,7 +2567,7 @@
     "Cooking Time": 3,
     "Image": "images/Vegetable-Poha.png",
     "PopupImage": "popup_images/VEGETABLE POHA.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "50g Oil",
       "160g Vegetable Mix",
@@ -2622,7 +2622,7 @@
     "Cooking Time": 2,
     "Image": "images/Chicken-Popcorn.png",
     "PopupImage": "popup_images/CHICKEN POPCORN.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "200g Breaded Chicken Dices",
       "10g Peri Peri Powder"
@@ -2640,7 +2640,7 @@
     "Cooking Time": 2,
     "Image": "images/Kodi-Pakora.png",
     "PopupImage": "popup_images/KODI PAKORA.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "150g Chicken Thigh Boneless",
       "58g Chicken Marination",
@@ -2670,7 +2670,7 @@
     "Cooking Time": 2,
     "Image": "images/Chicken-65.png",
     "PopupImage": "popup_images/CHICKEN 65.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "15g Oil",
       "8 g Garlic Sliced",
@@ -2696,7 +2696,7 @@
     "Cooking Time": 2,
     "Image": "images/French-Fries.png",
     "PopupImage": "popup_images/FRENCH FRIES.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "200g Frozen Fries"
     ],
@@ -2713,7 +2713,7 @@
     "Cooking Time": 2,
     "Image": "images/Mushroom-Nugget.png",
     "PopupImage": "popup_images/MUSHROOM NUGGET.png",
-    "Accessories" : "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories" : "Pan Non Coated (SS), Frying Kit",
     "Ingredients":[
       "200g Coated Mushrooms",
       "5g Peri Peri Powder"
@@ -2731,7 +2731,7 @@
     "Cooking Time": 2,
     "Image": "images/Potato-Wedges.png",
     "PopupImage": "popup_images/POTATO WEDGES.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "200g Potato Wedges"
     ],
@@ -2748,7 +2748,7 @@
     "Cooking Time": 2,
     "Image": "images/Veg-Burger-Patty.png",
     "PopupImage": "popup_images/VEG BURGER PATTY.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "4 Pieces Frozen Burger Patties"
     ],
@@ -2765,7 +2765,7 @@
     "Cooking Time": 2,
     "Image": "images/Jama-Fried-Paneer.png",
     "PopupImage": "popup_images/JAMA FRIED PANEER.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "400g Paneer Batons",
       "197g Spiced Batter",
@@ -2796,7 +2796,7 @@
     "Cooking Time": 1960,
     "Image": "images/Brown-Stock.png",
     "PopupImage": "popup_images/BROWN STOCK.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "50ml Oil",
       "270g Mirepoix",
@@ -2830,7 +2830,7 @@
     "Cooking Time": 1,
     "Image": "images/Mozzarella-Stick.png",
     "PopupImage": "popup_images/MOZZARELLA STICK.png",
-    "Accessories" : "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories" : "Pan Non Coated (SS), Frying Kit",
     "Ingredients":[
       "6 Pieces Breaded Mozzarella Sticks"
     ],
@@ -2848,7 +2848,7 @@
     "Cooking Time": 0,
     "Image": "images/Nolen-Gur-Payes.jpg",
     "PopupImage": "popup_images/NOLEN GUR PAYES.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Ghee",
       "20g Cashew",
@@ -2875,7 +2875,7 @@
     "Cooking Time": 0,
     "Image": "images/Mirchi-Ka-Salan.png",
     "PopupImage": "popup_images/MIRCHI KA SALAN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "200 ml Oil",
       "10 g Mustard Seeds",
@@ -2919,7 +2919,7 @@
     "Cooking Time": 0,
     "Image": "images/Gajar-Halwa-1KG.png",
     "PopupImage": "popup_images/GAJAR HALWA 1KG.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
       "100g Ghee",
       "1000g Grated Carrot",
@@ -2947,7 +2947,7 @@
     "Cooking Time": 0,
     "Image": "images/Rava-Upma-2500-G.png",
     "PopupImage": "popup_images/RAVA UPMA 2500 G.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "100 ml Oil",
       "60g Whole Spices",
@@ -2979,7 +2979,7 @@
     "Cooking Time": 0,
     "Image": "images/Paal-Payasam.png",
     "PopupImage": "popup_images/PAAL PAYASAM.jpg",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 g Ghee",
       "20 g Cashew",
@@ -3003,7 +3003,7 @@
     "Cooking Time": 0,
     "Image": "images/Rajasthani-Style-Chicken-Curry.png",
     "PopupImage": "popup_images/RAJASTHANI STYLE CHICKEN CURRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "350g Mix Ingredients",
       "150 g Ghee",
@@ -3041,7 +3041,7 @@
     "Cooking Time": 0,
     "Image": "images/Kashmiri-Pulao.png",
     "PopupImage": "popup_images/KASHMIRI PULAO.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "150 g Ghee",
       "338 g Whole Spices",
@@ -3080,7 +3080,7 @@
     "Cooking Time": 0,
     "Image": "images/Kori-Gassi-2200-G.png",
     "PopupImage": "popup_images/KORI GASSI 2200 G.png",
-    "Accessories": "Stainless Steel Pan, Silicone Stirrer",
+    "Accessories": "Pan Non Coated (SS), Silicone Stirrer",
     "Ingredients": [
       "100 ml Coconut Oil",
       "10g Curry Leaves",
@@ -3113,7 +3113,7 @@
     "Cooking Time": 0,
     "Image": "images/Pongal.png",
     "PopupImage": "popup_images/PONGAL.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "120g Ghee",
       "65g Pongal Spice Mix",
@@ -3143,7 +3143,7 @@
     "Cooking Time": 0,
     "Image": "images/Rose-Sauce-Pasta.png",
     "PopupImage": "popup_images/ROSE SAUCE PASTA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Butter",
       "10g Garlic",
@@ -3174,7 +3174,7 @@
     "Cooking Time": 0,
     "Image": "images/Alfredo-Pasta.png",
     "PopupImage": "popup_images/ALFREDO PASTA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Butter 10g Garlic",
       "20g All Purpose Flour",
@@ -3205,7 +3205,7 @@
     "Cooking Time": 0,
     "Image": "images/Vietnamese-Soup.png",
     "PopupImage": "popup_images/VIETNAMESE SOUP.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Oil",
       "187g Vegetables",
@@ -3244,7 +3244,7 @@
     "Cooking Time": 0,
     "Image": "images/Basil-Penne-Pesto-Pasta.png",
     "PopupImage": "popup_images/BASIL PENNE PESTO PASTA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Butter",
       "15g  Garlic",
@@ -3280,7 +3280,7 @@
     "Cooking Time": 0,
     "Image": "images/Andhra-Chicken-Rassa.png",
     "PopupImage": "popup_images/ANDHRA CHICKEN RASSA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "80 ml",
       "20g Mint Leaves",
@@ -3322,7 +3322,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Biryani.png",
     "PopupImage": "popup_images/CHICKEN BIRYANI.png",
-    "Accessories": "Stainless Steel Pan, Grill Mesh, Large Non-Stick Mat",
+    "Accessories": "Pan Non Coated (SS), Mesh Mat, MP Mats (Big)",
     "Ingredients": [
       "50g Ghee",
       "26pcs. Whole Spices",
@@ -3369,7 +3369,7 @@
     "Cooking Time": 0,
     "Image": "images/Ghee-Rice.png",
     "PopupImage": "popup_images/GHEE RICE.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "150g Ghee",
       "115g Whole Spices",
@@ -3394,7 +3394,7 @@
     "Cooking Time": 0,
     "Image": "images/Andhra-Chicken-Curry.png",
     "PopupImage": "popup_images/ANDHRA CHICKEN CURRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60g Ghee",
       "150g Chopped Onion",
@@ -3424,7 +3424,7 @@
     "Cooking Time": 0,
     "Image": "images/Xacuti-Chicken.png",
     "PopupImage": "popup_images/XACUTI CHICKEN.png",
-    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Accessories": "Pan Coated (ceramic), Noodle Stirrer",
     "Ingredients": [
       "45ml Oil",
       "10g Ghee",
@@ -3470,7 +3470,7 @@
     "Cooking Time": 0,
     "Image": "images/Andhra-Mushroom-Curry.png",
     "PopupImage": "popup_images/ANDHRA MUSHROOM CURRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60ml Oil",
       "150g Onion & Curry Leaves",
@@ -3500,7 +3500,7 @@
     "Cooking Time": 0,
     "Image": "images/Andhra-Paneer-Curry.png",
     "PopupImage": "popup_images/ANDHRA PANEER CURRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60ml Oil",
       "150g Onion & Curry Leaves",
@@ -3529,7 +3529,7 @@
     "Cooking Time": 0,
     "Image": "images/Pao-Bhaji-Masala.png",
     "PopupImage": "popup_images/PAO BHAJI MASALA.png",
-    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Accessories" : "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "150ml Oil",
       "350 g Chopped Vegetables",
@@ -3567,7 +3567,7 @@
     "Cooking Time": 0,
     "Image": "images/Peas-Pulao.png",
     "PopupImage": "popup_images/PEAS PULAO.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "60 ml Oil",
       "25g Whole Spices",
@@ -3592,7 +3592,7 @@
     "Cooking Time": 0,
     "Image": "images/Brown-Onion-Rice.png",
     "PopupImage": "popup_images/BROWN ONION RICE.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "60 ml Oil",
       "25g Whole Spices",
@@ -3620,7 +3620,7 @@
     "Cooking Time": 0,
     "Image": "images/Chole-Masala-1-Kg.png",
     "PopupImage": "popup_images/CHOLE MASALA 1 KG.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
       "20g Ghee",
       "7g Whole Spices",
@@ -3652,7 +3652,7 @@
     "Cooking Time": 0,
     "Image": "images/Fry-Veg-Biryani.png",
     "PopupImage": "popup_images/FRY VEG BIRYANI.png",
-    "Accessories": "Stainless Steel Pan, Grill Mesh, Large Non-Stick Mat",
+    "Accessories": "Pan Non Coated (SS), Mesh Mat, MP Mats (Big)",
     "Ingredients": [
       "120 ml Water",
       "40g Ghee",
@@ -3694,7 +3694,7 @@
     "Cooking Time": 0,
     "Image": "images/Jeera-Rice.png",
     "PopupImage": "popup_images/JEERA RICE.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
         "60ml Oil",
         "20g Whole Spices",
@@ -3717,7 +3717,7 @@
     "Cooking Time": 0,
     "Image": "images/Lemon-Rice.png",
     "PopupImage": "popup_images/LEMON RICE.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "40ml Oil",
       "55g Whole Spices",
@@ -3743,7 +3743,7 @@
     "Cooking Time": 0,
     "Image": "images/Aloo-Matar-Rassa.png",
     "PopupImage": "popup_images/ALOO MATAR RASSA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "45 ml Oil",
       "55g Whole Spice & Tempering",
@@ -3779,7 +3779,7 @@
     "Cooking Time": 0,
     "Image": "images/Tariwala-Kukkad.png",
     "PopupImage": "popup_images/TARIWALA KUKKAD.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60 ml Oil",
       "3 g Cumin Seeds",
@@ -3821,7 +3821,7 @@
     "Cooking Time": 0,
     "Image": "images/Aloo-Rassawala.png",
     "PopupImage": "popup_images/ALOO RASSAWALA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "45 ml Oil",
       "55g Whole Spice & Tempering",
@@ -3857,7 +3857,7 @@
     "Cooking Time": 0,
     "Image": "images/Tamarind-Rice.png",
     "PopupImage": "popup_images/TAMARIND RICE.jpg",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "30g Sesame Oil",
       "81g Tempering",
@@ -3887,7 +3887,7 @@
     "Cooking Time": 0,
     "Image": "images/Potato-Frittata.png",
     "PopupImage": "popup_images/POTATO FRITTATA.png",
-    "Accessories": "Cake Mold and Cake Mold Stirrer",
+    "Accessories": "Cake Kit",
     "Ingredients": [
       "20g Oil",
       "20g Butter",
@@ -3916,7 +3916,7 @@
     "Cooking Time": 0,
     "Image": "images/Andhra-Chicken-Fry.png",
     "PopupImage": "popup_images/ANDHRA CHICKEN FRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "50g Ghee",
       "200g Chopped Onion",
@@ -3944,7 +3944,7 @@
     "Cooking Time": 0,
     "Image": "images/Gajar-Halwa-500G.png",
     "PopupImage": "popup_images/GAJAR HALWA 500G.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "70g Ghee",
       "500g Grated Carrot",
@@ -3973,7 +3973,7 @@
     "Cooking Time": 0,
     "Image": "images/Kalakand.png",
     "PopupImage": "popup_images/KALAKAND.png",
-    "Accessories": "Stainless Steel Pan, Silicone Stirrer",
+    "Accessories": "Pan Non Coated (SS), Silicone Stirrer",
     "Ingredients": [
       "60g Ghee",
       "2815g Kalakand Mix",
@@ -3995,7 +3995,7 @@
     "Cooking Time": 0,
     "Image": "images/Safed-Murgh.png",
     "PopupImage": "popup_images/SAFED MURGH.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60g Ghee",
       "5 pcs. Khada Masala",
@@ -4041,7 +4041,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Kosha.jpg",
     "PopupImage": "popup_images/CHICKEN KOSHA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "64g Oil & Whole Spices",
       "4 Nos Cardamom",
@@ -4084,7 +4084,7 @@
     "Cooking Time": 0,
     "Image": "images/Sichuan-Sauce.png",
     "PopupImage": "popup_images/SICHUAN SAUCE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "200ml Oil",
       "5g Whole Spices",
@@ -4121,7 +4121,7 @@
     "Cooking Time": 0,
     "Image": "images/Rajma-Masala.png",
     "PopupImage": "popup_images/RAJMA MASALA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60ml Oil",
       "4g Whole Spices",
@@ -4154,7 +4154,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Saoji.png",
     "PopupImage": "popup_images/CHICKEN SAOJI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "80 ml Oil",
       "30g Ginger Garlic Paste",
@@ -4197,7 +4197,7 @@
     "Cooking Time": 0,
     "Image": "images/Mushroom-Saoji.png",
     "PopupImage": "popup_images/MUSHROOM SAOJI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "80ml oil",
       "30g Ginger Garlic Paste",
@@ -4240,7 +4240,7 @@
     "Cooking Time": 0,
     "Image": "images/Mughlai-Chicken.png",
     "PopupImage": "popup_images/MUGHLAI CHICKEN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "30g Butter",
@@ -4283,7 +4283,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Ghee-Roast.png",
     "PopupImage": "popup_images/CHICKEN GHEE ROAST.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Ghee",
       "3g Curry Leaves",
@@ -4330,7 +4330,7 @@
     "Cooking Time": 0,
     "Image": "images/Kesar-Phirni.png",
     "PopupImage": "popup_images/KESAR PHIRNI.png",
-    "Accessories": "Stainless Steel Pan, Silicone Stirrer",
+    "Accessories": "Pan Non Coated (SS), Silicone Stirrer",
     "Ingredients": [
       "10g Ghee",
       "40g Dry fruits",
@@ -4355,7 +4355,7 @@
     "Cooking Time": 0,
     "Image": "images/Paneer-Saoji.png",
     "PopupImage": "popup_images/PANEER SAOJI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "80 ml Oil",
       "30g Ginger Garlic Paste",
@@ -4398,7 +4398,7 @@
     "Cooking Time": 0,
     "Image": "images/Moong-Dal-Halwa-1000G.png",
     "PopupImage": "popup_images/MOONG DAL HALWA 1000G.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "200g Ghee",
       "200 g Moong Dal Mix",
@@ -4421,7 +4421,7 @@
     "Cooking Time": 0,
     "Image": "images/Malai-Kofta.png",
     "PopupImage": "popup_images/MALAI KOFTA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60g Oil & Ghee",
       "20 g Ghee",
@@ -4463,7 +4463,7 @@
     "Cooking Time": 0,
     "Image": "images/Aloo-Posto.jpg",
     "PopupImage": "popup_images/ALOO POSTO.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "211g Oil & Tempering",
       "50 g Mustard oil",
@@ -4491,7 +4491,7 @@
     "Cooking Time": 0,
     "Image": "images/Nizami-Dum-Chicken.png",
     "PopupImage": "popup_images/NIZAMI DUM CHICKEN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "1015g Marinated Chicken",
       "500 g Chicken Curry Cut",
@@ -4532,7 +4532,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Chengazi.png",
     "PopupImage": "popup_images/CHICKEN CHENGAZI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "80g Ghee",
       "40g Butter",
@@ -4576,7 +4576,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Korma.png",
     "PopupImage": "popup_images/CHICKEN KORMA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Oil",
       "40 g Ghee",
@@ -4612,7 +4612,7 @@
     "Cooking Time": 0,
     "Image": "images/Chennai-Chicken-Masala.png",
     "PopupImage": "popup_images/CHENNAI CHICKEN MASALA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Ghee",
       "10g Tadka",
@@ -4652,7 +4652,7 @@
     "Cooking Time": 0,
     "Image": "images/Kerala-Fish-Curry.png",
     "PopupImage": "popup_images/KERALA FISH CURRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60 ml Coconut Oil",
       "38g Whole Spices",
@@ -4687,7 +4687,7 @@
     "Cooking Time": 0,
     "Image": "images/Safed-Murgh-Makhani.png",
     "PopupImage": "popup_images/SAFED MURGH MAKHANI.png",
-      "Accessories" : "Coated Pan, Silicone Stirrer",
+      "Accessories" : "Pan Coated (ceramic), Silicone Stirrer",
       "Ingredients":[
         "30 g Oil & 30 g Ghee",
         "426g Raw Gravy Mix",
@@ -4731,7 +4731,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Tikka-Masala.png",
     "PopupImage": "popup_images/CHICKEN TIKKA MASALA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60g Oil & Ghee",
       "40 g Oil",
@@ -4784,7 +4784,7 @@
     "Cooking Time": 0,
     "Image": "images/Paneer-Tikka-Masala.png",
     "PopupImage": "popup_images/PANEER TIKKA MASALA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "40 g Oil",
       "20 g Ghee",
@@ -4835,7 +4835,7 @@
     "Cooking Time": 0,
     "Image": "images/Gajar-Ka-Halwa.png",
     "PopupImage": "popup_images/GAJAR KA HALWA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "50g Ghee",
       "30g Dry fruits: 20 g Cashews",
@@ -4860,7 +4860,7 @@
     "Cooking Time": 0,
     "Image": "images/Goan-Aloo-Bhaji.png",
     "PopupImage": "popup_images/GOAN ALOO BHAJI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "50 ml. Oil",
       "2g Cumin Seeds",
@@ -4890,7 +4890,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Curry.png",
     "PopupImage": "popup_images/CHICKEN CURRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "50ml Oil",
       "10g Chopped Garlic",
@@ -4929,7 +4929,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Rezala.png",
     "PopupImage": "popup_images/CHICKEN REZALA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Ghee",
       "10g Whole Spices",
@@ -4970,7 +4970,7 @@
     "Cooking Time": 0,
     "Image": "images/Kori-Gassi-650-G.png",
     "PopupImage": "popup_images/KORI GASSI 650 G.png",
-    "Accessories": "Stainless Steel Pan, Silicone Stirrer",
+    "Accessories": "Pan Non Coated (SS), Silicone Stirrer",
     "Ingredients": [
       "30 ml Coconut Oil",
       "3g Curry Leaves",
@@ -5004,7 +5004,7 @@
     "Cooking Time": 0,
     "Image": "images/Idli-Shakshuka.png",
     "PopupImage": "popup_images/IDLI SHAKSHUKA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "40g Ghee",
       "17g Tempering",
@@ -5033,7 +5033,7 @@
     "Cooking Time": 0,
     "Image": "images/Butter-Chicken.png",
     "PopupImage": "popup_images/BUTTER CHICKEN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "20g Ghee",
@@ -5074,7 +5074,7 @@
     "Cooking Time": 0,
     "Image": "images/Prawns-Curry.png",
     "PopupImage": "popup_images/PRAWNS CURRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "40 ml Mustard Oil",
       "26g Whole Spices & Paste",
@@ -5115,7 +5115,7 @@
     "Cooking Time": 0,
     "Image": "images/Bhindi-Masala.png",
     "PopupImage": "popup_images/BHINDI MASALA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "70 ml Oil",
       "20g Tampering",
@@ -5149,7 +5149,7 @@
     "Cooking Time": 0,
     "Image": "images/Kadai-Paneer.png",
     "PopupImage": "popup_images/KADAI PANEER.png",
-    "Accessories": "Stainless Steel Pan, Silicone Stirrer",
+    "Accessories": "Pan Non Coated (SS), Silicone Stirrer",
     "Ingredients": [
       "30ml Oil",
       "30 g Ghee",
@@ -5197,7 +5197,7 @@
     "Cooking Time": 0,
     "Image": "images/Punjabi-Kadhi.png",
     "PopupImage": "popup_images/PUNJABI KADHI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "25g Whole Spices",
@@ -5236,7 +5236,7 @@
     "Cooking Time": 0,
     "Image": "images/Shimla-Mirch-Aloo.png",
     "PopupImage": "popup_images/SHIMLA MIRCH ALOO.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60g oil",
       "5g Cumin Seeds",
@@ -5268,7 +5268,7 @@
     "Cooking Time": 0,
     "Image": "images/Mix-Veg-Coconut-Curry.png",
     "PopupImage": "popup_images/MIX VEG COCONUT CURRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Total Output": "1100g",
     "On2Cook Cooking Time": "7:30",
     "Normal Cooking Time": ".   20 mins."
@@ -5282,7 +5282,7 @@
     "Cooking Time": 0,
     "Image": "images/Aloo-Gobi.png",
     "PopupImage": "popup_images/ALOO GOBI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60 ml Oil",
       "15g Cumin Seeds",
@@ -5314,7 +5314,7 @@
     "Cooking Time": 0,
     "Image": "images/Breakfast-Egg-Pie.png",
     "PopupImage": "popup_images/BREAKFAST EGG PIE.png",
-    "Accessories": "Stainless Steel Pan, Grill Mesh, Cake Mold and Cake Mold Stirrer, Coated Pan",
+    "Accessories": "Pan Non Coated (SS), Mesh Mat, Cake Kit, Pan Coated (ceramic)",
     "Ingredients": [
       "510g Egg Mix",
       "120 g Whole Eggs",
@@ -5342,7 +5342,7 @@
     "Cooking Time": 0,
     "Image": "images/Veg-Diwani-Handi.png",
     "PopupImage": "popup_images/VEG DIWANI HANDI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "2g Cumin Seeds",
@@ -5386,7 +5386,7 @@
     "Cooking Time": 0,
     "Image": "images/Safed-Paneer-Makhani.png",
     "PopupImage": "popup_images/SAFED PANEER MAKHANI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 g Oil & 30 g Ghee",
       "426g Raw Gravy Mix",
@@ -5425,7 +5425,7 @@
     "Cooking Time": 0,
     "Image": "images/Veggie-Mac-&-Cheese.png",
     "PopupImage": "popup_images/VEGGIE MAC & CHEESE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Butter",
       "15g Garlic",
@@ -5460,7 +5460,7 @@
     "Cooking Time": 0,
     "Image": "images/Apple-Cinnamon-Cake.png",
     "PopupImage": "popup_images/APPLE CINNAMON CAKE.png",
-    "Accessories": "Grill Mesh, Stainless Steel Pan, Cake Mold and Cake Mold Stirrer",
+    "Accessories": "Mesh Mat, Pan Non Coated (SS), Cake Kit",
     "Ingredients": [
       "380g Batter Mix",
       "75g Butter",
@@ -5491,7 +5491,7 @@
     "Cooking Time": 0,
     "Image": "images/Banana-Caramel-Cake.png",
     "PopupImage": "popup_images/BANANA CARAMEL CAKE.png",
-    "Accessories": "Grill Mesh, Stainless Steel Pan, Cake Mold and Cake Mold Stirrer",
+    "Accessories": "Mesh Mat, Pan Non Coated (SS), Cake Kit",
     "Ingredients": [
       "380 g Batter Mix",
       "75 g Butter",
@@ -5519,7 +5519,7 @@
     "Cooking Time": 0,
     "Image": "images/Caramel-Cake.png",
     "PopupImage": "popup_images/CARAMEL CAKE.png",
-    "Accessories": "Grill Mesh, Stainless Steel Pan, Cake Mold and Cake Mold Stirrer",
+    "Accessories": "Mesh Mat, Pan Non Coated (SS), Cake Kit",
     "Ingredients": [
       "380g Batter Mix",
       "75 g Butter",
@@ -5551,7 +5551,7 @@
     "Cooking Time": 0,
     "Image": "images/Espagnole-Sauce.png",
     "PopupImage": "popup_images/ESPAGNOLE SAUCE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "135g Butter & Vegetables",
       "20 g Butter",
@@ -5580,7 +5580,7 @@
     "Cooking Time": 0,
     "Image": "images/Chocolate-Sponge.png",
     "PopupImage": "popup_images/CHOCOLATE SPONGE.png",
-    "Accessories": "Grill Mesh, Stainless Steel Pan, Cake Mold and Cake Mold Stirrer",
+    "Accessories": "Mesh Mat, Pan Non Coated (SS), Cake Kit",
     "Ingredients": [
       "600g Cake Mix",
       "300 g Pillsbury Cooker Cake Chocolate Flavour",
@@ -5613,7 +5613,7 @@
     "Cooking Time": 0,
     "Image": "images/Cacio-E-Pepe-Chicken.png",
     "PopupImage": "popup_images/CACIO E PEPE CHICKEN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "50g Butter",
       "565g Marinated Chicken",
@@ -5642,7 +5642,7 @@
     "Cooking Time": 0,
     "Image": "images/Matar-Paneer.png",
     "PopupImage": "popup_images/MATAR PANEER.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "30g Butter",
@@ -5676,7 +5676,7 @@
     "Cooking Time": 0,
     "Image": "images/Pepper-Chicken.png",
     "PopupImage": "popup_images/PEPPER CHICKEN.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "43g Oil & Whole Spices",
       "30 g Oil",
@@ -5708,7 +5708,7 @@
     "Cooking Time": 0,
     "Image": "images/Carrot-Cake.png",
     "PopupImage": "popup_images/CARROT CAKE.png",
-    "Accessories": "Grill Mesh, Stainless Steel Pan, Cake Mold and Cake Mold Stirrer",
+    "Accessories": "Mesh Mat, Pan Non Coated (SS), Cake Kit",
     "Ingredients": [
       "840 g Batter Mix",
       "150 g Egg",
@@ -5731,7 +5731,7 @@
     "Cooking Time": 0,
     "Image": "images/Egg-Shakshuka.png",
     "PopupImage": "popup_images/EGG SHAKSHUKA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "40g Ghee",
       "14g Tampering",
@@ -5759,7 +5759,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Stroganoff.png",
     "PopupImage": "popup_images/CHICKEN STROGANOFF.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "80g Butter & Vegetables",
       "30 g Butter",
@@ -5798,7 +5798,7 @@
     "Cooking Time": 0,
     "Image": "images/Kaju-Masala.png",
     "PopupImage": "popup_images/KAJU MASALA.png",
-    "Accessories": "Stainless Steel Pan, Silicone Stirrer",
+    "Accessories": "Pan Non Coated (SS), Silicone Stirrer",
     "Ingredients": [
       "30ml Oil",
       "30g Ghee",
@@ -5837,7 +5837,7 @@
     "Cooking Time": 0,
     "Image": "images/Suji-Halwa.png",
     "PopupImage": "popup_images/SUJI HALWA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "400 g Ghee",
       "680 g Suji Mix",
@@ -5863,7 +5863,7 @@
     "Cooking Time": 0,
     "Image": "images/Cabbage-Poriyal.png",
     "PopupImage": "popup_images/CABBAGE PORIYAL.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "13g Tadka",
@@ -5891,7 +5891,7 @@
     "Cooking Time": 0,
     "Image": "images/Pindi-Chole.png",
     "PopupImage": "popup_images/PINDI CHOLE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "100g Ghee",
       "7g Whole Spices",
@@ -5922,7 +5922,7 @@
     "Cooking Time": 0,
     "Image": "images/Steamed-Idli.png",
     "PopupImage": "popup_images/STEAMED IDLI.png",
-    "Accessories": "Stainless Steel Pan, Idli Mold & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Idli Mold & Stirrer",
     "Ingredients": [
       "507g Fresh Idli Batter",
       "450 g Fresh Idli Batter",
@@ -5944,7 +5944,7 @@
     "Cooking Time": 0,
     "Image": "images/Bharela-Mirchi.png",
     "PopupImage": "popup_images/BHARELA MIRCHI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "40g Oil",
       "100g Onion",
@@ -5971,7 +5971,7 @@
     "Cooking Time": 0,
     "Image": "images/Veg-Jaipuri.png",
     "PopupImage": "popup_images/VEG JAIPURI.jpg",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "40g Oil (1/4 Cup]",
       "40 g Ghee (1/4 Cup)",
@@ -6016,7 +6016,7 @@
     "Cooking Time": 0,
     "Image": "images/Dhaba-Mutton.png",
     "PopupImage": "popup_images/DHABA MUTTON.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "50ml Ghee",
       "7g Whole Spices",
@@ -6058,7 +6058,7 @@
     "Cooking Time": 0,
     "Image": "images/Mushroom-Mappas.png",
     "PopupImage": "popup_images/MUSHROOM MAPPAS.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "40 ml Oil",
       "167g Chopped Vegetables",
@@ -6090,7 +6090,7 @@
     "Cooking Time": 0,
     "Image": "images/Classic-Veloute-Sauce.png",
     "PopupImage": "popup_images/CLASSIC VELOUTE SAUCE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "100g Butter",
       "100g All Purpose Flour",
@@ -6110,7 +6110,7 @@
     "Cooking Time": 0,
     "Image": "images/Malabar-Prawn.png",
     "PopupImage": "popup_images/MALABAR PRAWN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Total Output": "700g",
     "On2Cook Cooking Time": "6:10",
     "Normal Cooking Time": ".   35 mins."
@@ -6124,7 +6124,7 @@
     "Cooking Time": 0,
     "Image": "images/Banana-Walnut-Cake.png",
     "PopupImage": "popup_images/BANANA WALNUT CAKE.png",
-    "Accessories": "Grill Mesh, Stainless Steel Pan, Cake Mold and Cake Mold Stirrer",
+    "Accessories": "Mesh Mat, Pan Non Coated (SS), Cake Kit",
     "Ingredients": [
       "855g Cake Mix",
       "300 g Pillsbury Cooker Cake Chocolate Flavour",
@@ -6148,7 +6148,7 @@
     "Cooking Time": 0,
     "Image": "images/Masala-Aloo.png",
     "PopupImage": "popup_images/MASALA ALOO.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "50g Oil",
       "10g Whole Spice",
@@ -6179,7 +6179,7 @@
     "Cooking Time": 0,
     "Image": "images/Bombay-Keema-Masala.png",
     "PopupImage": "popup_images/BOMBAY KEEMA MASALA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "10g Ghee",
       "10g Butter",
@@ -6223,7 +6223,7 @@
     "Cooking Time": 0,
     "Image": "images/Asian-Chilli-Garlic-Fish.png",
     "PopupImage": "popup_images/ASIAN CHILLI GARLIC FISH.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "35g Chopped Vegetables",
@@ -6262,7 +6262,7 @@
     "Cooking Time": 0,
     "Image": "images/Cacio-E-Pepe-Mushroom.png",
     "PopupImage": "popup_images/CACIO E PEPE MUSHROOM.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "50g Butter",
       "565 g Marinated Mushroom",
@@ -6291,7 +6291,7 @@
     "Cooking Time": 0,
     "Image": "images/Paneer-Jalfrezi.png",
     "PopupImage": "popup_images/PANEER JALFREZI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "2g Whole Red Chilli",
@@ -6328,7 +6328,7 @@
     "Cooking Time": 0,
     "Image": "images/Mac-And-Cheese-(Maggi-Premix).png",
     "PopupImage": "popup_images/MAC AND CHEESE (Maggi Premix).png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Butter",
       "100g Macaroni",
@@ -6349,7 +6349,7 @@
     "Cooking Time": 0,
     "Image": "images/Paneer-Makhani.png",
     "PopupImage": "popup_images/PANEER MAKHANI.png",
-    "Accessories" : "Stainless Steel Pan, Silicone Stirrer",
+    "Accessories" : "Pan Non Coated (SS), Silicone Stirrer",
     "Ingredients":[
       "20ml Oil",
       "20g Butter",
@@ -6381,7 +6381,7 @@
     "Cooking Time": 0,
     "Image": "images/Red-Macroni-Pasta-(maggi-Premix).png",
     "PopupImage": "popup_images/RED MACRONI PASTA (Maggi Premix).png",
-    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Accessories" : "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
       "30g Butter",
       "100g Macaroni",
@@ -6403,7 +6403,7 @@
     "Cooking Time": 0,
     "Image": "images/Prawns-Mappas.png",
     "PopupImage": "popup_images/PRAWNS MAPPAS.png",
-    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Accessories" : "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "40 ml Oil",
       "167g Chopped Vegetables",
@@ -6435,7 +6435,7 @@
     "Cooking Time": 0,
     "Image": "images/Egg-Hakka-Noodles.png",
     "PopupImage": "popup_images/EGG HAKKA NOODLES.png",
-    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Accessories": "Pan Coated (ceramic), Noodle Stirrer",
     "Ingredients": [
       "Egg (2 Nos.] 185g Mix Vegetables",
       "10 g Chopped Garlic",
@@ -6465,7 +6465,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Hakka-Noodle.png",
     "PopupImage": "popup_images/CHICKEN HAKKA NOODLE.png",
-    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Accessories": "Pan Coated (ceramic), Noodle Stirrer",
     "Ingredients": [
       "20ml Oil",
       "100g Chicken",
@@ -6498,7 +6498,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Chilli-Garlic-Noodles.png",
     "PopupImage": "popup_images/CHICKEN CHILLI GARLIC NOODLES.png",
-    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Accessories": "Pan Coated (ceramic), Noodle Stirrer",
     "Ingredients": [
       "20ml Oil",
       "100g Chicken",
@@ -6532,7 +6532,7 @@
     "Cooking Time": 0,
     "Image": "images/Egg-Schezwan-Noodles.png",
     "PopupImage": "popup_images/EGG SCHEZWAN NOODLES.png",
-    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Accessories": "Pan Coated (ceramic), Noodle Stirrer",
     "Ingredients": [
       "20ml Oil",
       "80g Egg (2 Nos.)",
@@ -6564,7 +6564,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Schezwan-Noodle.png",
     "PopupImage": "popup_images/CHICKEN SCHEZWAN NOODLE.png",
-    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Accessories": "Pan Coated (ceramic), Noodle Stirrer",
     "Ingredients": [
       "20ml OiL",
       "100g Chicken",
@@ -6598,7 +6598,7 @@
     "Cooking Time": 0,
     "Image": "images/Egg-Chilli-Garlic-Noodles.png",
     "PopupImage": "popup_images/EGG CHILLI GARLIC NOODLES.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "80g Egg",
@@ -6632,7 +6632,7 @@
     "Cooking Time": 0,
     "Image": "images/Afghani-Mutton.png",
     "PopupImage": "popup_images/AFGHANI MUTTON.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "770g Boiling Ingredients For Mutton 500 g Mutton",
       "5g Salt",
@@ -6676,7 +6676,7 @@
     "Cooking Time": 0,
     "Image": "images/Jeera-Aloo.png",
     "PopupImage": "popup_images/JEERA  ALOO.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30ml Cumin seeds",
       "250g Diced Potatoes",
@@ -6698,7 +6698,7 @@
     "Cooking Time": 0,
     "Image": "images/Broccoli-Cheese.png",
     "PopupImage": "popup_images/BROCCOLI CHEESE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 g Butter",
       "15g Garlic",
@@ -6727,7 +6727,7 @@
     "Cooking Time": 0,
     "Image": "images/Brigadeiro.png",
     "PopupImage": "popup_images/BRIGADEIRO.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "150g Butter",
       "800g Condensed Milk",
@@ -6747,7 +6747,7 @@
     "Cooking Time": 0,
     "Image": "images/Cheese-Maggi.png",
     "PopupImage": "popup_images/CHEESE MAGGI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Butter",
       "2 packets Maggi",
@@ -6768,7 +6768,7 @@
     "Cooking Time": 0,
     "Image": "images/Shahi-Dahi-Halwa.png",
     "PopupImage": "popup_images/SHAHI DAHI HALWA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "150g Ghee",
       "150g Ground Sooji",
@@ -6795,7 +6795,7 @@
     "Cooking Time": 0,
     "Image": "images/Shahi-Paneer-Korma.png",
     "PopupImage": "popup_images/SHAHI PANEER KORMA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20g Ghee",
       "40 ml Oil",
@@ -6836,7 +6836,7 @@
     "Cooking Time": 0,
     "Image": "images/Asian-Chilli-Garlic-Veggies.png",
     "PopupImage": "popup_images/ASIAN CHILLI GARLIC VEGGIES.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml oil",
       "35g Chopped Vegetables",
@@ -6872,7 +6872,7 @@
     "Cooking Time": 0,
     "Image": "images/Veg-Schezwan-Noodles.png",
     "PopupImage": "popup_images/VEG SCHEZWAN NOODLES.png",
-    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Accessories": "Pan Coated (ceramic), Noodle Stirrer",
     "Ingredients": [
       "20ml Oil",
       "195g Mix Vegetables",
@@ -6903,7 +6903,7 @@
     "Cooking Time": 0,
     "Image": "images/Veg-Chili-Garlic-Noodles.png",
     "PopupImage": "popup_images/VEG CHILI GARLIC NOODLES.png",
-    "Accessories" : "Coated Pan, Noodle Stirrer",
+    "Accessories" : "Pan Coated (ceramic), Noodle Stirrer",
     "Ingredients":[
       "20 ml Oil",
       "195g Chopped Vegetables",
@@ -6935,7 +6935,7 @@
     "Cooking Time": 0,
     "Image": "images/Veg-Hakka-Noodles.png",
     "PopupImage": "popup_images/VEG HAKKA NOODLES.png",
-    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Accessories": "Pan Coated (ceramic), Noodle Stirrer",
     "Ingredients": [
       "20ml OiL",
       "195g Mix Vegetables",
@@ -6968,7 +6968,7 @@
     "Cooking Time": 0,
     "Image": "images/Gujarati-Dal.png",
     "PopupImage": "popup_images/GUJARATI DAL.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "35g Ghee & Whole Spices",
       "20 g Ghee",
@@ -7003,7 +7003,7 @@
     "Cooking Time": 0,
     "Image": "images/Egg-Bhurji.png",
     "PopupImage": "popup_images/EGG BHURJI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "40 ml Oil",
       "100 g Chopped Vegetables",
@@ -7035,7 +7035,7 @@
     "Cooking Time": 0,
     "Image": "images/Fried-Chicken-Drumsticks.png",
     "PopupImage": "popup_images/FRIED CHICKEN DRUMSTICKS.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "6 Pieces Breaded Chicken Drumstick",
       "10g Peri Peri Powder"
@@ -7053,7 +7053,7 @@
     "Cooking Time": 0,
     "Image": "images/Asian-Chilli-Garlic-Chicken.png",
     "PopupImage": "popup_images/ASIAN CHILLI GARLIC CHICKEN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "35g Chopped Vegetables 10 g Ginger",
@@ -7090,7 +7090,7 @@
     "Cooking Time": 0,
     "Image": "images/Asian-Stir-Fried-Fish.png",
     "PopupImage": "popup_images/ASIAN STIR FRIED FISH.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "45g Chopped Vegetables",
@@ -7128,7 +7128,7 @@
     "Cooking Time": 0,
     "Image": "images/Asian-Chilli-Garlic-Prawns.png",
     "PopupImage": "popup_images/ASIAN CHILLI GARLIC PRAWNS.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml oil",
       "359g Chopped Vegetables",
@@ -7192,7 +7192,7 @@
       "2g Corn Flour",
       "20 ml Water"
     ],
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Total Output": "420g",
     "On2Cook Cooking Time": "5:50",
     "Normal Cooking Time": "10 mins."
@@ -7206,7 +7206,7 @@
     "Cooking Time": 0,
     "Image": "images/Thai-Chicken-Red-Curry.png",
     "PopupImage": "popup_images/THAI CHICKEN RED CURRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml oil",
       "281g Chicken & Exotic Vegetables",
@@ -7239,7 +7239,7 @@
     "Cooking Time": 0,
     "Image": "images/Thai-Chicken-Green-Curry.png",
     "PopupImage": "popup_images/THAI CHICKEN GREEN CURRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "281g Chicken & Exotic Vegetables",
@@ -7272,7 +7272,7 @@
     "Cooking Time": 0,
     "Image": "images/Asian-Stir-Fry-Chicken.png",
     "PopupImage": "popup_images/ASIAN STIR FRY CHICKEN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "35g Chopped Vegetables",
@@ -7310,7 +7310,7 @@
     "Cooking Time": 0,
     "Image": "images/Mutton-Rogan.png",
     "PopupImage": "popup_images/MUTTON ROGAN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "150 g Ghee",
       "A Pinch of Asafoetida",
@@ -7340,7 +7340,7 @@
     "Cooking Time": 0,
     "Image": "images/Besan-Ladoo.png",
     "PopupImage": "popup_images/BESAN LADOO.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "160g Ghee",
       "256g Besan Mix",
@@ -7361,7 +7361,7 @@
     "Cooking Time": 0,
     "Image": "images/Ginger-Tea.png",
     "PopupImage": "popup_images/GINGER TEA.png",
-    "Accessories": "Coated Pan, Tea Stirrer",
+    "Accessories": "Pan Coated (ceramic), Tea Stirrer",
     "Ingredients": [
       "100 ml Water [Auto]",
       "150 ml Milk",
@@ -7382,7 +7382,7 @@
     "Cooking Time": 0,
     "Image": "images/Asian-Stir-Fried-Vegetables.png",
     "PopupImage": "popup_images/ASIAN STIR FRIED VEGETABLES.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "45g Chopped Vegetables",
@@ -7420,7 +7420,7 @@
     "Cooking Time": 0,
     "Image": "images/Hot-&-Sour-Soup.png",
     "PopupImage": "popup_images/HOT & SOUR SOUP.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "15ml Oil",
       "10g Garlic",
@@ -7460,7 +7460,7 @@
     "Cooking Time": 0,
     "Image": "images/Manchow-Soup.png",
     "PopupImage": "popup_images/MANCHOW SOUP.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "10ml Oil",
       "10g Ghee",
@@ -7496,7 +7496,7 @@
     "Cooking Time": 0,
     "Image": "images/Coriander-Chicken.png",
     "PopupImage": "popup_images/CORIANDER CHICKEN.jpg",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "386g Marinated Chicken",
       "300 g Curry Cut Chicken",
@@ -7524,7 +7524,7 @@
     "Cooking Time": 0,
     "Image": "images/Rava-Upma.png",
     "PopupImage": "popup_images/RAVA UPMA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "10g Ghee",
@@ -7584,7 +7584,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Sweet-Corn-Soup.png",
     "PopupImage": "popup_images/CHICKEN SWEET CORN SOUP.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Butter",
       "20g Chopped Vegetables",
@@ -7625,7 +7625,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Manchurian-Gravy.png",
     "PopupImage": "popup_images/CHICKEN MANCHURIAN GRAVY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "15g Chopped Vegetables",
@@ -7665,7 +7665,7 @@
     "Cooking Time": 0,
     "Image": "images/Mughlai-Paneer.png",
     "PopupImage": "popup_images/MUGHLAI PANEER.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Ghee",
       "2g Cumin Seeds",
@@ -7696,7 +7696,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Chilli-Garlic-Fried-Rice.png",
     "PopupImage": "popup_images/CHICKEN CHILLI GARLIC FRIED RICE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "100g Chicken",
@@ -7728,7 +7728,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-San-Deigo.png",
     "PopupImage": "popup_images/CHICKEN SAN DEIGO.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "169g Oil & Mix Ingredients",
       "30 g Olive Oil",
@@ -7769,7 +7769,7 @@
     "Cooking Time": 0,
     "Image": "images/Steamed-Momo.png",
     "PopupImage": "popup_images/STEAMED MOMO.png",
-    "Accessories": "Stainless Steel Pan, Grill Mesh, Momo Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Mesh Mat, Momo Kit",
     "Ingredients": [
       "5 Pieces Frozen Momos"
     ],
@@ -7786,7 +7786,7 @@
     "Cooking Time": 0,
     "Image": "images/Veg-Sweet-Corn-Soup.png",
     "PopupImage": "popup_images/VEG SWEET CORN SOUP.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30g Butter",
       "15g Chopped Vegetables",
@@ -7825,7 +7825,7 @@
     "Cooking Time": 0,
     "Image": "images/Thai-Red-Curry-Veg.png",
     "PopupImage": "popup_images/THAI RED CURRY VEG.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30ml Oil",
       "50g Chopped Vegetables",
@@ -7860,7 +7860,7 @@
     "Cooking Time": 0,
     "Image": "images/Paneer-Manchurian-Gravy.png",
     "PopupImage": "popup_images/PANEER MANCHURIAN GRAVY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "5 g Ginger",
@@ -7897,7 +7897,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Manchurian-Dry.png",
     "PopupImage": "popup_images/CHICKEN MANCHURIAN DRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "15g Chopped Vegetables",
@@ -7936,7 +7936,7 @@
     "Cooking Time": 0,
     "Image": "images/Veg-Manchurian-Dry.png",
     "PopupImage": "popup_images/VEG MANCHURIAN DRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "15g Chopped Vegetables",
@@ -7974,7 +7974,7 @@
     "Cooking Time": 0,
     "Image": "images/Paneer-Manchurian-Dry.png",
     "PopupImage": "popup_images/PANEER MANCHURIAN DRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "15g Chopped Vegetables",
@@ -8012,7 +8012,7 @@
     "Cooking Time": 0,
     "Image": "images/Gobi-Manchurian-Dry.png",
     "PopupImage": "popup_images/GOBI MANCHURIAN DRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "2Oml Oil",
       "15g Chopped Vegetables",
@@ -8051,7 +8051,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Lemon-Coriander-Soup.png",
     "PopupImage": "popup_images/CHICKEN LEMON CORIANDER SOUP.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "1g Turmeric Powder",
@@ -8089,7 +8089,7 @@
     "Cooking Time": 0,
     "Image": "images/Veg-Lemon-Coriander-Soup.png",
     "PopupImage": "popup_images/VEG LEMON CORIANDER SOUP.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "28 ml oil",
       "1g Turmeric Powder",
@@ -8126,7 +8126,7 @@
     "Cooking Time": 0,
     "Image": "images/Barbecue-Chicken-Wings.png",
     "PopupImage": "popup_images/BARBECUE CHICKEN WINGS.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "6 pcs. Breaded Chicken Wings",
       "60g Barbecue Sauce"
@@ -8144,7 +8144,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Tikka.png",
     "PopupImage": "popup_images/CHICKEN TIKKA.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "415g Marinated Chicken",
       "300 g Chicken Thigh Boneless",
@@ -8167,7 +8167,7 @@
     "Cooking Time": 0,
     "Image": "images/Hoisin-Chicken-Steam-Buns.png",
     "PopupImage": "popup_images/HOISIN CHICKEN STEAM BUNS.png",
-    "Accessories": "Grill Mesh, Stainless Steel Pan",
+    "Accessories": "Mesh Mat, Pan Non Coated (SS)",
     "Ingredients": [
       "680g Dough",
       "400 g All Purpose Flour",
@@ -8202,7 +8202,7 @@
     "Cooking Time": 0,
     "Image": "images/Egg-Fried-Rice.png",
     "PopupImage": "popup_images/EGG FRIED RICE.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "20g Chopped Vegetables",
       "10 g Garlic",
@@ -8235,7 +8235,7 @@
     "Cooking Time": 0,
     "Image": "images/Jama-Fried-Chicken.png",
     "PopupImage": "popup_images/JAMA FRIED CHICKEN.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "400g Chicken Curry Cut",
       "197g Spiced Batter",
@@ -8266,7 +8266,7 @@
     "Cooking Time": 0,
     "Image": "images/Chilli-Chicken-Gravy.png",
     "PopupImage": "popup_images/CHILLI CHICKEN GRAVY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "15g Chopped Vegetables",
@@ -8304,7 +8304,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Stir-Fry-With-Clear-Sauce.png",
     "PopupImage": "popup_images/CHICKEN STIR FRY WITH CLEAR SAUCE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "15ml Oil",
       "170g Chopped Vegetables",
@@ -8336,7 +8336,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Stir-Fry-With-Brown-Sauce.png",
     "PopupImage": "popup_images/CHICKEN STIR FRY WITH BROWN SAUCE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "15ml Oil",
       "170g Chopped Vegetables",
@@ -8368,7 +8368,7 @@
     "Cooking Time": 0,
     "Image": "images/Egg-Schezwan-Fried-Rice.png",
     "PopupImage": "popup_images/EGG SCHEZWAN FRIED RICE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "80g Egg",
@@ -8399,7 +8399,7 @@
     "Cooking Time": 0,
     "Image": "images/Egg-Chilli-Garlic-Fried-Rice.png",
     "PopupImage": "popup_images/EGG CHILLI GARLIC FRIED RICE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "80g Egg",
@@ -8432,7 +8432,7 @@
     "Cooking Time": 0,
     "Image": "images/Tandoori-Broccoli-Tikka.png",
     "PopupImage": "popup_images/TANDOORI BROCCOLI TIKKA.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "415g Marinated Broccoli",
       "300 g Broccoli Florets",
@@ -8455,7 +8455,7 @@
     "Cooking Time": 0,
     "Image": "images/Tandoori-Gobi-Tikka.png",
     "PopupImage": "popup_images/TANDOORI GOBI TIKKA.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "415g Marinated Cauliflower",
       "300 g Cauliflower Florets",
@@ -8478,7 +8478,7 @@
     "Cooking Time": 0,
     "Image": "images/Tandoori-Mushroom-Tikka.png",
     "PopupImage": "popup_images/TANDOORI MUSHROOM TIKKA.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "415g Marinated Mushroom",
       "300 g Mushroom Caps",
@@ -8501,7 +8501,7 @@
     "Cooking Time": 0,
     "Image": "images/Hoisin-Mushroom-Steam-Bun.png",
     "PopupImage": "popup_images/HOISIN MUSHROOM STEAM BUN.png",
-    "Accessories": "Momo Basket & Stirrer",
+    "Accessories": "Momo Kit",
     "Ingredients": [
       "680g Dough",
       "400 g Maida",
@@ -8536,7 +8536,7 @@
     "Cooking Time": 0,
     "Image": "images/Chilli-Cheese-Steam-Bun.png",
     "PopupImage": "popup_images/CHILLI CHEESE STEAM BUN.png",
-    "Accessories": "Momo Basket & Stirrer",
+    "Accessories": "Momo Kit",
     "Ingredients": [
       "680 g Dough",
       "400 g Maida",
@@ -8571,7 +8571,7 @@
     "Cooking Time": 0,
     "Image": "images/Schezwan-Fried-Rice.png",
     "PopupImage": "popup_images/SCHEZWAN FRIED RICE.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "20g Chopped Vegetables",
@@ -8604,7 +8604,7 @@
     "Cooking Time": 0,
     "Image": "images/Thai-Green-Paste.png",
     "PopupImage": "popup_images/THAI GREEN PASTE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "245g Mix Paste",
       "60 g Thai Spicy Green Chilli",
@@ -8637,7 +8637,7 @@
     "Cooking Time": 0,
     "Image": "images/Thai-Red-Paste.png",
     "PopupImage": "popup_images/THAI RED PASTE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "235g Mix Paste",
       "50 g Reshampatta Dry Chili Paste",
@@ -8671,7 +8671,7 @@
     "Cooking Time": 0,
     "Image": "images/Paneer-Chilli-Gravy.png",
     "PopupImage": "popup_images/PANEER CHILLI GRAVY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "15g Chopped Vegetables",
@@ -8708,7 +8708,7 @@
     "Cooking Time": 0,
     "Image": "images/Vegetable-Stir-Fried-Clear-Sauce.png",
     "PopupImage": "popup_images/VEGETABLE STIR FRIED CLEAR SAUCE.png",
-    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Accessories" : "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "15ml Oil",
       "133g Mix Chopped Vegetables",
@@ -8740,7 +8740,7 @@
     "Cooking Time": 0,
     "Image": "images/Vegetable-Stir-Fried-Brown-Sauce.png",
     "PopupImage": "popup_images/VEGETABLE STIR FRIED BROWN SAUCE.png",
-    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Accessories" : "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
       "15ml Oil",
       "133g Mix Chopped Vegetables",
@@ -8801,7 +8801,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Lollipop.png",
     "PopupImage": "popup_images/CHICKEN LOLLIPOP.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "15 ml Oil",
       "15g Chopped Vegetables",
@@ -8839,7 +8839,7 @@
     "Cooking Time": 0,
     "Image": "images/Carrot-Poriyal.png",
     "PopupImage": "popup_images/CARROT PORIYAL.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "53g Oil & Tempering",
       "40 g Oil",
@@ -8872,7 +8872,7 @@
     "Cooking Time": 0,
     "Image": "images/Veg-Fried-Rice.png",
     "PopupImage": "popup_images/VEG FRIED RICE.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "18g Chopped Vegetables",
@@ -8906,7 +8906,7 @@
     "Cooking Time": 0,
     "Image": "images/Honey-Chilli-Chicken.png",
     "PopupImage": "popup_images/HONEY CHILLI CHICKEN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "2g Whole Red Chilli Powder",
@@ -8945,7 +8945,7 @@
     "Cooking Time": 0,
     "Image": "images/Honey-Chilli-Potato.png",
     "PopupImage": "popup_images/HONEY CHILLI POTATO.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "29g Whole Red Chilli Powder",
@@ -8985,7 +8985,7 @@
     "Cooking Time": 0,
     "Image": "images/Gobi-Manchurian-Gravy.png",
     "PopupImage": "popup_images/GOBI MANCHURIAN GRAVY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "2Oml Oil",
       "15g Chopped Vegetables",
@@ -9024,7 +9024,7 @@
     "Cooking Time": 0,
     "Image": "images/Mushroom-Chilli-Gravy.png",
     "PopupImage": "popup_images/MUSHROOM CHILLI GRAVY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "15g Chopped Vegetables",
@@ -9058,7 +9058,7 @@
     "Cooking Time": 0,
     "Image": "images/Brown-Herb-Rice.png",
     "PopupImage": "popup_images/BROWN HERB RICE.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "20g Oil",
       "10g Garlic",
@@ -9088,7 +9088,7 @@
     "Cooking Time": 0,
     "Image": "images/Pepper-Quinoa.png",
     "PopupImage": "popup_images/PEPPER QUINOA.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "20g Oil",
       "10g Garlic",
@@ -9117,7 +9117,7 @@
     "Cooking Time": 0,
     "Image": "images/Chilli-Chicken-Dry.png",
     "PopupImage": "popup_images/CHILLI CHICKEN DRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20 ml Oil",
       "15g Chopped Vegetables",
@@ -9154,7 +9154,7 @@
     "Cooking Time": 0,
     "Image": "images/Tom-Kha-Soup.png",
     "PopupImage": "popup_images/TOM KHA SOUP.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30ml  Oil",
       "50g Chopped Vegetables",
@@ -9188,7 +9188,7 @@
     "Cooking Time": 0,
     "Image": "images/Paneer-Chili-Dry.png",
     "PopupImage": "popup_images/PANEER CHILI  DRY.png",
-    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Accessories" : "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "15g Chopped Vegetables",
@@ -9224,7 +9224,7 @@
     "Cooking Time": 0,
     "Image": "images/Mushroom-Chili-Dry.png",
     "PopupImage": "popup_images/MUSHROOM CHILI DRY.png",
-    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Accessories" : "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
       "20 ml Oil",
       "15g Chopped Vegetables",
@@ -9260,7 +9260,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Darbari-Tikka.png",
     "PopupImage": "popup_images/CHICKEN DARBARI TIKKA.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "373g Marinated Chicken",
       "300 g Chicken Thigh Boneless",
@@ -9291,7 +9291,7 @@
     "Cooking Time": 0,
     "Image": "images/Veg-Chili-Garlic-Fried-Rice.png",
     "PopupImage": "popup_images/VEG CHILI GARLIC FRIED RICE.png",
-    "Accessories" : "Coated Pan, Silicone Stirrer",
+    "Accessories" : "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients":[
       "20ml Oil",
       "97g Chopped Vegetables",
@@ -9322,7 +9322,7 @@
     "Cooking Time": 0,
     "Image": "images/Thai-Chilli-Basil-Fried-Rice.png",
     "PopupImage": "popup_images/THAI CHILLI BASIL FRIED RICE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "15ml Oil",
       "80g Chopped Vegetables",
@@ -9356,7 +9356,7 @@
     "Cooking Time": 0,
     "Image": "images/Herb-Rice.png",
     "PopupImage": "popup_images/HERB RICE.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "20g Oil",
       "85g Vegetables",
@@ -9387,7 +9387,7 @@
     "Cooking Time": 0,
     "Image": "images/Grill-Chicken-Breast.png",
     "PopupImage": "popup_images/GRILL CHICKEN BREAST.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "195g Marinated Boneless Chicken Breast",
       "180 g Chicken Breast Boneless",
@@ -9411,7 +9411,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Fajita-Quesadilla.png",
     "PopupImage": "popup_images/CHICKEN FAJITA QUESADILLA.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "7pcs. Tortilla",
       "30g Vegetable Mix",
@@ -9441,7 +9441,7 @@
     "Cooking Time": 0,
     "Image": "images/Veg-Fajita-Quesadilla.png",
     "PopupImage": "popup_images/VEG FAJITA QUESADILLA.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "1pcs. Tortilla",
       "30g Vegetable Mix",
@@ -9472,7 +9472,7 @@
     "Cooking Time": 0,
     "Image": "images/Chinese-Clear-Stir-Fry-Sauce.png",
     "PopupImage": "popup_images/CHINESE CLEAR STIR FRY SAUCE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "15ml Sesame Oil",
       "10g Chopped Vegetables",
@@ -9503,7 +9503,7 @@
     "Cooking Time": 0,
     "Image": "images/Schezwan-Chicken.png",
     "PopupImage": "popup_images/SCHEZWAN CHICKEN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "15g Chopped Vegetables",
@@ -9541,7 +9541,7 @@
     "Cooking Time": 0,
     "Image": "images/Chinese-Brown-Stir-Fry-Sauce.png",
     "PopupImage": "popup_images/CHINESE BROWN STIR FRY SAUCE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "15ml Sesame Oil",
       "10g Chopped Vegetables",
@@ -9572,7 +9572,7 @@
     "Cooking Time": 0,
     "Image": "images/Sweet-&-Sour-Sauce.png",
     "PopupImage": "popup_images/SWEET & SOUR SAUCE.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "15ml Sesame Oil",
       "10g Chopped Vegetables",
@@ -9602,7 +9602,7 @@
     "Cooking Time": 0,
     "Image": "images/Burnt-Garlic-Fried-Rice.png",
     "PopupImage": "popup_images/BURNT GARLIC FRIED RICE.png",
-    "Accessories": "Coated Pan, Rice Stirrer",
+    "Accessories": "Pan Coated (ceramic), Rice Stirrer",
     "Ingredients": [
       "15ml Oil",
       "20g Garlic",
@@ -9632,7 +9632,7 @@
     "Cooking Time": 0,
     "Image": "images/Fried-Chicken-Strips.png",
     "PopupImage": "popup_images/FRIED CHICKEN STRIPS.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "6 Pieces Breaded Chicken Strips",
       "10g Peri Peri Powder"
@@ -9650,7 +9650,7 @@
     "Cooking Time": 0,
     "Image": "images/Chicken-Salt-&-Peppers.png",
     "PopupImage": "popup_images/CHICKEN SALT & PEPPERS.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
     "30g Oil",
     "12g Chopped Vegetables",
@@ -9685,7 +9685,7 @@
     "Cooking Time": 0,
     "Image": "images/Fried-Paneer-Strips.png",
     "PopupImage": "popup_images/FRIED PANEER STRIPS.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "6 Pieces Breaded Paneer Strips",
       "10g Peri Peri Powder"
@@ -9703,7 +9703,7 @@
     "Cooking Time": 0,
     "Image": "images/Veg-Stir-Fry-Noodles.png",
     "PopupImage": "popup_images/VEG STIR FRY NOODLES.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "115ml Oil",
       "160g Exotic Vegetables",
@@ -9737,7 +9737,7 @@
     "Cooking Time": 0,
     "Image": "images/Udon-Noodles.png",
     "PopupImage": "popup_images/UDON NOODLES.png",
-    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Accessories": "Pan Coated (ceramic), Noodle Stirrer",
     "Ingredients": [
       "20g Oil",
       "180g Vegetables",
@@ -9770,7 +9770,7 @@
     "Cooking Time": 0,
     "Image": "images/Soba-Noodles.png",
     "PopupImage": "popup_images/SOBA NOODLES.png",
-    "Accessories": "Coated Pan, Noodle Stirrer",
+    "Accessories": "Pan Coated (ceramic), Noodle Stirrer",
     "Ingredients": [
       "180g Oil & Vegetables",
       "20 g Oil",
@@ -9802,7 +9802,7 @@
     "Cooking Time": 0,
     "Image": "images/Uliwada.png",
     "PopupImage": "popup_images/ULIWADA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "1500 ml Oil Heat at 180°",
       "352g Uliwada [6 Nos to 50g)",
@@ -9832,7 +9832,7 @@
     "Cooking Time": 0,
     "Image": "images/Crispy-Corn-Salt-&-Pepppers.png",
     "PopupImage": "popup_images/CRISPY CORN SALT & PEPPPERS.png",
-    "Accessories":"Coated Pan, Silicone Stirrer",
+    "Accessories":"Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "30 ml Oil",
       "12g Chopped Vegetables",
@@ -9864,7 +9864,7 @@
     "Cooking Time": 0,
     "Image": "images/Schezwan-Paneer-Dry.png",
     "PopupImage": "popup_images/SCHEZWAN PANEER DRY.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "20ml Oil",
       "15g Chopped Vegetables",
@@ -9897,7 +9897,7 @@
     "Cooking Time": 0,
     "Image": "images/Brazilian-Chicken-Balls.jpg",
     "PopupImage": "popup_images/BRAZILIAN CHICKEN BALLS.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "240g Brazilian Batter (Refer Recipe Booklet]",
       "165g Chicken Filling",
@@ -9922,7 +9922,7 @@
     "Cooking Time": 0,
     "Image": "images/Cheese-Omelette.png",
     "PopupImage": "popup_images/CHEESE OMELETTE.png",
-    "Accessories": "Coated Pan",
+    "Accessories": "Pan Coated (ceramic)",
     "Ingredients": [
       "30g Butter\n40g Chopped Vegetables\n10g Green Capsicum",
       "10 g Yellow Bell Pepper",
@@ -9948,7 +9948,7 @@
     "Cooking Time": 0,
     "Image": "images/Amritsari-Fish.png",
     "PopupImage": "popup_images/AMRITSARI FISH.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "1L pre-heated oil",
       "10 pcs. Battered Marinated Fish Fillet",
@@ -9986,7 +9986,7 @@
     "Cooking Time": 0,
     "Image": "images/Barbecue-Paneer-Strip.png",
     "PopupImage": "popup_images/BARBECUE PANEER STRIP.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "6 pcs Breaded Paneer Strips",
       "60g Barbecue Sauce"
@@ -10004,7 +10004,7 @@
     "Cooking Time": 0,
     "Image": "images/Brazilian-Cheese-Balls.png",
     "PopupImage": "popup_images/BRAZILIAN CHEESE BALLS.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "240 g Brazilian Batter (Refer Recipe Booklet)",
       "180g Cheese Filling",
@@ -10029,7 +10029,7 @@
     "Cooking Time": 0,
     "Image": "images/Fried-Momo.png",
     "PopupImage": "popup_images/FRIED MOMO.png",
-    "Accessories": "Stainless Steel Pan, Frying Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Frying Kit",
     "Ingredients": [
       "5 Pieces Frozen Momo"
     ],
@@ -10046,7 +10046,7 @@
     "Cooking Time": 0,
     "Image": "images/Gulab-Jamun.png",
     "PopupImage": "popup_images/GULAB JAMUN.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "2 Lt Oil",
       "8 pcs Gulab Jamun Balls"
@@ -10064,7 +10064,7 @@
     "Cooking Time": 0,
     "Image": "images/Frozen-Pizza.png",
     "PopupImage": "popup_images/FROZEN PIZZA.png",
-    "Accessories": "Stainless Steel Pan, Pizza Basket & Stirrer",
+    "Accessories": "Pan Non Coated (SS), Pizza Kit",
     "Ingredients": [
       "1pcs. Frozen Pizza",
       "52g Mozzarella Cheese & Seasoning",
@@ -10085,7 +10085,7 @@
     "Cooking Time": 0,
     "Image": "images/Podi-Idli.png",
     "PopupImage": "popup_images/PODI IDLI.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "25g Ghee",
       "2g Curry Leaves",
@@ -10109,7 +10109,7 @@
     "Cooking Time": 0,
     "Image": "images/Kerala-Vegetable-Stew.png",
     "PopupImage": "popup_images/KERALA VEGETABLE STEW.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60g Coconut Oil",
       "9g Whole Spices",
@@ -10147,7 +10147,7 @@
     "Cooking Time": 0,
     "Image": "images/Kerala-Chicken-Stew.png",
     "PopupImage": "popup_images/KERALA CHICKEN STEW.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "60g Coconut Oil",
       "9g Whole Spices",
@@ -10184,7 +10184,7 @@
     "Cooking Time": 0,
     "Image": "images/Vegetable-Korma.png",
     "PopupImage": "popup_images/VEGETABLE KORMA.png",
-    "Accessories": "Coated Pan, Silicone Stirrer",
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
     "Ingredients": [
       "36g Oil & Whole Spices",
       "30 g Oil",
