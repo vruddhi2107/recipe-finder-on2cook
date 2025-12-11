@@ -153,7 +153,7 @@
     "Cuisine": "ANDHRA",
     "Category": "MAIN COURSE",
     "Cooking Time": 17,
-    "Image": "images/Coconut-Rice-1600g.png",
+    "Image": "images/Coconut-Rice-1600G.png",
     "PopupImage": "popup_images/COCONUT RICE 1600G.png",
     "Accessories": "Non-Coated Pan, 1 Large Non-Stick Mat",
     "Ingredients": [
@@ -257,7 +257,7 @@
     "Cuisine": "ANDHRA",
     "Category": "MAIN COURSE",
     "Cooking Time": 13,
-    "Image": "images/Coconut-Rice-1000g.png",
+    "Image": "images/Coconut-Rice-1000G.png",
     "PopupImage": "popup_images/COCONUT RICE 1000G.png",
     "Accessories": "Non Coated Pan, 1 Large Non-Stick Mat",
     "Ingredients": [
@@ -1953,7 +1953,7 @@
     "Cuisine": "INDIAN",
     "Category": "STARTERS",
     "Cooking Time": 4,
-    "Image": "images/Samosa-(frozen).png",
+    "Image": "images/Samosa (frozen).png",
     "PopupImage": "popup_images/SAMOSA (FROZEN).png",
     "Accessories": "Non Coated Pan, Frying Basket & Stirrer",
     "Ingredients": [
@@ -4396,7 +4396,7 @@
     "Cuisine": "INDIAN",
     "Category": "DESSERTS",
     "Cooking Time": 0,
-    "Image": "images/Moong-Dal-Halwa-1000g.png",
+    "Image": "images/Moong-Dal-Halwa-1000G.png",
     "PopupImage": "popup_images/MOONG DAL HALWA 1000G.png",
     "Accessories": "Coated Pan, Silicone Stirrer",
     "Ingredients": [
@@ -6326,7 +6326,7 @@
     "Cuisine": "CONTINENTAL",
     "Category": "STARTERS",
     "Cooking Time": 0,
-    "Image": "images/Mac-And-Cheese-(maggi-Premix).png",
+    "Image": "images/Mac-And-Cheese-(Maggi-Premix).png",
     "PopupImage": "popup_images/MAC AND CHEESE (Maggi Premix).png",
     "Accessories": "Coated Pan, Silicone Stirrer",
     "Ingredients": [
