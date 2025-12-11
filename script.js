@@ -7,6 +7,7 @@ const cookingTimeLabel = document.getElementById('cookingTimeLabel');
 const cookingModeRadioGroup = document.getElementById('cookingModeRadioGroup');
 const cuisineRadioGroup = document.getElementById('cuisineRadioGroup');
 const categoryRadioGroup = document.getElementById('categoryRadioGroup');
+const accessoryRadioGroup = document.getElementById('accessoryRadioGroup');
 const clearBtn = document.getElementById('clearBtn');
 const recipesGrid = document.getElementById('recipesGrid');
 const recipeCountEl = document.getElementById('recipeCount');
@@ -175,6 +176,7 @@ function loadRecipes() {
       buildRadioGroup(cookingModeRadioGroup, getUniqueValues('Cooking Mode'), 'cookingMode');
       buildRadioGroup(cuisineRadioGroup, getUniqueValues('Cuisine'), 'cuisine');
       buildRadioGroup(categoryRadioGroup, getUniqueValues('Category'), 'category');
+      buildRadioGroup(accessoryRadioGroup, getUniqueAccessories(), 'accessory');
       populateMobileFilters();
       showRecipes();
       setupSortButtons(); // Add this line
@@ -316,7 +318,7 @@ clearBtn.addEventListener('click', () => {
   document.querySelectorAll('.diet-chip').forEach(c => {
     c.classList.toggle('active', c.dataset.value === 'All');
   });
-  ['cookingMode', 'cuisine', 'category'].forEach(name => {
+  ['cookingMode', 'cuisine', 'category','accessory'].forEach(name => {
     const allInput = document.querySelector(`input[name="${name}"][value="All"]`);
     if (allInput) allInput.checked = true;
   });

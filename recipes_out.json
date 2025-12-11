@@ -2917,7 +2917,7 @@
     "Cuisine": "INDIAN",
     "Category": "DESSERTS",
     "Cooking Time": 0,
-    "Image": "images/Gajar-Halwa-1kg.png",
+    "Image": "images/Gajar-Halwa-1kG.png",
     "PopupImage": "popup_images/GAJAR HALWA 1KG.png",
     "Accessories": "Coated Pan, Silicone Stirrer",
     "Ingredients":[
@@ -3942,7 +3942,7 @@
     "Cuisine": "INDIAN",
     "Category": "DESSERTS",
     "Cooking Time": 0,
-    "Image": "images/Gajar-Halwa-500g.png",
+    "Image": "images/Gajar-Halwa-500G.png",
     "PopupImage": "popup_images/GAJAR HALWA 500G.png",
     "Accessories": "Coated Pan, Silicone Stirrer",
     "Ingredients": [
@@ -4685,8 +4685,8 @@
     "Cuisine": "INDIAN",
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
-    "Image": "images/Safed-Chicken-Makhani.png",
-    "PopupImage": "popup_images/SAFED CHICKEN MAKHANI.png",
+    "Image": "images/Safed-Murgh-Makhani.png",
+    "PopupImage": "popup_images/SAFED MURGH MAKHANI.png",
       "Accessories" : "Coated Pan, Silicone Stirrer",
       "Ingredients":[
         "30 g Oil & 30 g Ghee",
@@ -6962,7 +6962,7 @@
   {
     "Recipe Name": "GUJARATI DAL",
     "Veg/Non Veg": "VEG",
-    "Cooking Mode": "SAUTEING & BOILING",
+    "Cooking Mode": "SAUTEING + BOILING",
     "Cuisine": "GUJARATI",
     "Category": "MAIN COURSE",
     "Cooking Time": 0,
@@ -9405,7 +9405,7 @@
   {
     "Recipe Name": "CHICKEN FAJITA QUESADILLA",
     "Veg/Non Veg": "NON VEG",
-    "Cooking Mode": "SAUTEING & GRILLING",
+    "Cooking Mode": "SAUTEING + GRILLING",
     "Cuisine": "MEXICAN",
     "Category": "STARTERS",
     "Cooking Time": 0,
@@ -9435,7 +9435,7 @@
   {
     "Recipe Name": "VEG FAJITA QUESADILLA",
     "Veg/Non Veg": "VEG",
-    "Cooking Mode": "SAUTEING & GRILLING",
+    "Cooking Mode": "SAUTEING + GRILLING",
     "Cuisine": "MEXICAN",
     "Category": "STARTERS",
     "Cooking Time": 0,
