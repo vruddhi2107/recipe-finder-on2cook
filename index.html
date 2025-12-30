@@ -123,9 +123,20 @@
         </div>
 
         <!-- Add this right after the cookingTimeMobile filter-group in #mobileFilters -->
-        <div class="filter-group">
+        <!-- <div class="filter-group">
           <label for="sortMobile">Sort By</label>
           <div class="sort-controls">
+            <button id="sortTimeAscMobile" class="sort-btn active" data-sort="time-asc">
+              ⏱ Fastest
+            </button>
+            <button id="sortTimeDescMobile" class="sort-btn" data-sort="time-desc">
+              ⏱ Slowest
+            </button>
+          </div>
+        </div> -->
+        <div class="filter-group">
+          <label for="sortMobile">Sort By</label>
+          <div class="sort-controls-mobile">
             <button id="sortTimeAscMobile" class="sort-btn active" data-sort="time-asc">
               ⏱ Fastest
             </button>
@@ -177,7 +188,11 @@
           </select>
         </div>
 
-        <button id="clearBtnMobile">Clear Filters</button>
+        <!-- <button id="clearBtnMobile">Clear Filters</button> -->
+        <div class="filter-actions">
+          <button id="clearBtnMobile">Clear Filters</button>
+          <button id="applyBtnMobile">Apply</button>
+        </div>
       </aside>
     </div>
   </div>

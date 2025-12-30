@@ -361,13 +361,72 @@ function applyMobileFilters() {
   cookingTimeLabelMobile.textContent = cookingTimeMobile.value;
   showRecipes();
 }
-searchBarMobile.addEventListener('input', debounce(applyMobileFilters, 250));
-dietTypeMobile.addEventListener('change', applyMobileFilters);
-cookingModeMobile.addEventListener('change', applyMobileFilters);
-cuisineMobile.addEventListener('change', applyMobileFilters);
-categoryMobile.addEventListener('change', applyMobileFilters);
-accessoryMobile.addEventListener('change', applyMobileFilters);
-cookingTimeMobile.addEventListener('input', applyMobileFilters);
+// searchBarMobile.addEventListener('input', debounce(applyMobileFilters, 250));
+// dietTypeMobile.addEventListener('change', applyMobileFilters);
+// cookingModeMobile.addEventListener('change', applyMobileFilters);
+// cuisineMobile.addEventListener('change', applyMobileFilters);
+// categoryMobile.addEventListener('change', applyMobileFilters);
+// accessoryMobile.addEventListener('change', applyMobileFilters);
+// cookingTimeMobile.addEventListener('input', applyMobileFilters);
+
+// clearBtnMobile.addEventListener('click', () => {
+//   searchBarMobile.value = '';
+//   dietTypeMobile.value = 'All';
+//   cookingModeMobile.value = 'All';
+//   cuisineMobile.value = 'All';
+//   categoryMobile.value = 'All';
+//   accessoryMobile.value = 'All';
+//   cookingTimeMobile.value = 35;
+//   cookingTimeLabelMobile.textContent = '35';
+//   filterState.sortBy = 'time-asc'; // Add this line
+//   updateMobileSortButtons();
+//   applyMobileFilters();
+// });
+// Mobile filter handlers - DEBOUNCE REMOVED, APPLY BUTTON REQUIRED
+cookingTimeMobile.addEventListener('input', () => {
+  cookingTimeLabelMobile.textContent = cookingTimeMobile.value;
+  // Don't auto-apply - wait for Apply button
+});
+
+searchBarMobile.addEventListener('input', () => {
+  // Don't auto-apply - wait for Apply button
+});
+
+dietTypeMobile.addEventListener('change', () => {
+  // Don't auto-apply - wait for Apply button
+});
+cookingModeMobile.addEventListener('change', () => {
+  // Don't auto-apply - wait for Apply button
+});
+cuisineMobile.addEventListener('change', () => {
+  // Don't auto-apply - wait for Apply button
+});
+categoryMobile.addEventListener('change', () => {
+  // Don't auto-apply - wait for Apply button
+});
+accessoryMobile.addEventListener('change', () => {
+  // Don't auto-apply - wait for Apply button
+});
+
+// Apply button handler
+// Apply button handler - CLOSE MODAL + APPLY FILTERS
+document.getElementById('applyBtnMobile').addEventListener('click', () => {
+  applyMobileFilters();
+  mobileFilterModal.classList.remove('active'); // ✅ Close popup
+});
+
+// Sort buttons still work immediately (no modal close needed)
+sortTimeAscMobile?.addEventListener('click', () => {
+  filterState.sortBy = 'time-asc';
+  updateMobileSortButtons();
+  applyMobileFilters();
+});
+
+sortTimeDescMobile?.addEventListener('click', () => {
+  filterState.sortBy = 'time-desc';
+  updateMobileSortButtons();
+  applyMobileFilters();
+});
 
 clearBtnMobile.addEventListener('click', () => {
   searchBarMobile.value = '';
@@ -378,9 +437,9 @@ clearBtnMobile.addEventListener('click', () => {
   accessoryMobile.value = 'All';
   cookingTimeMobile.value = 35;
   cookingTimeLabelMobile.textContent = '35';
-  filterState.sortBy = 'time-asc'; // Add this line
+  filterState.sortBy = 'time-asc';
   updateMobileSortButtons();
-  applyMobileFilters();
+  applyMobileFilters(); // Apply clears immediately
 });
 
 // Popup
