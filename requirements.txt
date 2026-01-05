@@ -1,0 +1,4 @@
+flask
+gunicorn
+smartsheet-python-sdk
+python-dotenv
