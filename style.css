@@ -553,23 +553,45 @@ input[type="range"]::-moz-range-thumb {
   #desktopFilters {
     display: none !important;
   }
-  .mobile-filter-btn {
-    display: flex !important;
-    position: fixed;
-    right: 18px;
-    bottom: 24px;
-    z-index: 5001;
-    background: #f97316;
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    box-shadow: 0 3px 18px rgba(0, 0, 0, 0.18);
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+.mobile-filter-btn {
+  display: flex !important;
+  position: fixed;
+  right: 18px;
+  bottom: 24px;
+  z-index: 5001;
+  background: #f97316;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 3px 18px rgba(0, 0, 0, 0.18);
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  animation: filterBounce 1.8s ease-in-out infinite; /* Continuous gentle bounce */
+  transition: all 0.2s ease; /* Smooth hover interactions */
+}
+
+.mobile-filter-btn:hover {
+  animation-play-state: paused; /* Pause bounce on hover */
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(249, 115, 22, 0.4);
+}
+
+.mobile-filter-btn:active {
+  transform: translateY(0) scale(0.98);
+}
+
+@keyframes filterBounce {
+  0%, 100% { 
+    transform: translateY(0); 
   }
+  50% { 
+    transform: translateY(-50px); 
+  }
+}
+
   .mobile-filter-modal {
     position: fixed;
     top: 0;
