@@ -108,20 +108,46 @@ function displayRecipes() {
   });
 }
 
-function openPopup(imageSrc, altText) {
+function openPopup(fileSrc, altText) {
   const modal = document.getElementById('popupModal');
   const popupImg = document.getElementById('popupImage');
-  popupImg.src = imageSrc;
-  popupImg.alt = altText || 'Recipe Image';
+  const popupPDF = document.getElementById('popupPDF');
+
+  const isPDF = fileSrc.toLowerCase().endsWith('.pdf');
+
+  if (isPDF) {
+    // Show PDF
+    popupImg.style.display = 'none';
+    popupPDF.style.display = 'block';
+    popupPDF.src = fileSrc;
+  } else {
+    // Show Image
+    popupPDF.style.display = 'none';
+    popupImg.style.display = 'block';
+    popupImg.src = fileSrc;
+    popupImg.alt = altText || 'Recipe Image';
+  }
+
   modal.classList.add('show');
 }
 
 document.getElementById('popupCloseBtn').onclick = function () {
-  document.getElementById('popupModal').classList.remove('show');
+  const modal = document.getElementById('popupModal');
+  const popupImg = document.getElementById('popupImage');
+  const popupPDF = document.getElementById('popupPDF');
+
+  popupImg.src = '';
+  popupPDF.src = '';
+  modal.classList.remove('show');
 };
 
 document.getElementById('popupModal').onclick = function (e) {
   if (e.target === this) {
-    document.getElementById('popupModal').classList.remove('show');
+    const popupImg = document.getElementById('popupImage');
+    const popupPDF = document.getElementById('popupPDF');
+
+    popupImg.src = '';
+    popupPDF.src = '';
+    this.classList.remove('show');
   }
 };

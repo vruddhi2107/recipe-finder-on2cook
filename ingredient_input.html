@@ -69,13 +69,20 @@
     </main>
 
     <!-- Popup Modal -->
-    <div id="popupModal">
-      <div>
-        <button id="popupCloseBtn">&times;</button>
-        <img id="popupImage" src="" alt="Recipe Image" />
-      </div>
-    </div>
+<div id="popupModal">
+  <div class="popup-content">
+    <button id="popupCloseBtn">&times;</button>
+
+    <!-- Image viewer -->
+    <img id="popupImage" style="display:none;" />
+
+    <!-- PDF viewer -->
+    <iframe
+      id="popupPDF"
+      style="display:none; width:60vh; height:70vh; border:none;"
+    ></iframe>
   </div>
+</div>
 
   <script src="ingredient.js"></script>
 </body>
