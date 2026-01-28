@@ -11,6 +11,7 @@ const accessoryRadioGroup = document.getElementById('accessoryRadioGroup');
 const clearBtn = document.getElementById('clearBtn');
 const recipesGrid = document.getElementById('recipesGrid');
 const recipeCountEl = document.getElementById('recipeCount');
+const popupPDF = document.getElementById('popupPDF');
 
 const searchBarDesktop = document.getElementById('searchBarDesktop');
 const sortTimeAsc = document.getElementById('sortTimeAsc');
@@ -115,10 +116,12 @@ function buildDietChips(values) {
     btn.dataset.value = val;
     btn.innerHTML =
       val === 'All'
-        ? '<span class="diet-chip-icon">🍽</span><span>All</span>'
-        : val === 'VEG'
-        ? '<span class="diet-chip-icon veg-dot"></span><span>Veg</span>'
-        : '<span class="diet-chip-icon nonveg-dot"></span><span>Non Veg</span>';
+      ? '<span class="diet-chip-icon">🍽</span><span>All</span>'
+      : val === 'VEG'
+      ? '<span class="diet-chip-icon veg-dot"></span><span>Veg</span>'
+      : val === 'EGG'
+      ? '<span class="diet-chip-icon egg-dot"></span><span>Egg</span>'
+      : '<span class="diet-chip-icon nonveg-dot"></span><span>Non Veg</span>';
     btn.addEventListener('click', () => {
       document.querySelectorAll('.diet-chip').forEach(c => c.classList.remove('active'));
       btn.classList.add('active');
@@ -168,7 +171,7 @@ function populateMobileFilters() {
 
 // Load recipes
 function loadRecipes() {
-  fetch('recipes_out.json')
+  fetch('recipes_test.json')
     .then(r => r.json())
     .then(data => {
       recipes = data;
@@ -179,14 +182,105 @@ function loadRecipes() {
       buildRadioGroup(accessoryRadioGroup, getUniqueAccessories(), 'accessory');
       populateMobileFilters();
       showRecipes();
-      setupSortButtons(); // Add this line
-      updateSortButtons(); // Add this line
+      setupSortButtons();
+      updateSortButtons();
       updateMobileSortButtons();
     })
     .catch(() => {
       recipesGrid.innerHTML = '<p class="error-text">Failed to load recipes.</p>';
     });
 }
+// Add this function before downloadRecipe
+function showDownloadToast(message) {
+  // Remove existing toasts
+  document.querySelectorAll('.download-toast').forEach(t => t.remove());
+  
+  const toast = document.createElement('div');
+  toast.className = 'download-toast';
+  toast.innerHTML = `
+    <div class="icon">✓</div>
+    <span>${message}</span>
+  `;
+  
+  // Ultra-modern glassmorphism styling
+  toast.style.cssText = `
+    position: fixed; top: 24px; right: 24px; max-width: 320px;
+    background: rgba(16, 185, 129, 0.95); 
+    backdrop-filter: blur(20px); border: 1px solid rgba(255,255,255,0.2);
+    color: white; padding: 16px 20px; border-radius: 16px; 
+    font-size: 14px; font-weight: 500; z-index: 9999;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15), 0 0 0 1px rgba(255,255,255,0.1);
+    display: flex; align-items: center; gap: 12px;
+    transform: translateX(400px); opacity: 0;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  `;
+  
+  const icon = toast.querySelector('.icon');
+  icon.style.cssText = `
+    width: 20px; height: 20px; border-radius: 50%; 
+    background: rgba(255,255,255,0.3); display: flex; align-items: center;
+    justify-content: center; font-size: 14px; font-weight: bold;
+  `;
+  
+  document.body.appendChild(toast);
+  
+  // Slide in animation
+  requestAnimationFrame(() => {
+    toast.style.transform = 'translateX(0)';
+    toast.style.opacity = '1';
+  });
+  
+  // Slide out + remove
+  setTimeout(() => {
+    toast.style.transform = 'translateX(400px)';
+    toast.style.opacity = '0';
+    setTimeout(() => toast.remove(), 400);
+  }, 3200);
+}
+
+async function downloadRecipe(recipe, event) {
+  event.stopPropagation();
+
+  const popupPath = recipe.PopupImage.split('?')[0];
+  const fileNameWithExt = popupPath.split('/').pop(); 
+  let baseName = fileNameWithExt.replace(/\.pdf$/i, '');
+
+  const zipUrl = `/updated_zips/${baseName}.zip`;
+  console.log("Trying:", zipUrl);
+
+  try {
+    // HEAD first: No body, no download trigger, checks existence fast
+    const headResponse = await fetch(zipUrl, { method: 'HEAD' });
+    if (!headResponse.ok) {
+      throw new Error(`Server error: ${headResponse.status}`);
+    }
+
+    // Check Content-Type header for ZIP
+    const contentType = headResponse.headers.get('Content-Type');
+    if (!contentType || !contentType.includes('zip') && !contentType.includes('application/octet-stream')) {
+      throw new Error('Not a ZIP file');
+    }
+
+    // Now safe: Full GET + download
+    const getResponse = await fetch(zipUrl);
+    const blob = await getResponse.blob();
+
+    const link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = `${baseName}.zip`;
+
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(link.href);
+
+    showDownloadToast(`${baseName} ZIP`);
+  } catch (e) {
+    console.error(e);
+    alert(`ZIP not available: ${zipUrl} (${e.message})`);
+  }
+}
+
 
 // Filtering
 function filterRecipes() {
@@ -265,14 +359,31 @@ function showRecipes() {
       r['Normal Cooking Time']?.replace(/[.,;!?'"()-]/g, '') || '';
 
     card.innerHTML = `
-      <div class="recipe-card-image-wrap">
-        <img src="${r.Image}" alt="${r['Recipe Name']}" class="recipe-image" />
-        <div class="recipe-time-pill">${r['Total Output']}</div>
-      </div>
+  <div class="recipe-card-image-wrap">
+    <img src="${r.Image}" alt="${r['Recipe Name']}" class="recipe-image" data-zip-url="${r.ZipURL || r.PopupImage || r.Image}" />
+    <div class="recipe-time-pill">${r['Total Output']}</div>
+    <!-- Download button - HIDDEN by default -->
+    <button class="download-btn" title="Download Recipe ZIP">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="7 10 12 15 17 10"></polyline>
+        <line x1="12" y1="15" x2="12" y2="3"></line>
+      </svg>
+    </button>
+  </div>
+
       <div class="recipe-card-body">
         <div class="recipe-title-row">
           <h3 class="recipe-name">${r['Recipe Name']}</h3>
-          <span class="diet-icon ${r['Veg/Non Veg'] === 'VEG' ? 'veg' : 'non-veg'}"></span>
+        <span class="diet-icon 
+          ${
+            r['Veg/Non Veg'] === 'VEG' 
+              ? 'veg' 
+              : r['Veg/Non Veg'] === 'EGG' 
+                ? 'egg' 
+                : 'non-veg'
+          }">
+        </span>
         </div>
         <p class="recipe-meta">${r['Cuisine']} • ${r['Cooking Mode']} • ${r['Category']}</p>
         <div class="badge-row">
@@ -288,8 +399,18 @@ function showRecipes() {
       </div>
     `;
 
-    card.addEventListener('click', () => {
-      openPopup(r.PopupImage || r.Image, r['Recipe Name']);
+    // Add click handler for card (excluding download button)
+    card.addEventListener('click', (e) => {
+      // Don't open popup if download button was clicked
+      if (!e.target.closest('.download-btn')) {
+        openPopup(r.PopupImage || r.Image, r['Recipe Name']);
+      }
+    });
+
+    // Add download button handler
+    const downloadBtn = card.querySelector('.download-btn');
+    downloadBtn.addEventListener('click', (e) => {
+      downloadRecipe(r, e);
     });
 
     recipesGrid.appendChild(card);
@@ -311,7 +432,7 @@ clearBtn.addEventListener('click', () => {
   filterState.categoryVal = 'All';
   filterState.accessoryVal = 'All';
   filterState.maxCookingTime = 35;
-  filterState.sortBy = 'time-asc'; // Add this line
+  filterState.sortBy = 'time-asc';
   cookingTime.value = 35;
   cookingTimeLabel.textContent = '35 min';
 
@@ -323,7 +444,6 @@ clearBtn.addEventListener('click', () => {
     if (allInput) allInput.checked = true;
   });
 
-  // reset mobile too
   dietTypeMobile.value = 'All';
   cookingModeMobile.value = 'All';
   cuisineMobile.value = 'All';
@@ -361,61 +481,30 @@ function applyMobileFilters() {
   cookingTimeLabelMobile.textContent = cookingTimeMobile.value;
   showRecipes();
 }
-// searchBarMobile.addEventListener('input', debounce(applyMobileFilters, 250));
-// dietTypeMobile.addEventListener('change', applyMobileFilters);
-// cookingModeMobile.addEventListener('change', applyMobileFilters);
-// cuisineMobile.addEventListener('change', applyMobileFilters);
-// categoryMobile.addEventListener('change', applyMobileFilters);
-// accessoryMobile.addEventListener('change', applyMobileFilters);
-// cookingTimeMobile.addEventListener('input', applyMobileFilters);
 
-// clearBtnMobile.addEventListener('click', () => {
-//   searchBarMobile.value = '';
-//   dietTypeMobile.value = 'All';
-//   cookingModeMobile.value = 'All';
-//   cuisineMobile.value = 'All';
-//   categoryMobile.value = 'All';
-//   accessoryMobile.value = 'All';
-//   cookingTimeMobile.value = 35;
-//   cookingTimeLabelMobile.textContent = '35';
-//   filterState.sortBy = 'time-asc'; // Add this line
-//   updateMobileSortButtons();
-//   applyMobileFilters();
-// });
-// Mobile filter handlers - DEBOUNCE REMOVED, APPLY BUTTON REQUIRED
 cookingTimeMobile.addEventListener('input', () => {
   cookingTimeLabelMobile.textContent = cookingTimeMobile.value;
-  // Don't auto-apply - wait for Apply button
 });
 
 searchBarMobile.addEventListener('input', () => {
-  // Don't auto-apply - wait for Apply button
 });
 
 dietTypeMobile.addEventListener('change', () => {
-  // Don't auto-apply - wait for Apply button
 });
 cookingModeMobile.addEventListener('change', () => {
-  // Don't auto-apply - wait for Apply button
 });
 cuisineMobile.addEventListener('change', () => {
-  // Don't auto-apply - wait for Apply button
 });
 categoryMobile.addEventListener('change', () => {
-  // Don't auto-apply - wait for Apply button
 });
 accessoryMobile.addEventListener('change', () => {
-  // Don't auto-apply - wait for Apply button
 });
 
-// Apply button handler
-// Apply button handler - CLOSE MODAL + APPLY FILTERS
 document.getElementById('applyBtnMobile').addEventListener('click', () => {
   applyMobileFilters();
-  mobileFilterModal.classList.remove('active'); // ✅ Close popup
+  mobileFilterModal.classList.remove('active');
 });
 
-// Sort buttons still work immediately (no modal close needed)
 sortTimeAscMobile?.addEventListener('click', () => {
   filterState.sortBy = 'time-asc';
   updateMobileSortButtons();
@@ -439,11 +528,10 @@ clearBtnMobile.addEventListener('click', () => {
   cookingTimeLabelMobile.textContent = '35';
   filterState.sortBy = 'time-asc';
   updateMobileSortButtons();
-  applyMobileFilters(); // Apply clears immediately
+  applyMobileFilters();
 });
 
 // Popup
-// Enhanced Popup functionality - ZOOMS IN PLACE (no shifting)
 let zoomState = {
   scale: 1,
   minScale: 0.5,
@@ -456,10 +544,22 @@ let zoomState = {
 };
 
 function openPopup(src, alt) {
-  popupImage.src = src;
-  popupImage.alt = alt || 'Recipe Image';
-  resetZoom();
-  popupModal.style.display = 'flex';
+  const isPDF = src.toLowerCase().endsWith(".pdf");
+
+  if (isPDF) {
+    popupImage.style.display = "none";
+    popupPDF.style.display = "block";
+    popupPDF.src = src;
+    resetPDFZoom();
+  } else {
+    popupPDF.style.display = "none";
+    popupImage.style.display = "block";
+    popupImage.src = src;
+    popupImage.alt = alt || "Recipe Image";
+    resetZoom();
+  }
+
+  popupModal.style.display = "flex";
 }
 
 function resetZoom() {
@@ -475,45 +575,93 @@ function updateImageTransform() {
 }
 
 function zoomImage(factor) {
-  // ✅ SIMPLIFIED: Zoom in place - NO shifting/translation adjustment
   zoomState.scale = Math.max(zoomState.minScale, Math.min(zoomState.maxScale, zoomState.scale * factor));
   updateImageTransform();
 }
 
-// Event listeners for popup
-popupCloseBtn.addEventListener('click', () => {
-  popupModal.style.display = 'none';
+document.querySelector('.popup-container').addEventListener('click', e => {
+  e.stopPropagation();
 });
 
 popupModal.addEventListener('click', e => {
   if (e.target === popupModal) {
     popupModal.style.display = 'none';
+    popupPDF.src = '';
   }
 });
+
+function isImageVisible() {
+  return popupImage.style.display !== 'none';
+}
+function isPDFVisible() {
+  return popupPDF.style.display !== "none";
+}
+
+function updateZoomButtons() {
+  const disabled = !isImageVisible();
+  zoomInBtn.disabled = disabled;
+  zoomOutBtn.disabled = disabled;
+  zoomResetBtn.disabled = disabled;
+}
+let pdfScale = 1;
+
+function zoomPDF(factor) {
+  pdfScale *= factor;
+  popupPDF.style.transform = `scale(${pdfScale})`;
+  popupPDF.style.transformOrigin = "center center";
+}
+
+function resetPDFZoom() {
+  pdfScale = 1;
+  popupPDF.style.transform = "scale(1)";
+}
 
 // Zoom controls
 const zoomInBtn = document.querySelector('.zoom-in');
 const zoomOutBtn = document.querySelector('.zoom-out');
 const zoomResetBtn = document.querySelector('.zoom-reset');
-const wrapper = popupImage.parentElement;
+const wrapper = document.querySelector('.popup-image-wrapper');
 
-if (zoomInBtn) zoomInBtn.addEventListener('click', () => zoomImage(1.25));
-if (zoomOutBtn) zoomOutBtn.addEventListener('click', () => zoomImage(0.8));
-if (zoomResetBtn) zoomResetBtn.addEventListener('click', resetZoom);
+zoomInBtn.addEventListener("click", (e) => {
+  e.stopPropagation();
+  if (isImageVisible()) {
+    zoomImage(1.25);
+  } else if (isPDFVisible()) {
+    zoomPDF(1.25);
+  }
+});
+
+zoomOutBtn.addEventListener("click", (e) => {
+  e.stopPropagation();
+  if (isImageVisible()) {
+    zoomImage(0.8);
+  } else if (isPDFVisible()) {
+    zoomPDF(0.8);
+  }
+});
+
+zoomResetBtn.addEventListener("click", (e) => {
+  e.stopPropagation();
+  if (isImageVisible()) {
+    resetZoom();
+  } else if (isPDFVisible()) {
+    resetPDFZoom();
+  }
+});
 
 // Image interaction events
 popupImage.addEventListener('dblclick', resetZoom);
 
-// Mouse wheel zoom - ZOOMS IN PLACE
 wrapper.addEventListener('wheel', (e) => {
+  if (!isImageVisible()) return;
   e.preventDefault();
   const factor = e.deltaY > 0 ? 0.9 : 1.15;
-  zoomImage(factor);  // No coordinates = no shifting
+  zoomImage(factor);
 });
 
-// Drag to pan (ONLY when zoomed)
+// Drag to pan
 wrapper.addEventListener('mousedown', (e) => {
-  if (zoomState.scale > 1.01) {  // Only allow drag when actually zoomed
+  if (zoomState.scale > 1.01) {
     zoomState.isDragging = true;
     zoomState.startX = e.clientX - zoomState.translateX;
     zoomState.startY = e.clientY - zoomState.translateY;
@@ -532,7 +680,7 @@ document.addEventListener('mousemove', (e) => {
 document.addEventListener('mouseup', () => {
   zoomState.isDragging = false;
   if (wrapper && zoomState.scale <= 1.01) {
-    wrapper.style.cursor = 'zoom-in';  // Default cursor when not zoomed
+    wrapper.style.cursor = 'zoom-in';
   } else {
     wrapper.style.cursor = 'grab';
   }
@@ -573,7 +721,7 @@ wrapper.addEventListener('touchmove', (e) => {
     
     if (lastTouchDistance > 0) {
       const factor = currentDistance / lastTouchDistance;
-      zoomImage(factor);  // ZOOM IN PLACE - no shifting
+      zoomImage(factor);
     }
     
     lastTouchDistance = currentDistance;
@@ -585,9 +733,7 @@ wrapper.addEventListener('touchend', () => {
   lastTouchDistance = 0;
 });
 
-// Set default cursor
 wrapper.style.cursor = 'zoom-in';
-
 
 // Debounce
 function debounce(fn, delay) {

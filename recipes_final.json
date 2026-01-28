@@ -1,0 +1,47 @@
+[
+  {
+    "Recipe Name": "ANDHRA-CHICKEN-FRY",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 20,
+    "Image": "images/ANDHRA-CHICKEN-FRY.jpg",
+    "PopupImage": "popup_images/ANDHRA-CHICKEN-FRY.png",
+    "Ingredients": [
+      "ANDHRA-CHICKEN-FRY ingredients"
+    ],
+    "Accessories": "Pan, Stirrer",
+    "Total Output": "1000g"
+  },
+  {
+    "Recipe Name": "ANDHRA-CHICKEN-RASSA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 20,
+    "Image": "images/ANDHRA-CHICKEN-RASSA.jpg",
+    "PopupImage": "popup_images/ANDHRA-CHICKEN-RASSA.png",
+    "Ingredients": [
+      "ANDHRA-CHICKEN-RASSA ingredients"
+    ],
+    "Accessories": "Pan, Stirrer",
+    "Total Output": "1000g"
+  },
+  {
+    "Recipe Name": "APPLE-CINNAMON-CAKE",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 20,
+    "Image": "images/APPLE-CINNAMON-CAKE.jpg",
+    "PopupImage": "popup_images/APPLE-CINNAMON-CAKE.png",
+    "Ingredients": [
+      "APPLE-CINNAMON-CAKE ingredients"
+    ],
+    "Accessories": "Pan, Stirrer",
+    "Total Output": "1000g"
+  }
+]

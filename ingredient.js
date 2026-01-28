@@ -1,7 +1,7 @@
 let recipes = [];
 let selectedIngredients = [];
 
-fetch('recipes_out.json')
+fetch('recipes_test.json')
   .then(res => res.json())
   .then(data => {
     recipes = data;

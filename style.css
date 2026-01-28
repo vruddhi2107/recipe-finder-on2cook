@@ -264,6 +264,9 @@ img,
 .nonveg-dot {
   background: #ef4444;
 }
+.egg-dot {
+  background: #f5c542; /* yellowish for egg */
+}
 .diet-chip:hover {
   background: rgba(226, 239, 255, 0.98);
   border-color: #38bdf8;
@@ -498,7 +501,10 @@ input[type="range"]::-moz-range-thumb {
   border: 2.5px solid red;
   background-color: transparent;
 }
-
+.diet-icon.egg {
+  border: 2.5px solid #FFD700;
+  background-color: transparent;
+}
 /* COMMON center dot */
 .diet-icon::before {
   content: "";
@@ -518,7 +524,9 @@ input[type="range"]::-moz-range-thumb {
 .diet-icon.non-veg::before {
   background-color: red;
 }
-
+.diet-icon.egg::before {
+  background-color:#FFD700;
+}
 /* Badges row */
 .badge-row {
   display: flex;
@@ -861,6 +869,14 @@ input[type="range"]::-moz-range-thumb {
   max-height: 100%;
   width: auto;
   height: auto;
+  transition: transform 0.2s ease;
+  user-select: none;
+  pointer-events: auto;
+  border-radius: 12px;
+}
+#popupPDF {
+  width: 100%;
+  height: 100%;
   transition: transform 0.2s ease;
   user-select: none;
   pointer-events: auto;
@@ -1270,4 +1286,80 @@ input[type="range"]::-moz-range-thumb {
   box-sizing: border-box;
   padding: 0;
   margin-bottom: 16px;
+}
+/* ========== DOWNLOAD BUTTON STYLES ========== */
+/* ========== DOWNLOAD BUTTON - HOVER ONLY ========== */
+.recipe-card-image-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.download-btn {
+  /* HIDDEN BY DEFAULT */
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #ed1c24, #fb923c);
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 20px rgba(237, 28, 36, 0.4);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 15;
+  backdrop-filter: blur(12px);
+  transform: scale(0.8) translateY(4px);
+}
+
+.download-btn:hover {
+  background: linear-gradient(135deg, #dc2626, #f59e0b);
+  transform: scale(1.05) translateY(-2px);
+  box-shadow: 0 12px 28px rgba(237, 28, 36, 0.6);
+}
+
+.download-btn:active {
+  transform: scale(0.95) translateY(0);
+  box-shadow: 0 6px 16px rgba(237, 28, 36, 0.5);
+}
+
+.download-btn svg {
+  width: 18px;
+  height: 18px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+}
+
+/* SHOW ON HOVER */
+.recipe-card:hover .download-btn,
+.recipe-image:hover + .download-btn {
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: scale(1) translateY(0);
+}
+
+/* Smooth entrance animation */
+.recipe-card:hover .download-btn {
+  animation: downloadBtnSlideIn 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@keyframes downloadBtnSlideIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Ensure button stays above time pill */
+.recipe-time-pill {
+  z-index: 10;
 }

@@ -1,0 +1,53 @@
+We need several changes to be made in the current system. Currently our Recipe Finder has a json file, and the data is taken from that and displayed in the recipe finder,
+
+Our current JSON files consist of this structure:  
+
+[
+  {
+    "Recipe Name": "QUINOA BOILED",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "BOILING",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 20,
+    "Image": "images/Quinoa-Boiled.png",
+    "PopupImage": "popup_images/QUINOA BOILED.png",
+    "Ingredients": [
+      "1000g Washed Quinoa",
+      "1500 ml Water (Manual)",
+      "1090 ml Water [Auto]"
+    ],
+    "Accessories": "Pan Coated (ceramic), Silicone Stirrer",
+    "Total Output": "2850g",
+    "On2Cook Cooking Time": "20:00",
+    "Normal Cooking Time": "30 mins."
+  },
+]
+
+So this is further linked to js files to display these metrics directly in the website.
+
+
+The changes I want are:
+
+Now we have to add steps before the json file step.
+
+1. I have a smartsheet which has the details of all the recipes and each recipe has an attachment (a zip file). that zip file consists of a jpg and a .txt file. 
+
+That jpg file is the file which is Image in our case. which needs to be stored as Aloo-Poso.jpg and the path needs to point the folder where its stored.
+The text file contains of this structure:
+{"Ingredients":[{"app_audio":"Tak   Oil \u0026 Tadka   211 gm","audio":"Tak ","audioI":" Oil \u0026 Tadka  ","audioP":"Tak ","audioQ":"211","audioU":"gm","id":1,"image":"","pan_type":"SS","text":"Mustard oil 50g, Black Cumin Seeds 1g, Sliced Onion 100g, Sliced Tomato 50g, Slit Green Chilli 10g","title":" Oil \u0026 Tadka  ","weight":"211 gm"},{"app_audio":"Take Potato 500g, Salt 5g 505 gm","audio":"Take","audioI":"Potato 500g, Salt 5g","audioP":"Take","audioQ":"505","audioU":"gm","id":2,"image":"","pan_type":"SS","text":"","title":"Potato 500g, Salt 5g","weight":"505 gm"},{"app_audio":"Paste  Posto Paste 90 gm","audio":"Paste ","audioI":"Posto Paste","audioP":"Paste ","audioQ":"90","audioU":"gm","id":3,"image":"","pan_type":"SS","text":"Poppy Seeds 30g, Water 60g","title":"Posto Paste","weight":"90 gm"},{"app_audio":"Auto Water (Auto) 200 ml","audio":"Auto","audioI":"Water (Auto)","audioP":"Auto","audioQ":"200","audioU":"ml","id":4,"image":"","pan_type":"SS","text":"","title":"Water (Auto)","weight":"200 ml"}],"Instruction":[{"Audio":"","Indtime_lid_con":"","Induction_on_time":"120","Induction_power":"80","Magnetron_on_time":"120","Magnetron_power":"100","Text":" Oil \u0026 Tadka  ","Weight":"211 gm","app_audio":"  Oil \u0026 Tadka  ","audioI":" Oil \u0026 Tadka  ","audioP":"","audioQ":"211","audioU":"2Minute","durationInSec":120,"id":1,"image":"","lid":"close","mag_severity":"high","pump_on":"","purge_on":"","skip":"","stirrer_on":"3","threshold":"0","wait_time":"","warm_time":""},{"Audio":"","Indtime_lid_con":"","Induction_on_time":"300","Induction_power":"60","Magnetron_on_time":"300","Magnetron_power":"100","Text":"Potato 500g, Salt 5g","Weight":"505 gm","app_audio":" Potato 500g, Salt 5g","audioI":"Potato 500g, Salt 5g","audioP":"","audioQ":"505","audioU":"5Minute","durationInSec":300,"id":2,"image":"","lid":"close","mag_severity":"high","pump_on":"","purge_on":"","skip":"","stirrer_on":"3","threshold":"0","wait_time":"","warm_time":""},{"Audio":"","Indtime_lid_con":"","Induction_on_time":"90","Induction_power":"60","Magnetron_on_time":"90","Magnetron_power":"100","Text":"Posto Paste","Weight":"90 gm","app_audio":" Posto Paste","audioI":"Posto Paste","audioP":"","audioQ":"90","audioU":"1Minute30Second","durationInSec":90,"id":3,"image":"","lid":"close","mag_severity":"high","pump_on":"20","purge_on":"","skip":"","stirrer_on":"3","threshold":"0","wait_time":"","warm_time":""}],"audio1":["ALOO POSTO "],"audio2":["preparation"],"category":"0","description":"NORMAL COOKING TIME 25 MINUTES \nFINAL OUTPUT 1000 G\n\nACCESSORIES \nCOATED PAN\nSILICONE STIRRER ","difficulty":"Easy","id":192,"imageUrl":"content://com.invent.ontocook.cropper.fileprovider/my_images/Pictures/cropped3869287895636797503.png","isSelected":false,"name":["ALOO POSTO "],"subCategories":"","tags":""}
+
+Now I want to know how can I automatically download the zip file from each row and then extract these .txt file details in my json file format.
+
+
+Also, further this zip file needs to be uploaded in a cli from backend to generate a image which will become our PopupImage.
+
+and basically these things should work real time. Suggest on how this is possible.
+
+
+Changes that I have to make in Recipe Finder:
+
+1. download_zips.py: downloads zip files from smartsheet into: zips/sheet_attachments (no changes)
+2. extract_zips.py: The zip files are extracted but they are not being saved in the Image Directory.
+3. Parse_txt_to_json.py: The JSON format needs to modify a little
+4. generate_popup_images.py: This code needs to save the popup images in the test_popup_images folder.
