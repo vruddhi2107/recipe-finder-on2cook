@@ -48,6 +48,24 @@
     "Normal Cooking Time": "35 mins"
   },
   {
+    "Recipe Name": "ALMOND KHEER",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "DESSERTS",
+    "Cooking Time": 10,
+    "Image": "test_images/ALMOND KHEER.jpg",
+    "PopupImage": "test_popup_images/ALMOND KHEER.pdf",
+    "Ingredients": [
+      "Paste Boiled Almond 150g, Milk 500g 650 gm",
+      "All Ingredients  150 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "700G",
+    "On2Cook Cooking Time": "10",
+    "Normal Cooking Time": "30 mins"
+  },
+  {
     "Recipe Name": "ALOO GOBI",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "SAUTEING",
@@ -93,6 +111,23 @@
     "Normal Cooking Time": "20 mins"
   },
   {
+    "Recipe Name": "ALOO PAKODA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "FRYING",
+    "Cuisine": "INDIAN",
+    "Category": "SIDE DISH",
+    "Cooking Time": 3,
+    "Image": "test_images/ALOO PAKODA.jpg",
+    "PopupImage": "test_popup_images/ALOO PAKODA.pdf",
+    "Ingredients": [
+      "Take All Ingredients  515 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "300 G",
+    "On2Cook Cooking Time": "3",
+    "Normal Cooking Time": "15 mins"
+  },
+  {
     "Recipe Name": "ALOO POSTO",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "SAUTEING",
@@ -133,6 +168,24 @@
     "Normal Cooking Time": "40 mins"
   },
   {
+    "Recipe Name": "FRESH ALOO SAMOSA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 5,
+    "Image": "test_images/ALOO SAMOSA.jpg",
+    "PopupImage": "test_popup_images/ALOO SAMOSA.pdf",
+    "Ingredients": [
+      "Dough  Fresh Dough  820 gm",
+      "Mix  Stuffing  360 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "6 NOS",
+    "On2Cook Cooking Time": "5",
+    "Normal Cooking Time": "20 mins"
+  },
+  {
     "Recipe Name": "AMRITSARI FISH",
     "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "FRYING",
@@ -147,7 +200,7 @@
       "Mix Marination 41 gm",
       "Mix Batter 254 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "10 PCS",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "6 mins"
@@ -276,10 +329,28 @@
       "Take Batter Mix 2 420 gm",
       "Mix Cinnamon Apple Mix 175 gm"
     ],
-    "Accessories": "Mesh Mats, Pan Non-Coated (SS), Cake Kit",
+    "Accessories": "Mesh Mats, Pan Non-Coated (Ss), Cake Kit",
     "Total Output": "770 G",
     "On2Cook Cooking Time": "7",
     "Normal Cooking Time": "50 mins"
+  },
+  {
+    "Recipe Name": "ARRABBIATA BASE SAUCE",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 14,
+    "Image": "test_images/ARRABBIATA SAUCE.jpg",
+    "PopupImage": "test_popup_images/ARRABBIATA SAUCE.pdf",
+    "Ingredients": [
+      "Take Oil & Vegetables  325 gm",
+      "Mix  Tomatoes & Spices  2040 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "1500 G",
+    "On2Cook Cooking Time": "14",
+    "Normal Cooking Time": "45 mins"
   },
   {
     "Recipe Name": "AVIAL",
@@ -335,7 +406,7 @@
       "Blend Batter Mix 1 380 gm",
       "Take Batter Mix 2 420 gm"
     ],
-    "Accessories": "Mesh Mats, Pan Non-Coated (SS), Cake Kit",
+    "Accessories": "Mesh Mats, Pan Non-Coated (Ss), Cake Kit",
     "Total Output": "750 G",
     "On2Cook Cooking Time": "7",
     "Normal Cooking Time": "40 mins"
@@ -354,7 +425,7 @@
       "Take Cake Mold & Stirrer 1 number",
       "Mix Cake Mix 855 gm"
     ],
-    "Accessories": "Mesh Mats, Pan Non-Coated (SS), Cake Kit",
+    "Accessories": "Mesh Mats, Pan Non-Coated (Ss), Cake Kit",
     "Total Output": "800 G",
     "On2Cook Cooking Time": "6",
     "Normal Cooking Time": "50 mins"
@@ -382,6 +453,25 @@
     "Normal Cooking Time": "35 mins"
   },
   {
+    "Recipe Name": "BATHUA SUBZI (WHITE GOOSEFOOT LEAVES)",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 12,
+    "Image": "test_images/BATHUA SUBZI.jpg",
+    "PopupImage": "test_popup_images/BATHUA SUBZI.pdf",
+    "Ingredients": [
+      "Take Oil & Tadka  320 gm",
+      "Take Bathua & Spices 630 gm",
+      "Take Water (Auto) 300 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "800G",
+    "On2Cook Cooking Time": "12",
+    "Normal Cooking Time": "35 mins"
+  },
+  {
     "Recipe Name": "BBQ CHICKEN WINGS",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "AUTO",
@@ -394,7 +484,7 @@
       "Take Breaded Chicken Wings 6 number",
       "Take Barbecue Sauce  60 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "240 G",
     "On2Cook Cooking Time": "4",
     "Normal Cooking Time": "12 mins"
@@ -412,7 +502,7 @@
       "Take Breaded Paneer Strips  6 number",
       "Take Barbecue Sauce  60 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Non Coated Pan, Frying Basket And Stirrer",
     "Total Output": "240 G",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "12 mins"
@@ -559,6 +649,24 @@
     "Normal Cooking Time": "15 mins"
   },
   {
+    "Recipe Name": "BREAD PAKODA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "FRYING",
+    "Cuisine": "INDIAN",
+    "Category": "SIDE DISH",
+    "Cooking Time": 2,
+    "Image": "test_images/BREAD PAKODA.jpg",
+    "PopupImage": "test_popup_images/BREAD PAKODA.pdf",
+    "Ingredients": [
+      "Mix  Batter  337 gm",
+      "Mix  Stuffing  260 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "2 NOS",
+    "On2Cook Cooking Time": "2",
+    "Normal Cooking Time": "20 mins"
+  },
+  {
     "Recipe Name": "BREAKFAST EGG PIE",
     "Veg/Non Veg": "EGG",
     "Cooking Mode": "BAKING",
@@ -570,7 +678,7 @@
     "Ingredients": [
       "Mix Egg Mix 510 gm"
     ],
-    "Accessories": "Mesh Mats, Pan Non-Coated (SS), Cake Kit, Pan Honeycomb (Non-Stick)",
+    "Accessories": "Mesh Mats, Pan Non-Coated (Ss), Cake Kit, Pan Honeycomb (Non-Stick)",
     "Total Output": "8 PORTION",
     "On2Cook Cooking Time": "7",
     "Normal Cooking Time": "35 mins"
@@ -729,7 +837,7 @@
       "Mix Cheese Filling 180 gm",
       "Mix Coating 350 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "8 PC",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "6 mins"
@@ -748,7 +856,7 @@
       "Chicken Filling 165 gm",
       "Coating 350 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "8 PC",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "6 mins"
@@ -871,7 +979,7 @@
       "Mix Batter Mix 2 260 gm",
       "Mix Mixed Nuts  100 gm"
     ],
-    "Accessories": "Mesh Mats, Pan Non-Coated (SS), Cake Kit",
+    "Accessories": "Mesh Mats, Pan Non-Coated (Ss), Cake Kit",
     "Total Output": "680 GM",
     "On2Cook Cooking Time": "7",
     "Normal Cooking Time": "50 mins"
@@ -889,7 +997,7 @@
       "Grind Carrot+Sugar 340 gm",
       "Take Mix All 500 gm"
     ],
-    "Accessories": "Mesh Mats, Pan Non-Coated (SS), Cake Kit",
+    "Accessories": "Mesh Mats, Pan Non-Coated (Ss), Cake Kit",
     "Total Output": "750 GM",
     "On2Cook Cooking Time": "6",
     "Normal Cooking Time": "50 mins"
@@ -955,6 +1063,24 @@
     "Total Output": "400 G",
     "On2Cook Cooking Time": "9",
     "Normal Cooking Time": "25 mins"
+  },
+  {
+    "Recipe Name": "FRESH CHEESE CORN SAMOSA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 5,
+    "Image": "test_images/CHEESE CORN SAMOSA.jpg",
+    "PopupImage": "test_popup_images/CHEESE CORN SAMOSA.pdf",
+    "Ingredients": [
+      "Dough  Fresh Dough  820 gm",
+      "Mix  Stuffing  317 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "6 NOS",
+    "On2Cook Cooking Time": "5",
+    "Normal Cooking Time": "20 mins"
   },
   {
     "Recipe Name": "CHEESE MAGGI",
@@ -1036,6 +1162,25 @@
     "Total Output": "650 G",
     "On2Cook Cooking Time": "8",
     "Normal Cooking Time": "25 mins"
+  },
+  {
+    "Recipe Name": "CHICKEN BIRYANI BULK",
+    "Veg/Non Veg": "NON VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 17,
+    "Image": "test_images/CHI BIRYANI BULK.jpg",
+    "PopupImage": "test_popup_images/CHI BIRYANI BULK.pdf",
+    "Ingredients": [
+      "Take Ghee & Spices   78 gm",
+      "Take Marinated Chicken & Soaked Rice 2304 gm",
+      "Auto Water (Auto) 1420 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), (First, Add Ghee And Spices, Followed By The Marinated Chicken.Then, Incorporate The Soaked Rice)",
+    "Total Output": "3000 G",
+    "On2Cook Cooking Time": "17",
+    "Normal Cooking Time": "40 mins"
   },
   {
     "Recipe Name": "CHICKEN STIR FRY WITH BROWN SAUCE",
@@ -1154,7 +1299,7 @@
       "Add Oil  10 ml",
       "Take Water 20 ml"
     ],
-    "Accessories": "Pan Non-Coated (SS), Grill Mesh",
+    "Accessories": "Pan Non-Coated (Ss), Grill Mesh",
     "Total Output": "250 G",
     "On2Cook Cooking Time": "3",
     "Normal Cooking Time": "15 mins"
@@ -1261,7 +1406,7 @@
       "Heat Pre-Heated Oil 1 liter",
       "Mix Batter Mix 362 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS),Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Basket, Frying Kit",
     "Total Output": "200",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "10 mins"
@@ -1332,6 +1477,24 @@
     "Total Output": "650 G",
     "On2Cook Cooking Time": "7",
     "Normal Cooking Time": "25 mins"
+  },
+  {
+    "Recipe Name": "CHICKEN HANDI POT BIRYANI",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 14,
+    "Image": "test_images/CHI POT BIRYANI.jpg",
+    "PopupImage": "test_popup_images/CHI POT BIRYANI.pdf",
+    "Ingredients": [
+      "Take Ghee & Whole Spices 30 gm",
+      "Mix Chicken Marination & Rice 623 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss)",
+    "Total Output": "500G",
+    "On2Cook Cooking Time": "14",
+    "Normal Cooking Time": "50 mins"
   },
   {
     "Recipe Name": "CHICKEN FAJITA QUESADILLA",
@@ -1510,7 +1673,7 @@
       "Heat Pre-Heated Oil at 200° C 1 liter",
       "Mix Batter Battered Chicken 709 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "500G",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "10 mins"
@@ -1533,7 +1696,7 @@
       "Water 460 gm",
       "Brown Onion  20 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mesh Mats, Mesh Mats",
+    "Accessories": "Pan Non-Coated (Ss), Mesh Mats, Mesh Mats",
     "Total Output": "1800 GM",
     "On2Cook Cooking Time": "13",
     "Normal Cooking Time": "50 mins"
@@ -1628,6 +1791,43 @@
     "Total Output": "900 GM",
     "On2Cook Cooking Time": "8",
     "Normal Cooking Time": "40 mins"
+  },
+  {
+    "Recipe Name": "CHICKEN HANDI V2",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 7,
+    "Image": "test_images/CHICKEN HANDI.jpg",
+    "PopupImage": "test_popup_images/CHICKEN HANDI.pdf",
+    "Ingredients": [
+      "Marinade Marinated Chicken  490 gm",
+      "Paste  Raw Gravy Mix  255 gm",
+      "Water (Auto) 100 ml"
+    ],
+    "Accessories": "",
+    "Total Output": "500 G",
+    "On2Cook Cooking Time": "7",
+    "Normal Cooking Time": "35 mins"
+  },
+  {
+    "Recipe Name": "CHICKEN HANDI POT",
+    "Veg/Non Veg": "NON VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 14,
+    "Image": "test_images/CHICKEN HANDI POT.jpg",
+    "PopupImage": "test_popup_images/CHICKEN HANDI POT.pdf",
+    "Ingredients": [
+      "Take Ghee & Whole Spices  40 gm",
+      "Marinate Marinated Chicken  659 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss)",
+    "Total Output": "500G",
+    "On2Cook Cooking Time": "14",
+    "Normal Cooking Time": "50 mins"
   },
   {
     "Recipe Name": "CHICKEN KORMA",
@@ -1749,7 +1949,7 @@
       "Take Pre-Heated Oil 180° 1 liter",
       "Take Breaded Chicken Dices 200 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "180 GM",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "5 mins"
@@ -1775,6 +1975,24 @@
     "Total Output": "400 GM",
     "On2Cook Cooking Time": "8",
     "Normal Cooking Time": "30 mins"
+  },
+  {
+    "Recipe Name": "FRESH CHICKEN SAMOSA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 5,
+    "Image": "test_images/CHICKEN SAMOSA.jpg",
+    "PopupImage": "test_popup_images/CHICKEN SAMOSA.pdf",
+    "Ingredients": [
+      "Dough  Fresh Dough  820 gm",
+      "Mix  Stuffing  360 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "6 NOS",
+    "On2Cook Cooking Time": "5",
+    "Normal Cooking Time": "20 mins"
   },
   {
     "Recipe Name": "CHICKEN SAN DIEGO",
@@ -1809,10 +2027,30 @@
       "Chop Chicken Shammi Mix 278 gm",
       "Add Butter For Brushing 20 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Teflon Plate",
+    "Accessories": "Pan Non-Coated (Ss), Teflon Plate",
     "Total Output": "",
     "On2Cook Cooking Time": "4",
     "Normal Cooking Time": ""
+  },
+  {
+    "Recipe Name": "CHICKEN SPAGHETTI V2",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 13,
+    "Image": "test_images/CHICKEN SPAGHETTI.jpg",
+    "PopupImage": "test_popup_images/CHICKEN SPAGHETTI.pdf",
+    "Ingredients": [
+      "Mix All Ingredients  465 gm",
+      "Auto Water (Auto) 700 ml",
+      "Raw  Spaghetti Pasta  150 gm",
+      "Grated Garnish  60 gm"
+    ],
+    "Accessories": "",
+    "Total Output": "800 G",
+    "On2Cook Cooking Time": "13",
+    "Normal Cooking Time": "45 mins"
   },
   {
     "Recipe Name": "KERALA CHICKEN STEW",
@@ -1946,7 +2184,7 @@
       "Proofing 1 680 gm",
       "Bun Proofing  11 number"
     ],
-    "Accessories": "Pan Non-Coated (SS), Momo Kit, Momo Kit",
+    "Accessories": "Pan Non-Coated (Ss), Momo Kit, Momo Kit",
     "Total Output": "3 PC",
     "On2Cook Cooking Time": "4",
     "Normal Cooking Time": "15 mins"
@@ -2046,7 +2284,7 @@
       "Heat Pre-Heated Oil 1 liter",
       "Mix Batter Coated Cauliflower  322 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "180 G",
     "On2Cook Cooking Time": "3",
     "Normal Cooking Time": "10 mins"
@@ -2084,7 +2322,7 @@
       "Mix Batter Mix 2 320 gm",
       "Mix Mixed Nuts  100 gm"
     ],
-    "Accessories": "Mesh Mats, Pan Non-Coated (SS), Cake Kit",
+    "Accessories": "Mesh Mats, Pan Non-Coated (Ss), Cake Kit",
     "Total Output": "720 GM",
     "On2Cook Cooking Time": "7",
     "Normal Cooking Time": "50 mins"
@@ -2104,10 +2342,28 @@
       "Mix Cake Mix 600 gm",
       "Chop Nut Mix 100 gm"
     ],
-    "Accessories": "Mesh Mats, Pan Non-Coated (SS), Cake Kit",
+    "Accessories": "Mesh Mats, Pan Non-Coated (Ss), Cake Kit",
     "Total Output": "650 G",
     "On2Cook Cooking Time": "6",
     "Normal Cooking Time": "50 mins"
+  },
+  {
+    "Recipe Name": "PIPEPABLE DARK CHOCOLATE GANACHE (5:3)",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 4,
+    "Image": "test_images/CHOCO GANACHE.jpg",
+    "PopupImage": "test_popup_images/CHOCO GANACHE.pdf",
+    "Ingredients": [
+      "Heat Cream & Milk 900 gm",
+      "Mix Dark Chocolate 1500 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "2400G",
+    "On2Cook Cooking Time": "4",
+    "Normal Cooking Time": "15 mins"
   },
   {
     "Recipe Name": "CHOCOLATE SPONGE",
@@ -2123,7 +2379,7 @@
       "Take Cake Mold & Stirrer 1 number",
       "Mix Cake Mix 600 gm"
     ],
-    "Accessories": "Mesh Mats, Pan Non-Coated (SS), Cake Kit",
+    "Accessories": "Mesh Mats, Pan Non-Coated (Ss), Cake Kit",
     "Total Output": "550 GM",
     "On2Cook Cooking Time": "6",
     "Normal Cooking Time": "50 mins"
@@ -2148,6 +2404,26 @@
     "Total Output": "1KG",
     "On2Cook Cooking Time": "12",
     "Normal Cooking Time": "40 mins"
+  },
+  {
+    "Recipe Name": "CHOLE MASALA 3000 G",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 18,
+    "Image": "test_images/CHOLE MASALA BULK.jpg",
+    "PopupImage": "test_popup_images/CHOLE MASALA BULK.pdf",
+    "Ingredients": [
+      "Add Tempering  631 gm",
+      "Paste  Indian Spices & Tomato Puree 820 gm",
+      "Mix Boiled Chole 1100g, Chole Stocks 500g 1600 gm",
+      "Auto Water 1000 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "2800G",
+    "On2Cook Cooking Time": "18",
+    "Normal Cooking Time": "45 mins"
   },
   {
     "Recipe Name": "CL STIR FRY SAU",
@@ -2221,7 +2497,7 @@
       "Heat Pre-Heated Oil 1 liter",
       "Mix Batter Mix 342 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "180 G",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "10 mins"
@@ -2261,7 +2537,7 @@
       "Take Cinnamon & Green Chilly 50 gm",
       "Take Ginger Garlic Paste + Salt 55 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mesh Mats, Mp Mats Big",
+    "Accessories": "Pan Non-Coated (Ss), Mesh Mats, Mp Mats Big",
     "Total Output": "1600 G",
     "On2Cook Cooking Time": "17",
     "Normal Cooking Time": "30 mins"
@@ -2303,7 +2579,7 @@
       "Take Cinnamon & Green Chilly 25 gm",
       "Take Ginger Garlic Paste + Salt 30 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mesh Mats, Mp Mats Big",
+    "Accessories": "Pan Non-Coated (Ss), Mesh Mats, Mp Mats Big",
     "Total Output": "1000 G",
     "On2Cook Cooking Time": "14",
     "Normal Cooking Time": "25 mins"
@@ -2322,7 +2598,7 @@
       "Take Batter Mix 2 260 gm",
       "Mix Walnut Halves 75 gm"
     ],
-    "Accessories": "Mesh Mats, Pan Non-Coated (SS), Cake Kit",
+    "Accessories": "Mesh Mats, Pan Non-Coated (Ss), Cake Kit",
     "Total Output": "650 G",
     "On2Cook Cooking Time": "7",
     "Normal Cooking Time": "50 mins"
@@ -2500,6 +2776,76 @@
     "Normal Cooking Time": "25 mins"
   },
   {
+    "Recipe Name": "CRISPY CHICKEN FRY",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 2,
+    "Image": "test_images/CRISPY CHI FRY.jpg",
+    "PopupImage": "test_popup_images/CRISPY CHI FRY.pdf",
+    "Ingredients": [
+      "Fry  Thick Batter & Vegetables  725 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "500 G",
+    "On2Cook Cooking Time": "2",
+    "Normal Cooking Time": "25 mins"
+  },
+  {
+    "Recipe Name": "CRISPY CHICKEN CHINESE STYLE",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 2,
+    "Image": "test_images/CRISPY CHICKEN.jpg",
+    "PopupImage": "test_popup_images/CRISPY CHICKEN.pdf",
+    "Ingredients": [
+      "Take Tempering  105 gm",
+      "Mix Fried Chicken & Sauce 400 gm"
+    ],
+    "Accessories": "Pan Honeycomb (Non-Stick), Silicone Stirrer",
+    "Total Output": "500G",
+    "On2Cook Cooking Time": "2",
+    "Normal Cooking Time": "20 mins"
+  },
+  {
+    "Recipe Name": "CRISPY VEG FRY",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 3,
+    "Image": "test_images/CRISPY VEG FRY.jpg",
+    "PopupImage": "test_popup_images/CRISPY VEG FRY.pdf",
+    "Ingredients": [
+      "Fry  Thick Batter & Vegetables  825 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "500 G",
+    "On2Cook Cooking Time": "3",
+    "Normal Cooking Time": "25 mins"
+  },
+  {
+    "Recipe Name": "CRISPY VEGETABLE CHINESE STYLE",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 2,
+    "Image": "test_images/CRISPY VEGETABLE.jpg",
+    "PopupImage": "test_popup_images/CRISPY VEGETABLE.pdf",
+    "Ingredients": [
+      "Take Tempering  105 gm",
+      "Mix Vegetables & Sauce 340 gm"
+    ],
+    "Accessories": "Pan Honeycomb (Non-Stick), Silicone Stirrer",
+    "Total Output": "500G",
+    "On2Cook Cooking Time": "2",
+    "Normal Cooking Time": "20 mins"
+  },
+  {
     "Recipe Name": "CREAM OF BROCCOLI SOUP",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "BOILING + SAUTEING",
@@ -2544,6 +2890,26 @@
     "Normal Cooking Time": "25 mins"
   },
   {
+    "Recipe Name": "DAL DHOKLI (WHEAT DUMPLINGS IN LENTILS)",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 6,
+    "Image": "test_images/DAL DHOKLI.jpg",
+    "PopupImage": "test_popup_images/DAL DHOKLI.pdf",
+    "Ingredients": [
+      "Heat Ghee & Tempering 90 gm",
+      "Take Spices & Soaked Toor Dal Paste 82 gm",
+      "Take Water (Auto) 700 ml",
+      "Mix Shaped and Cut Dhokli  71 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "750 G",
+    "On2Cook Cooking Time": "6",
+    "Normal Cooking Time": "35 mins"
+  },
+  {
     "Recipe Name": "DAL MAKHANI",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "BOILING + SAUTEING",
@@ -2562,6 +2928,25 @@
     "Total Output": "1500 G",
     "On2Cook Cooking Time": "13",
     "Normal Cooking Time": "30 mins"
+  },
+  {
+    "Recipe Name": "DAL MAKHANI",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "BOILING + SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 19,
+    "Image": "test_images/DAL MAKHANI BULK.jpg",
+    "PopupImage": "test_popup_images/DAL MAKHANI BULK.pdf",
+    "Ingredients": [
+      "Take All Ingredients  270 gm",
+      "Add Tomato Puree & Spices  3525 gm",
+      "Auto Water 500 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "2800 G",
+    "On2Cook Cooking Time": "19",
+    "Normal Cooking Time": "50 mins"
   },
   {
     "Recipe Name": "DHABA STYLE DAHI MUTTON",
@@ -2583,6 +2968,25 @@
     "Total Output": "700 G",
     "On2Cook Cooking Time": "6",
     "Normal Cooking Time": "40 mins"
+  },
+  {
+    "Recipe Name": "DOODHI HALWA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "DESSERTS",
+    "Cooking Time": 11,
+    "Image": "test_images/DOODHI HALWA.jpg",
+    "PopupImage": "test_popup_images/DOODHI HALWA.pdf",
+    "Ingredients": [
+      "Add Grated Lauki 300g, Ghee 200g  500 gm",
+      "All Mixed  Milk & Nuts 340 gm",
+      "Auto Water  150 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "700G",
+    "On2Cook Cooking Time": "11",
+    "Normal Cooking Time": "35 mins"
   },
   {
     "Recipe Name": "EGG BHURJI",
@@ -2790,6 +3194,23 @@
     "Normal Cooking Time": "30 mins"
   },
   {
+    "Recipe Name": "FISH FINGERS",
+    "Veg/Non Veg": "NON VEG",
+    "Cooking Mode": "FRYING",
+    "Cuisine": "BENGALI",
+    "Category": "STARTERS",
+    "Cooking Time": 2,
+    "Image": "test_images/FISH FINGERS.jpg",
+    "PopupImage": "test_popup_images/FISH FINGERS.pdf",
+    "Ingredients": [
+      "Take Fish & Marination  400 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "8 NOS",
+    "On2Cook Cooking Time": "2",
+    "Normal Cooking Time": "6 mins"
+  },
+  {
     "Recipe Name": "FRENCH FRIES",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "FRYING",
@@ -2802,10 +3223,28 @@
       "Take Pre-Heated Oil 200° 1 liter",
       "Take Frozen French Fries  200 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "100 GM",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "5 mins"
+  },
+  {
+    "Recipe Name": "FRENCH ONION SOUP",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "SOUP",
+    "Cooking Time": 8,
+    "Image": "test_images/FRENCH ONION SOUP.jpg",
+    "PopupImage": "test_popup_images/FRENCH ONION SOUP.pdf",
+    "Ingredients": [
+      "Take Butter & Onions  360 gm",
+      "Take Stock Water  960 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "1000 G",
+    "On2Cook Cooking Time": "8",
+    "Normal Cooking Time": "30 mins"
   },
   {
     "Recipe Name": "FRIED CHICKEN STRIPS",
@@ -2820,7 +3259,7 @@
       "Take Pre-Heated Oil 180° 1 liter",
       "Take Breaded Chicken Strips 6 number"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "180 G",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "6 mins"
@@ -2838,7 +3277,7 @@
       "Take Pre-Heated Oil 180° 1 liter",
       "Take Breaded Chicken Drumsticks 6 number"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "180 G",
     "On2Cook Cooking Time": "4",
     "Normal Cooking Time": "6 mins"
@@ -2856,7 +3295,7 @@
       "Mix Kofta Mix 285 gm",
       "Pre Heat Oil At 160 Degree 1 liter"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "16 PCS",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "20 mins"
@@ -2874,7 +3313,7 @@
       "Take Pre-Heated Oil 180° 1 liter",
       "Take Frozen Momo 5 number"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "5 PIECES",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "6 mins"
@@ -2892,7 +3331,7 @@
       "Heat Pre-Heated Oil  1 liter",
       "Mix Coated Mushroom  253 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "500 G",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "10 mins"
@@ -2910,7 +3349,7 @@
       "Take Pre-Heated Oil 180° 1 liter",
       "Take Breaded Paneer Strips 6 number"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "180 G",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "6 mins"
@@ -2928,7 +3367,7 @@
       "Take Frozen Pizza 1 number",
       "Take Mozzarella Cheese & Seasoning  52 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Pizza Kit",
+    "Accessories": "Pan Non-Coated (Ss), Pizza Kit",
     "Total Output": "1 PIZZA",
     "On2Cook Cooking Time": "4",
     "Normal Cooking Time": "12 mins"
@@ -2946,7 +3385,7 @@
       "Take Pre-Heated Oil 180° 1 liter",
       "Take Frozen Samosa 4 number"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "4 PCS",
     "On2Cook Cooking Time": "4",
     "Normal Cooking Time": "10 mins"
@@ -2964,7 +3403,7 @@
       "Heat Pre-Heated Oil  1 liter",
       "Mix Coated Paneer  253 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "180 G",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "10 mins"
@@ -2988,7 +3427,7 @@
       "Water 540 ml",
       "Garnish  Brown Onion  10 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mesh Mats, Mp Mats Big",
+    "Accessories": "Pan Non-Coated (Ss), Mesh Mats, Mp Mats Big",
     "Total Output": "1000 G",
     "On2Cook Cooking Time": "13",
     "Normal Cooking Time": "60 mins"
@@ -2996,9 +3435,9 @@
   {
     "Recipe Name": "GAJAR HALWA",
     "Veg/Non Veg": "VEG",
-    "Cooking Mode": "AUTO",
-    "Cuisine": "GLOBAL CUISINE",
-    "Category": "MAIN COURSE",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "DESSERTS",
     "Cooking Time": 11,
     "Image": "test_images/GAJAR HALWA.jpg",
     "PopupImage": "test_popup_images/GAJAR HALWA.pdf",
@@ -3034,6 +3473,23 @@
     "Total Output": "1000 GM",
     "On2Cook Cooking Time": "16",
     "Normal Cooking Time": "75 mins"
+  },
+  {
+    "Recipe Name": "GAJAR HALWA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "DESSERTS",
+    "Cooking Time": 9,
+    "Image": "test_images/GAJAR HALWA 500.jpg",
+    "PopupImage": "test_popup_images/GAJAR HALWA 500.pdf",
+    "Ingredients": [
+      "Mix  All Ingredients  913 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "500 G",
+    "On2Cook Cooking Time": "9",
+    "Normal Cooking Time": "45 mins"
   },
   {
     "Recipe Name": "GAJAR KA HALWA",
@@ -3193,6 +3649,23 @@
     "Total Output": "350 G",
     "On2Cook Cooking Time": "3",
     "Normal Cooking Time": "12 mins"
+  },
+  {
+    "Recipe Name": "GOBI PAKODA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "FRYING",
+    "Cuisine": "INDIAN",
+    "Category": "SIDE DISH",
+    "Cooking Time": 3,
+    "Image": "test_images/GOBI PAKODA.jpg",
+    "PopupImage": "test_popup_images/GOBI PAKODA.pdf",
+    "Ingredients": [
+      "Mix Mix Batter 377 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "300 G",
+    "On2Cook Cooking Time": "3",
+    "Normal Cooking Time": "15 mins"
   },
   {
     "Recipe Name": "GOBI TIKKA",
@@ -3361,7 +3834,7 @@
       "Proofing 1 680 gm",
       "Bun Proofing  11 number"
     ],
-    "Accessories": "Pan Non-Coated (SS), Momo Kit",
+    "Accessories": "Pan Non-Coated (Ss), Momo Kit",
     "Total Output": "3 PC",
     "On2Cook Cooking Time": "4",
     "Normal Cooking Time": "15 mins"
@@ -3382,7 +3855,7 @@
       "Proofing 1 680 gm",
       "Bun Proofing  11 number"
     ],
-    "Accessories": "Momo Kit, Momo Kit, Pan Non-Coated (SS)",
+    "Accessories": "Momo Kit, Momo Kit, Pan Non-Coated (Ss)",
     "Total Output": "3 PC",
     "On2Cook Cooking Time": "4",
     "Normal Cooking Time": "15 mins"
@@ -3476,6 +3949,25 @@
     "Normal Cooking Time": "25 mins"
   },
   {
+    "Recipe Name": "INDORI POHA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "BREAKFAST",
+    "Cooking Time": 4,
+    "Image": "test_images/INDORI POHA.jpg",
+    "PopupImage": "test_popup_images/INDORI POHA.pdf",
+    "Ingredients": [
+      "Take Oil & Tempering 111 gm",
+      "Mix Poha and Green Chillies 1057 gm",
+      "Take Water (Auto) 60 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Rice Stirrer",
+    "Total Output": "1000 G",
+    "On2Cook Cooking Time": "4",
+    "Normal Cooking Time": "20 mins"
+  },
+  {
     "Recipe Name": "JAMA FRIED CHICKEN",
     "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "FRYING",
@@ -3489,7 +3981,7 @@
       "Spiced Batter 197 gm",
       "Pre-Heated Oil  1500 ml"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "500 G",
     "On2Cook Cooking Time": "4",
     "Normal Cooking Time": "15 mins"
@@ -3508,7 +4000,7 @@
       "Spiced Batter 197 gm",
       "Pre-Heated Oil  1500 ml"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "500 G",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "15 mins"
@@ -3555,6 +4047,25 @@
     "Normal Cooking Time": "25 mins"
   },
   {
+    "Recipe Name": "KADA PRASAD",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "DESSERTS",
+    "Cooking Time": 8,
+    "Image": "test_images/KADA PRASAD.jpg",
+    "PopupImage": "test_popup_images/KADA PRASAD.pdf",
+    "Ingredients": [
+      "Add Ghee 200g, Atta 200g 400 gm",
+      "Auto Water (Auto)  300 ml",
+      "Mix  Sugar 200g, Cardamom Powder 1g 201 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "700 G",
+    "On2Cook Cooking Time": "8",
+    "Normal Cooking Time": "45 mins"
+  },
+  {
     "Recipe Name": "KADAI CHICKEN",
     "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "SAUTEING",
@@ -3575,6 +4086,25 @@
     "Total Output": "800 GM",
     "On2Cook Cooking Time": "9",
     "Normal Cooking Time": "40 mins"
+  },
+  {
+    "Recipe Name": "KADDU KI SUBZI",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 15,
+    "Image": "test_images/KADDU KI SUBZI.jpg",
+    "PopupImage": "test_popup_images/KADDU KI SUBZI.pdf",
+    "Ingredients": [
+      "Take Oill & Tadka  70 gm",
+      "Take Kaddu & Spices  1580 gm",
+      "Take Water (Auto) 150 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "1000 G",
+    "On2Cook Cooking Time": "15",
+    "Normal Cooking Time": "30 mins"
   },
   {
     "Recipe Name": "KADHAI PANEER",
@@ -3736,10 +4266,27 @@
       "Take Indian Masala & Chicken Marinate  58 gm",
       "Flour Mix 45 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "250GM",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "8 mins"
+  },
+  {
+    "Recipe Name": "KOLKATA FISH FRY",
+    "Veg/Non Veg": "NON VEG",
+    "Cooking Mode": "FRYING",
+    "Cuisine": "BENGALI",
+    "Category": "STARTERS",
+    "Cooking Time": 2,
+    "Image": "test_images/KOLKATA FISH FRY.jpg",
+    "PopupImage": "test_popup_images/KOLKATA FISH FRY.pdf",
+    "Ingredients": [
+      "Take Fish & Marination  290 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "2 NOS ( EACH PCS 50 G)",
+    "On2Cook Cooking Time": "2",
+    "Normal Cooking Time": "6 mins"
   },
   {
     "Recipe Name": "MANGALOREAN CHICHEN CURRY",
@@ -3826,6 +4373,26 @@
     "Normal Cooking Time": "12 mins"
   },
   {
+    "Recipe Name": "LAKSA MALAYSIAN COCONUT BASED SOUP",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 11,
+    "Image": "test_images/LAKSA SOUP.jpg",
+    "PopupImage": "test_popup_images/LAKSA SOUP.pdf",
+    "Ingredients": [
+      "Take All Ingredients  360 gm",
+      "Raw Rice Noodles  70 gm",
+      "Take  Garnish  25 gm",
+      "Auto Water 700 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "700G",
+    "On2Cook Cooking Time": "11",
+    "Normal Cooking Time": "20 mins"
+  },
+  {
     "Recipe Name": "LASANIYA BATETA",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "SAUTEING",
@@ -3908,6 +4475,41 @@
     "Normal Cooking Time": "15 mins"
   },
   {
+    "Recipe Name": "MAKHANA KHEER",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "DESSERTS",
+    "Cooking Time": 10,
+    "Image": "test_images/MAKHANA KHEER.jpg",
+    "PopupImage": "test_popup_images/MAKHANA KHEER.pdf",
+    "Ingredients": [
+      "Add Ghee 20g, Makhana 10g, Makhana Powder 20g 50 gm",
+      "All Mixed  All Ingredients  620 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "500G",
+    "On2Cook Cooking Time": "10",
+    "Normal Cooking Time": ""
+  },
+  {
+    "Recipe Name": "MAKHANI INDIAN BASE GRAVY",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 21,
+    "Image": "test_images/MAKHANI GRAVY.jpg",
+    "PopupImage": "test_popup_images/MAKHANI GRAVY.pdf",
+    "Ingredients": [
+      "Take Makhani Ingredients 2645 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "1500 G",
+    "On2Cook Cooking Time": "21",
+    "Normal Cooking Time": "60 mins"
+  },
+  {
     "Recipe Name": "MALABAR PRAWN CURRY",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "AUTO",
@@ -3940,7 +4542,7 @@
       "Marinate Marinated Broccoli  454 gm",
       "Add Oil Brush  20 ml"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mp Mats Small",
+    "Accessories": "Pan Non-Coated (Ss), Mp Mats Small",
     "Total Output": "350 G",
     "On2Cook Cooking Time": "3",
     "Normal Cooking Time": "15 mins"
@@ -3958,7 +4560,7 @@
       "Marinate Marinated Chicken 454 gm",
       "Add Oil Brush  20 ml"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mp Mats Small",
+    "Accessories": "Pan Non-Coated (Ss), Mp Mats Small",
     "Total Output": "350 G",
     "On2Cook Cooking Time": "3",
     "Normal Cooking Time": "15 mins"
@@ -3976,7 +4578,7 @@
       "Marinate Marinated Cauliflower  454 gm",
       "Add Oil Brush  20 ml"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mp Mats Small",
+    "Accessories": "Pan Non-Coated (Ss), Mp Mats Small",
     "Total Output": "350 GM",
     "On2Cook Cooking Time": "3",
     "Normal Cooking Time": "15 mins"
@@ -4038,7 +4640,7 @@
       "Marinate Marinated Paneer 454 gm",
       "Add Oil Brush  20 ml"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mp Mats Small",
+    "Accessories": "Pan Non-Coated (Ss), Mp Mats Small",
     "Total Output": "350 G",
     "On2Cook Cooking Time": "3",
     "Normal Cooking Time": "15 mins"
@@ -4056,7 +4658,7 @@
       "Marinate Marinated Paneer 454 gm",
       "Add Oil Brush  20 ml"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mp Mats Small",
+    "Accessories": "Pan Non-Coated (Ss), Mp Mats Small",
     "Total Output": "350 G",
     "On2Cook Cooking Time": "3",
     "Normal Cooking Time": "15 mins"
@@ -4074,7 +4676,7 @@
       "Heat Pre-Heated Oil  1000 gm",
       "Mix Vegetables for Manchurian  252 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS),Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Basket, Frying Kit",
     "Total Output": "500 G",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "10 mins"
@@ -4156,7 +4758,7 @@
       "Mix Batter Mix 1 428 gm",
       "Mix Batter Mix 2 260 gm"
     ],
-    "Accessories": "Mesh Mats, Pan Non-Coated (SS), Cake Kit",
+    "Accessories": "Mesh Mats, Pan Non-Coated (Ss), Cake Kit",
     "Total Output": "720 GM",
     "On2Cook Cooking Time": "7",
     "Normal Cooking Time": "50 mins"
@@ -4199,6 +4801,24 @@
     "Total Output": "1200 GM",
     "On2Cook Cooking Time": "12",
     "Normal Cooking Time": "35 mins"
+  },
+  {
+    "Recipe Name": "MASHED POTATOES",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "BREAKFAST",
+    "Cooking Time": 13,
+    "Image": "test_images/MASHED POTATOES.jpg",
+    "PopupImage": "test_popup_images/MASHED POTATOES.pdf",
+    "Ingredients": [
+      "Mix Potatoes & Salt 1162 gm",
+      "Auto Water (Auto) 450 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "1100 G",
+    "On2Cook Cooking Time": "13",
+    "Normal Cooking Time": "45 mins"
   },
   {
     "Recipe Name": "MATAR MASALA",
@@ -4245,6 +4865,26 @@
     "Normal Cooking Time": "35 mins"
   },
   {
+    "Recipe Name": "MINESTRONE SOUP",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "SOUP",
+    "Cooking Time": 10,
+    "Image": "test_images/MINESTRONE SOUP.jpg",
+    "PopupImage": "test_popup_images/MINESTRONE SOUP.pdf",
+    "Ingredients": [
+      "Take Oil & Vegetables  260 gm",
+      "Take All Ingredients 365 gm",
+      "Take Water (Auto) 900 gm",
+      "Grated  Garnish  10 gm"
+    ],
+    "Accessories": "",
+    "Total Output": "1000 G",
+    "On2Cook Cooking Time": "10",
+    "Normal Cooking Time": "30 mins"
+  },
+  {
     "Recipe Name": "MIRCHI KA SALAN",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "SAUTEING",
@@ -4267,6 +4907,23 @@
     "Normal Cooking Time": "40 mins"
   },
   {
+    "Recipe Name": "MIRCHI PAKODA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "FRYING",
+    "Cuisine": "INDIAN",
+    "Category": "SIDE DISH",
+    "Cooking Time": 2,
+    "Image": "test_images/MIRCHI PAKODA.jpg",
+    "PopupImage": "test_popup_images/MIRCHI PAKODA.pdf",
+    "Ingredients": [
+      "Take All Ingredients  664 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "6 NOS",
+    "On2Cook Cooking Time": "2",
+    "Normal Cooking Time": "15 mins"
+  },
+  {
     "Recipe Name": "STUFFED MIRCHI ROAST",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "AUTO",
@@ -4280,17 +4937,55 @@
       "Add Oil Brush  20 gm",
       "Stuffed  STUFFED MIRCHI 6 number"
     ],
-    "Accessories": "Pan Non-Coated (SS), Pizza Kit",
+    "Accessories": "Pan Non-Coated (Ss), Pizza Kit",
     "Total Output": "6 PCS",
     "On2Cook Cooking Time": "3",
     "Normal Cooking Time": "10 mins"
   },
   {
+    "Recipe Name": "MISO SOUP",
+    "Veg/Non Veg": "NON VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "PAN ASIAN",
+    "Category": "SOUP",
+    "Cooking Time": 4,
+    "Image": "test_images/MISO SOUP.jpg",
+    "PopupImage": "test_popup_images/MISO SOUP.pdf",
+    "Ingredients": [
+      "Take  All Ingredients  200 gm",
+      "Auto Water  400 ml",
+      "Dried  Garnish  1 number"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "500G",
+    "On2Cook Cooking Time": "4",
+    "Normal Cooking Time": "15 mins"
+  },
+  {
+    "Recipe Name": "MOOLI KI SUBZI",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 15,
+    "Image": "test_images/MOOLI KI SUBZI.jpg",
+    "PopupImage": "test_popup_images/MOOLI KI SUBZI.pdf",
+    "Ingredients": [
+      "Take  Oill & Tadka  373 gm",
+      "Take Muli & Spices 836 gm",
+      "Take Water (Auto) 250 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "800 G",
+    "On2Cook Cooking Time": "15",
+    "Normal Cooking Time": "25 mins"
+  },
+  {
     "Recipe Name": "MOONG DAL HALWA",
     "Veg/Non Veg": "VEG",
-    "Cooking Mode": "AUTO",
-    "Cuisine": "GLOBAL CUISINE",
-    "Category": "MAIN COURSE",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "DESSERTS",
     "Cooking Time": 8,
     "Image": "test_images/MOONG DAL HALWA.jpg",
     "PopupImage": "test_popup_images/MOONG DAL HALWA.pdf",
@@ -4308,9 +5003,9 @@
   {
     "Recipe Name": "MOONG DAL HALWA",
     "Veg/Non Veg": "VEG",
-    "Cooking Mode": "AUTO",
-    "Cuisine": "GLOBAL CUISINE",
-    "Category": "MAIN COURSE",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "DESSERTS",
     "Cooking Time": 14,
     "Image": "test_images/MOONGDAL HALWA 2.jpg",
     "PopupImage": "test_popup_images/MOONGDAL HALWA 2.pdf",
@@ -4357,7 +5052,7 @@
       "Take Pre-Heated Oil 180° 1 liter",
       "Take Breaded Mozzarella Sticks 6 number"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "6 PCS",
     "On2Cook Cooking Time": "1",
     "Normal Cooking Time": "4 mins"
@@ -4428,6 +5123,26 @@
     "Normal Cooking Time": ""
   },
   {
+    "Recipe Name": "MUMBAI STYLE BHAJI PAV",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 19,
+    "Image": "test_images/MUMBAI BHAJI.jpg",
+    "PopupImage": "test_popup_images/MUMBAI BHAJI.pdf",
+    "Ingredients": [
+      "Take Oil & Vegetables 798 gm",
+      "Finely Chop Bhaji Vegetable Mix 1111 gm",
+      "Mix Butter 50g, Chopped Coriander Leaves 20g, Lemon Juice 15g 85 gm",
+      "Take Water (Auto) 600 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "2000G",
+    "On2Cook Cooking Time": "19",
+    "Normal Cooking Time": "45 mins"
+  },
+  {
     "Recipe Name": "MUSHROOM CHILLI GRAVY",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "FRYING + SAUTEING",
@@ -4484,7 +5199,7 @@
       "Heat Pre-Heated Oil  1000 gm",
       "Mix Fresh Mushroom  290 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Basket, Frying Kit",
     "Total Output": "200 G",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "10 mins"
@@ -4503,10 +5218,28 @@
       "Take Coated Mushroom  200 gm",
       "Peri Peri Seasoning  5 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "180 GM",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "5 mins"
+  },
+  {
+    "Recipe Name": "MUSHROOM RISSOTO",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 18,
+    "Image": "test_images/MUSHROOM RISSOTO.jpg",
+    "PopupImage": "test_popup_images/MUSHROOM RISSOTO.pdf",
+    "Ingredients": [
+      "Take All Ingredients  750 gm",
+      "Auto Water (Auto) 700 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "800 G",
+    "On2Cook Cooking Time": "18",
+    "Normal Cooking Time": "50 mins"
   },
   {
     "Recipe Name": "MUSHROOM TIKKA",
@@ -4525,6 +5258,25 @@
     "Total Output": "350 G",
     "On2Cook Cooking Time": "4",
     "Normal Cooking Time": "15 mins"
+  },
+  {
+    "Recipe Name": "MUSHY PEAS",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "SIDE DISH",
+    "Cooking Time": 4,
+    "Image": "test_images/MUSHY PEAS.jpg",
+    "PopupImage": "test_popup_images/MUSHY PEAS.pdf",
+    "Ingredients": [
+      "Take All Ingredients  553 gm",
+      "Take Water (Auto) 150 ml",
+      "Mash Mash 563 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "500 G",
+    "On2Cook Cooking Time": "4",
+    "Normal Cooking Time": "12 mins"
   },
   {
     "Recipe Name": "MUTTON KEEMA",
@@ -4601,6 +5353,23 @@
     "Normal Cooking Time": "42 mins"
   },
   {
+    "Recipe Name": "NAMAK PARA (NAMKEEN)",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 4,
+    "Image": "test_images/NAMAK PARA.jpg",
+    "PopupImage": "test_popup_images/NAMAK PARA.pdf",
+    "Ingredients": [
+      "Fry Shaped Namak Para 564 gm"
+    ],
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
+    "Total Output": "500G",
+    "On2Cook Cooking Time": "4",
+    "Normal Cooking Time": ""
+  },
+  {
     "Recipe Name": "NIZAMI DUM CHICKEN",
     "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "SAUTEING",
@@ -4636,6 +5405,23 @@
     "Total Output": "1000 G",
     "On2Cook Cooking Time": "16",
     "Normal Cooking Time": "50 mins"
+  },
+  {
+    "Recipe Name": "ONION PAKODA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "FRYING",
+    "Cuisine": "INDIAN",
+    "Category": "SIDE DISH",
+    "Cooking Time": 2,
+    "Image": "test_images/ONION PAKODA.jpg",
+    "PopupImage": "test_popup_images/ONION PAKODA.pdf",
+    "Ingredients": [
+      "Take Mix Batter  324 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "300 G",
+    "On2Cook Cooking Time": "2",
+    "Normal Cooking Time": "15 mins"
   },
   {
     "Recipe Name": "PAAL PAYASAM",
@@ -4675,6 +5461,27 @@
     "Total Output": "350 G",
     "On2Cook Cooking Time": "4",
     "Normal Cooking Time": "15 mins"
+  },
+  {
+    "Recipe Name": "PANCHKUTIYU SHAK (GUJARATI STYLE WINTER VEG CURRY)",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 8,
+    "Image": "test_images/PANCHKUTIYU SHAK.jpg",
+    "PopupImage": "test_popup_images/PANCHKUTIYU SHAK.pdf",
+    "Ingredients": [
+      "Take Oil & Whole Spices 47 gm",
+      "Take Diced Vegetables  500 gm",
+      "Take Fine Chopped Onions and Tomatoes 135 gm",
+      "Mix Spices  56 gm",
+      "Auto Water (Auto) 150 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "750G",
+    "On2Cook Cooking Time": "8",
+    "Normal Cooking Time": "25 mins"
   },
   {
     "Recipe Name": "PANEER BHURJI",
@@ -4809,6 +5616,23 @@
     "Normal Cooking Time": "15 mins"
   },
   {
+    "Recipe Name": "PANEER PAKODA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "FRYING",
+    "Cuisine": "INDIAN",
+    "Category": "SIDE DISH",
+    "Cooking Time": 2,
+    "Image": "test_images/PANEER PAKODA.jpg",
+    "PopupImage": "test_popup_images/PANEER PAKODA.pdf",
+    "Ingredients": [
+      "Take All Ingredients  671 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "6 NOS",
+    "On2Cook Cooking Time": "2",
+    "Normal Cooking Time": "15 mins"
+  },
+  {
     "Recipe Name": "PANEER PEAS KEEMA",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "SAUTEING",
@@ -4828,6 +5652,24 @@
     "Accessories": "Pan Honeycomb (Non-Stick), Silicone Stirrer",
     "Total Output": "650 G",
     "On2Cook Cooking Time": "9",
+    "Normal Cooking Time": "20 mins"
+  },
+  {
+    "Recipe Name": "FRESH PANEER SAMOSA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 5,
+    "Image": "test_images/PANEER SAMOSA.jpg",
+    "PopupImage": "test_popup_images/PANEER SAMOSA.pdf",
+    "Ingredients": [
+      "Dough  Fresh Dough  820 gm",
+      "Mix  Stuffing  360 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Frying Kit",
+    "Total Output": "6 NOS",
+    "On2Cook Cooking Time": "5",
     "Normal Cooking Time": "20 mins"
   },
   {
@@ -4851,6 +5693,25 @@
     "Accessories": "Pan Honeycomb (Non-Stick), Silicone Stirrer",
     "Total Output": "350 G",
     "On2Cook Cooking Time": "2",
+    "Normal Cooking Time": "12 mins"
+  },
+  {
+    "Recipe Name": "PANEER SUKKA MASALA",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 3,
+    "Image": "test_images/PANEER SUKKA.jpg",
+    "PopupImage": "test_popup_images/PANEER SUKKA.pdf",
+    "Ingredients": [
+      "Add Oil, Vegetables & Spices 301 gm",
+      "Take Paneer & Lemon Juice 260 gm",
+      "Take Water (Auto) 20 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "500G",
+    "On2Cook Cooking Time": "3",
     "Normal Cooking Time": "12 mins"
   },
   {
@@ -4888,7 +5749,7 @@
       "Take Marineted Paneer 415 gm",
       "Petals Vegetable Mix 30 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mp Mats Small",
+    "Accessories": "Pan Non-Coated (Ss), Mp Mats Small",
     "Total Output": "350 GM",
     "On2Cook Cooking Time": "3",
     "Normal Cooking Time": "15 mins"
@@ -4938,7 +5799,7 @@
   {
     "Recipe Name": "PEAS PULAO",
     "Veg/Non Veg": "VEG",
-    "Cooking Mode": "SAUTEING + STEAMING",
+    "Cooking Mode": "SAUTEING",
     "Cuisine": "INDIAN",
     "Category": "MAIN COURSE",
     "Cooking Time": 13,
@@ -5081,6 +5942,24 @@
     "Normal Cooking Time": "35 mins"
   },
   {
+    "Recipe Name": "PINEAPPLE SHEERA (PINEAPPLE KESARI BATH)",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 3,
+    "Image": "test_images/PINEAPPLE SHEERA.jpg",
+    "PopupImage": "test_popup_images/PINEAPPLE SHEERA.pdf",
+    "Ingredients": [
+      "Take All Ingredients  402 gm",
+      "Auto Water 240 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "500G",
+    "On2Cook Cooking Time": "3",
+    "Normal Cooking Time": "15 mins"
+  },
+  {
     "Recipe Name": "PANEER CHEESE BHURJI",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "SAUTEING",
@@ -5160,7 +6039,7 @@
       "Mix Egg Mix 540 gm",
       "Finely Chop Garlic 15 gm"
     ],
-    "Accessories": "Mesh Mats, Pan Non-Coated (SS), Cake Kit, Pan Honeycomb (Non-Stick)",
+    "Accessories": "Mesh Mats, Pan Non-Coated (Ss), Cake Kit, Pan Honeycomb (Non-Stick)",
     "Total Output": "8 PORTION",
     "On2Cook Cooking Time": "11",
     "Normal Cooking Time": "35 mins"
@@ -5178,7 +6057,7 @@
       "Take Pre-Heated Oil 180° 1 liter",
       "Take Potato Wedges 200 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "140 GM",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "6 mins"
@@ -5393,6 +6272,25 @@
     "Normal Cooking Time": "15 mins"
   },
   {
+    "Recipe Name": "RICE KHEER",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "DESSERTS",
+    "Cooking Time": 15,
+    "Image": "test_images/RICE KHEER.jpg",
+    "PopupImage": "test_popup_images/RICE KHEER.pdf",
+    "Ingredients": [
+      "Crushed  Soaked Crushed Rice 100g, Milk 500g 600 gm",
+      "Add All Ingredients  121 gm",
+      "Auto  Water  150 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "600G",
+    "On2Cook Cooking Time": "15",
+    "Normal Cooking Time": "40 mins"
+  },
+  {
     "Recipe Name": "ROASTED CHICKEN LEG",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "AUTO",
@@ -5455,6 +6353,23 @@
     "Total Output": "800 G",
     "On2Cook Cooking Time": "6",
     "Normal Cooking Time": "25 mins"
+  },
+  {
+    "Recipe Name": "SABUDANA KHEER",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "DESSERTS",
+    "Cooking Time": 10,
+    "Image": "test_images/SABUDANA KHEER.jpg",
+    "PopupImage": "test_popup_images/SABUDANA KHEER.pdf",
+    "Ingredients": [
+      "All Mixed  All Ingredients  740 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "600G",
+    "On2Cook Cooking Time": "10",
+    "Normal Cooking Time": "35 mins"
   },
   {
     "Recipe Name": "SABUDANA KHICHDI",
@@ -5870,6 +6785,24 @@
     "Normal Cooking Time": "15 mins"
   },
   {
+    "Recipe Name": "SOOJI KHEER",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "INDIAN",
+    "Category": "DESSERTS",
+    "Cooking Time": 6,
+    "Image": "test_images/SOOJI KHEER.jpg",
+    "PopupImage": "test_popup_images/SOOJI KHEER.pdf",
+    "Ingredients": [
+      "All Mix All Ingredients  640 gm",
+      "Add Ghee 20g, Semolina 50g 70 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "500G",
+    "On2Cook Cooking Time": "6",
+    "Normal Cooking Time": "30 mins"
+  },
+  {
     "Recipe Name": "SPANISH PAELLA",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "AUTO",
@@ -5885,7 +6818,7 @@
       "Take Bay Leaf & Garlic  27 gm",
       "Cut Vegetables Mix  120 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mp Mats Big",
+    "Accessories": "Pan Non-Coated (Ss), Mp Mats Big",
     "Total Output": "900 GM",
     "On2Cook Cooking Time": "13",
     "Normal Cooking Time": "22 mins"
@@ -5922,7 +6855,7 @@
       "Take Fresh Idli Batter  507 gm",
       "Take  Water (Auto) 180 ml"
     ],
-    "Accessories": "Pan Non-Coated (SS), Idli Mold & Stirrer",
+    "Accessories": "Pan Non-Coated (Ss), Idli Mold & Stirrer",
     "Total Output": "9 NOS",
     "On2Cook Cooking Time": "6",
     "Normal Cooking Time": "20 mins"
@@ -5939,7 +6872,7 @@
     "Ingredients": [
       "Refrigirate Frozen Momos 05 number"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mesh Mats, Momo Kit",
+    "Accessories": "Pan Non-Coated (Ss), Mesh Mats, Momo Kit",
     "Total Output": "5PC",
     "On2Cook Cooking Time": "4",
     "Normal Cooking Time": "60 mins"
@@ -6336,6 +7269,46 @@
     "Normal Cooking Time": "25 mins"
   },
   {
+    "Recipe Name": "THAI GREEN PASTE",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "PAN ASIAN",
+    "Category": "BASE",
+    "Cooking Time": 10,
+    "Image": "test_images/THAI PASTE GREEN.jpg",
+    "PopupImage": "test_popup_images/THAI PASTE GREEN.pdf",
+    "Ingredients": [
+      "Oil  160 gm",
+      "Paste Paste 1200 gm",
+      "Mix Sauce  135 gm",
+      "Auto Water (Auto) 300 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "1500 G",
+    "On2Cook Cooking Time": "10",
+    "Normal Cooking Time": "30 mins"
+  },
+  {
+    "Recipe Name": "THAI RED PASTE",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "PAN ASIAN",
+    "Category": "BASE",
+    "Cooking Time": 10,
+    "Image": "test_images/THAI PASTE RED.jpg",
+    "PopupImage": "test_popup_images/THAI PASTE RED.pdf",
+    "Ingredients": [
+      "Oil  160 gm",
+      "Paste Paste 1225 gm",
+      "Mix Sauce  135 gm",
+      "Auto Water (Auto) 300 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "1500 G",
+    "On2Cook Cooking Time": "10",
+    "Normal Cooking Time": "30 mins"
+  },
+  {
     "Recipe Name": "THAI RED CURRY VEG",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "BOILING",
@@ -6399,6 +7372,25 @@
     "Normal Cooking Time": "25 mins"
   },
   {
+    "Recipe Name": "TOM YUM THAI SOUP",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 4,
+    "Image": "test_images/TOM YUM SOUP.jpg",
+    "PopupImage": "test_popup_images/TOM YUM SOUP.pdf",
+    "Ingredients": [
+      "Mix All Ingredients  270 gm",
+      "Auto  Water  400 ml",
+      "Take Garnish  5 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "500G",
+    "On2Cook Cooking Time": "4",
+    "Normal Cooking Time": "20 mins"
+  },
+  {
     "Recipe Name": "TOMATO GRAVY",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "SAUTEING",
@@ -6441,6 +7433,26 @@
     "Total Output": "800 G",
     "On2Cook Cooking Time": "10",
     "Normal Cooking Time": "35 mins"
+  },
+  {
+    "Recipe Name": "TORTILLA SOUP",
+    "Veg/Non Veg": "NON VEG",
+    "Cooking Mode": "SAUTEING",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "SOUP",
+    "Cooking Time": 9,
+    "Image": "test_images/TORTILLA SOUP.jpg",
+    "PopupImage": "test_popup_images/TORTILLA SOUP.pdf",
+    "Ingredients": [
+      "Take Oil & Tempering  200 gm",
+      "Take Tomato Puree & Seasoning  535 gm",
+      "Auto Water (Auto) 400 ml",
+      "Fried Garnish  25 gm"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "850G",
+    "On2Cook Cooking Time": "9",
+    "Normal Cooking Time": "30 mins"
   },
   {
     "Recipe Name": "UDON NOODLES BOILING",
@@ -6512,7 +7524,7 @@
       "Take Oil Heate 180c 1500 ml",
       "Mix Uliwada (6Nos To 50g) 352 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "250 G",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": ""
@@ -6535,6 +7547,25 @@
     "Normal Cooking Time": ""
   },
   {
+    "Recipe Name": "VALOR PAPDI SHAK (BROAD BEAN STIRFRY)",
+    "Veg/Non Veg": "VEG",
+    "Cooking Mode": "AUTO",
+    "Cuisine": "GLOBAL CUISINE",
+    "Category": "MAIN COURSE",
+    "Cooking Time": 7,
+    "Image": "test_images/VALOR PAPDI SHAK.jpg",
+    "PopupImage": "test_popup_images/VALOR PAPDI SHAK.pdf",
+    "Ingredients": [
+      "Take Tempering & Veggies 383 gm",
+      "Mix Lemon Juice 5g, Chopped Coriander Leaves 5g 10 gm",
+      "Take Water (Auto) 60 ml"
+    ],
+    "Accessories": "Pan Non Coated (Ss), Silicone Stirrer",
+    "Total Output": "350 G",
+    "On2Cook Cooking Time": "7",
+    "Normal Cooking Time": "15 mins"
+  },
+  {
     "Recipe Name": "VEG BIRYANI",
     "Veg/Non Veg": "VEG",
     "Cooking Mode": "SAUTEING + STEAMING",
@@ -6553,7 +7584,7 @@
       "Water 540 ml",
       "Garnish  Brown Onion  10 gm"
     ],
-    "Accessories": "Pan Non-Coated (SS), Mesh Mats, Mp Mats Big",
+    "Accessories": "Pan Non-Coated (Ss), Mesh Mats, Mp Mats Big",
     "Total Output": "1000 G",
     "On2Cook Cooking Time": "13",
     "Normal Cooking Time": "60 mins"
@@ -6571,7 +7602,7 @@
       "Take Pre-Heated Oil 180° 1 liter",
       "Take Veg Burger Patty  4 number"
     ],
-    "Accessories": "Pan Non-Coated (SS), Frying Kit",
+    "Accessories": "Pan Non-Coated (Ss), Frying Kit",
     "Total Output": "4 PCS",
     "On2Cook Cooking Time": "2",
     "Normal Cooking Time": "4 mins"
