@@ -473,7 +473,7 @@
   },
   {
     "Recipe Name": "BBQ CHICKEN WINGS",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -805,7 +805,7 @@
   },
   {
     "Recipe Name": "BROWN STOCK MUTTON",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1146,7 +1146,7 @@
   },
   {
     "Recipe Name": "CHICKEN CHETTINAD CHUKKA",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1203,7 +1203,7 @@
   },
   {
     "Recipe Name": "CHICKEN CHILLI DRY",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1226,8 +1226,8 @@
     "Normal Cooking Time": "12 mins"
   },
   {
-    "Recipe Name": "CHICKEN CHILLI  GARLIC NOODLES",
-    "Veg/Non Veg": "VEG",
+    "Recipe Name": "CHICKEN CHILLI GARLIC NOODLES",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1353,7 +1353,7 @@
   },
   {
     "Recipe Name": "CHICKEN HAKKA NOODLES",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1395,7 +1395,7 @@
   },
   {
     "Recipe Name": "CHICKEN LOLLIPOP FRIED",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1461,7 +1461,7 @@
   },
   {
     "Recipe Name": "PALLIPALAYAM CHICKEN",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1480,7 +1480,7 @@
   },
   {
     "Recipe Name": "CHICKEN HANDI POT BIRYANI",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1536,7 +1536,7 @@
   },
   {
     "Recipe Name": "CHICKEN SCHEZWAN NOODLES",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1578,7 +1578,7 @@
   },
   {
     "Recipe Name": "CHICKEN STIR FRY NOODLES",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1621,7 +1621,7 @@
   },
   {
     "Recipe Name": "CHICKEN CURRY VARUTHARACHA",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1662,7 +1662,7 @@
   },
   {
     "Recipe Name": "CHICKEN 65 FRY",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1746,7 +1746,7 @@
   },
   {
     "Recipe Name": "CHICKEN CHILLI GRAVY",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1794,7 +1794,7 @@
   },
   {
     "Recipe Name": "CHICKEN HANDI V2",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1853,7 +1853,7 @@
   },
   {
     "Recipe Name": "CHICKEN KOSHA (BENGALI CUISINE)",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1978,7 +1978,7 @@
   },
   {
     "Recipe Name": "FRESH CHICKEN SAMOSA",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -1996,7 +1996,7 @@
   },
   {
     "Recipe Name": "CHICKEN SAN DIEGO",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -2034,7 +2034,7 @@
   },
   {
     "Recipe Name": "CHICKEN SPAGHETTI V2",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -2054,7 +2054,7 @@
   },
   {
     "Recipe Name": "KERALA CHICKEN STEW",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -2486,7 +2486,7 @@
   },
   {
     "Recipe Name": "CHINESE FRIED CHICKEN",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -2777,7 +2777,7 @@
   },
   {
     "Recipe Name": "CRISPY CHICKEN FRY",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -2794,7 +2794,7 @@
   },
   {
     "Recipe Name": "CRISPY CHICKEN CHINESE STYLE",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -2950,7 +2950,7 @@
   },
   {
     "Recipe Name": "DHABA STYLE DAHI MUTTON",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -3705,7 +3705,7 @@
   },
   {
     "Recipe Name": "GRILLED CHICKEN BREAST",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -4289,8 +4289,8 @@
     "Normal Cooking Time": "6 mins"
   },
   {
-    "Recipe Name": "MANGALOREAN CHICHEN CURRY",
-    "Veg/Non Veg": "VEG",
+    "Recipe Name": "KORI GASSI 2200 G",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -4312,8 +4312,8 @@
     "Normal Cooking Time": "35 mins"
   },
   {
-    "Recipe Name": "MANGALOREAN CHICKEN CURRY",
-    "Veg/Non Veg": "VEG",
+    "Recipe Name": "KORI GASSI 650 G",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -4511,7 +4511,7 @@
   },
   {
     "Recipe Name": "MALABAR PRAWN CURRY",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -4704,7 +4704,7 @@
   },
   {
     "Recipe Name": "MAPPAS PRAWNS",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -5317,7 +5317,7 @@
   },
   {
     "Recipe Name": "MUTTON ROGAN JOSH",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -5634,7 +5634,7 @@
   },
   {
     "Recipe Name": "PANEER PEAS KEEMA",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "SAUTEING",
     "Cuisine": "INDIAN",
     "Category": "MAIN COURSE",
@@ -6292,7 +6292,7 @@
   },
   {
     "Recipe Name": "ROASTED CHICKEN LEG",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -6687,7 +6687,7 @@
   },
   {
     "Recipe Name": "SOAJI CHICKEN",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -6898,7 +6898,7 @@
   },
   {
     "Recipe Name": "ASIAN STIR FRY FISH",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -6939,7 +6939,7 @@
   },
   {
     "Recipe Name": "ASIAN STIR FRY PRAWN",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -7125,7 +7125,7 @@
   },
   {
     "Recipe Name": "TANDOORI CHICKEN HALF",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -7166,7 +7166,7 @@
   },
   {
     "Recipe Name": "THAI GREEN CURRY CHICKEN",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
@@ -7988,7 +7988,7 @@
   },
   {
     "Recipe Name": "VIETNAMESE CHICKEN SOUP",
-    "Veg/Non Veg": "VEG",
+    "Veg/Non Veg": "NON VEG",
     "Cooking Mode": "AUTO",
     "Cuisine": "GLOBAL CUISINE",
     "Category": "MAIN COURSE",
