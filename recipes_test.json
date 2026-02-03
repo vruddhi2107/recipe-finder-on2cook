@@ -3432,27 +3432,7 @@
     "On2Cook Cooking Time": "13",
     "Normal Cooking Time": "60 mins"
   },
-  {
-    "Recipe Name": "GAJAR HALWA",
-    "Veg/Non Veg": "VEG",
-    "Cooking Mode": "SAUTEING",
-    "Cuisine": "INDIAN",
-    "Category": "DESSERTS",
-    "Cooking Time": 11,
-    "Image": "test_images/GAJAR HALWA.jpg",
-    "PopupImage": "test_popup_images/GAJAR HALWA.pdf",
-    "Ingredients": [
-      "Ghee 70 gm",
-      "Grated Carrots 500 gm",
-      "Sugar Mix 105 gm",
-      "Milk Mix 100 gm",
-      "Mawa Mix 100 gm"
-    ],
-    "Accessories": "Pan Honeycomb (Non-Stick), Silicone Stirrer",
-    "Total Output": "500 G",
-    "On2Cook Cooking Time": "11",
-    "Normal Cooking Time": "45 mins"
-  },
+  
   {
     "Recipe Name": "GAJAR HALWA 1 KG",
     "Veg/Non Veg": "VEG",
@@ -3491,28 +3471,7 @@
     "On2Cook Cooking Time": "9",
     "Normal Cooking Time": "45 mins"
   },
-  {
-    "Recipe Name": "GAJAR KA HALWA",
-    "Veg/Non Veg": "VEG",
-    "Cooking Mode": "SAUTEING",
-    "Cuisine": "INDIAN",
-    "Category": "DESSERTS",
-    "Cooking Time": 8,
-    "Image": "test_images/GAJAR KA HALWA.jpg",
-    "PopupImage": "test_popup_images/GAJAR KA HALWA.pdf",
-    "Ingredients": [
-      "Heat Ghee   50 gm",
-      "Take Dry Fruits 30 gm",
-      "Take Gratted Carrots, Milk & Milk Powder  400 gm",
-      "Take Powdered Sugar 30 gm",
-      "Take Condensed Milk  30 gm",
-      "Take Green Cardamom Powder  5 gm"
-    ],
-    "Accessories": "Pan Honeycomb (Non-Stick), Silicone Stirrer",
-    "Total Output": "400 GM",
-    "On2Cook Cooking Time": "8",
-    "Normal Cooking Time": "50 mins"
-  },
+  
   {
     "Recipe Name": "GHEE RICE",
     "Veg/Non Veg": "VEG",
