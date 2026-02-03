@@ -102,7 +102,7 @@ function displayRecipes() {
       <div>Ingredients: ${r.Ingredients.join(', ')}</div>
     `;
     card.addEventListener('click', function () {
-      openPopup(r.PopupImage, r['Recipe Name']);
+      // openPopup(r.PopupImage, r['Recipe Name']);
     });
     resultsDiv.appendChild(card);
   });

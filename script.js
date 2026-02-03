@@ -403,7 +403,7 @@ function showRecipes() {
     card.addEventListener('click', (e) => {
       // Don't open popup if download button was clicked
       if (!e.target.closest('.download-btn')) {
-        openPopup(r.PopupImage || r.Image, r['Recipe Name']);
+        // openPopup(r.PopupImage || r.Image, r['Recipe Name']);
       }
     });
 
