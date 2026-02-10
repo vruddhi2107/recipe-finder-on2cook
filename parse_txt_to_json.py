@@ -92,7 +92,7 @@ def load_smartsheet_data():
         if recipe_name:
             lookup[recipe_name] = row_data
 
-    print(f"✅ Loaded {len(lookup)} recipes from Smartsheet")
+    print(f" Loaded {len(lookup)} recipes from Smartsheet")
     return lookup
 
 
